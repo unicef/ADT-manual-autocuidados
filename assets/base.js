@@ -625,14 +625,14 @@ const finalizeInitialization = async () => {
       },
       
       // Analytics
-      async () => {
+      /* async () => {
         const analyticsModule = await lazyLoad.load('analytics', () => import('./modules/analytics.js'));
         analyticsModule.initMatomo({
           siteId: 139,
           trackerUrl: "https://unisitetracker.unicef.io/matomo.php",
           srcUrl: "https://unisitetracker.unicef.io/matomo.js"
         });
-      }
+      } */
     ];
     
     // Execute all tasks in parallel

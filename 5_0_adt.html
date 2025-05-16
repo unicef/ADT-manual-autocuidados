@@ -1,60 +1,36 @@
 <!DOCTYPE html>
 
 <html lang="en">
+
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Conte Separator</title>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-        }
-
-        .container {
-            background-color: #a01642;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: white;
-            position: relative;
-        }
-
-        .text {
-            font-size: 4rem;
-            font-weight: bold;
-        }
-
-        .decoration {
-            position: absolute;
-            bottom: 10%;
-            left: 10%;
-            fill: pink;
-        }
-    </style>
-<meta content="5_0" name="page-section-id"/>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
-<script src="https://cdn.tailwindcss.com"></script>
-<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Conte Separator</title>
+    <meta content="5_0" name="page-section-id" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+    <link href="./assets/tailwind_output.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body>
-<section class="container" data-id="sectioneli5-5-0" data-section-type="separator" role="separator">
-<div class="text" data-id="text-5-0" tabindex="0">Conte</div>
-<svg aria-label="Decoración gráfica" class="decoration" data-aria-id="aria-5-0-0" height="100" viewbox="0 0 200 100" width="200" xmlns="http://www.w3.org/2000/svg">
-<circle aria-label="Círculo pequeño" cx="10" cy="10" data-aria-id="aria-5-0-1" fill="pink" r="5"></circle>
-<circle aria-label="Círculo mediano" cx="30" cy="20" data-aria-id="aria-5-0-2" fill="pink" r="8"></circle>
-<path aria-label="Curva decorativa" d="M50 20 Q70 10 90 20" data-aria-id="aria-5-0-3" fill="none" stroke="pink" stroke-width="2"></path>
-<path aria-label="Curva decorativa" d="M110 20 Q130 30 150 20" data-aria-id="aria-5-0-4" fill="none" stroke="pink" stroke-width="2"></path>
-<circle aria-label="Círculo mediano" cx="170" cy="20" data-aria-id="aria-5-0-5" fill="pink" r="8"></circle>
-</svg>
-</section>
 
-<div id="interface-container" class="relative z-50"></div>
+<body class="bg-gray-100 lg:p-5 p-3 mb-12 font-sans text-lg">
+    <div class="container  content mx-auto bg-white mt-auto p-5 rounded-lg border-gray-200 border lg:px-16 md:px-12 sm:px-6 py-16 mb-5 min-h-[calc(100vh-110px)]" data-id="sectioneli5-5-0" data-section-type="separator" role="separator" id="content">
+        <div class="text" data-id="text-5-0" tabindex="0">Conte</div>
+        <svg aria-label="Decoración gráfica" class="decoration" data-aria-id="aria-5-0-0" height="100"
+            viewbox="0 0 200 100" width="200" xmlns="http://www.w3.org/2000/svg">
+            <circle aria-label="Círculo pequeño" cx="10" cy="10" data-aria-id="aria-5-0-1" fill="pink" r="5"></circle>
+            <circle aria-label="Círculo mediano" cx="30" cy="20" data-aria-id="aria-5-0-2" fill="pink" r="8"></circle>
+            <path aria-label="Curva decorativa" d="M50 20 Q70 10 90 20" data-aria-id="aria-5-0-3" fill="none"
+                stroke="pink" stroke-width="2"></path>
+            <path aria-label="Curva decorativa" d="M110 20 Q130 30 150 20" data-aria-id="aria-5-0-4" fill="none"
+                stroke="pink" stroke-width="2"></path>
+            <circle aria-label="Círculo mediano" cx="170" cy="20" data-aria-id="aria-5-0-5" fill="pink" r="8"></circle>
+        </svg>
+    </div>
+
+    <div id="interface-container" class="relative z-50"></div>
     <div id="nav-container" class="relative z-50"></div>
     <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
+
 </html>
