@@ -1,0 +1,205 @@
+/* Tutorial Component Styling */
+
+.tutorial-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tutorial-popup {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  padding: 24px;
+  max-width: 350px;
+  position: relative;
+  z-index: 10001;
+}
+
+.tutorial-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2d3748;
+}
+
+.tutorial-content {
+  margin-bottom: 24px;
+  color: #4a5568;
+  line-height: 1.5;
+  font-size: 1.125rem;
+}
+
+.tutorial-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tutorial-skip {
+  color: #718096;
+  font-size: 0.875rem;
+  padding: 8px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.tutorial-skip:hover {
+  color: #4a5568;
+  text-decoration: underline;
+}
+
+.tutorial-next, .tutorial-finish {
+  background-color: #3182ce;
+  color: white;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.tutorial-next:hover, .tutorial-finish:hover {
+  background-color: #2b6cb0;
+}
+
+/* Arrow indicating which UI element is being described */
+.tutorial-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.tutorial-arrow-left {
+  border-width: 10px 15px 10px 0;
+  border-color: transparent white transparent transparent;
+  left: -15px;
+  top: 90%;
+  transform: translateY(-50%);
+}
+
+.tutorial-arrow-right {
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent white;
+  right: -15px;
+  top: 6%;
+  transform: translateY(-50%);
+}
+
+.tutorial-arrow-top {
+  border-width: 0 10px 15px 10px;
+  border-color: transparent transparent white transparent;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tutorial-arrow-bottom {
+  border-width: 15px 10px 0 10px;
+  border-color: white transparent transparent transparent;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Welcome dialog specific styling */
+.welcome-popup {
+  max-width: 400px;
+  text-align: center;
+}
+
+.welcome-emoji {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.welcome-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.welcome-text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.welcome-description {
+  color: #4a5568;
+  line-height: 1.5;
+  margin-bottom: 24px;
+  font-size: 16px;
+}
+
+/* Cloned element styling */
+.cloned-element-container {
+  position: fixed;
+  z-index: 10002;
+  pointer-events: none;
+}
+
+.cloned-interface-element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgba(49, 130, 206, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 0 4px rgba(49, 130, 206, 0.3);
+  animation: pulseBorder 2s infinite;
+  background-color: white;
+}
+
+@keyframes pulseBorder {
+  0% {
+    box-shadow: 0 0 0 0 rgba(49, 130, 206, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(49, 130, 206, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(49, 130, 206, 0);
+  }
+}
+
+/* Animation for the popup */
+@keyframes tutorialPopIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.tutorial-popup {
+  animation: tutorialPopIn 0.3s ease-out forwards;
+}
+
+/* Fix for UI elements visibility */
+.tutorial-popup-container {
+  position: fixed;
+  z-index: 10001; 
+  pointer-events: none;
+}
+
+.tutorial-popup {
+  pointer-events: auto;
+}
+
+/* Ensure UI elements are above overlay */
+#open-sidebar, 
+#nav-popup, 
+#back-forward-buttons {
+  z-index: 10002;
+}

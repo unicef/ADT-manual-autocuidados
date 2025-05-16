@@ -1,0 +1,297 @@
+{
+    "actividades agropecuarias": {
+      "variations": ["actividad agropecuaria"],
+      "definition": "Trabajos relacionados con la agricultura y la ganadería.",
+      "emoji": "🚜🌾"
+    },
+    "arbolado": {
+      "variations": ["arbolado urbano"],
+      "definition": "Árboles que se encuentran en las ciudades, que mejoran la calidad del aire y hacen agradable la vida urbana.",
+      "emoji": "🌳🏢"
+    },
+    "arcilloso": {
+      "variations": ["arcillosa", "arcillosos", "arcillosas"],
+      "definition": "Tipo de suelo formado por arcilla, húmedo y pegajoso.",
+      "emoji": "🌱🟤"
+    },
+    "árida": {
+      "variations": ["árido", "áridos", "áridas"],
+      "definition": "Zona con clima seco, muy poca lluvia y escasa vegetación.",
+      "emoji": "🌵☀️"
+    },
+    "aves rapaces": {
+      "variations": ["ave rapaz"],
+      "definition": "Aves cazadoras con picos fuertes y garras afiladas, como águilas o búhos.",
+      "emoji": "🦅🦉"
+    },
+    "biodiversidad": {
+      "variations": [],
+      "definition": "Variedad de seres vivos en un lugar, incluyendo plantas, animales y otros organismos.",
+      "emoji": "🦁🐠🦋"
+    },
+    "bioma": {
+      "variations": ["biomas"],
+      "definition": "Región natural con cierto tipo de vegetación, clima y animales. Por ejemplo, selva tropical o desierto.",
+      "emoji": "🌍🏞️"
+    },
+    "bosque": {
+      "variations": ["bosques"],
+      "definition": "Zona con muchos árboles. Puede ser templado (con estaciones) o tropical (siempre caliente).",
+      "emoji": "🌲🌳"
+    },
+    "bosque tropical": {
+      "variations": ["bosques tropicales"],
+      "definition": "Bosque ubicado en zonas cálidas con muchas lluvias, gran vegetación y diversidad animal.",
+      "emoji": "🌳🌴🦜"
+    },
+    "cadena montañosa": {
+      "variations": ["cadenas montañosas"],
+      "definition": "Grupo o serie de montañas conectadas entre sí.",
+      "emoji": "🏔️⛰️"
+    },
+    "caduco": {
+      "variations": ["caducos", "caduca", "caducas"],
+      "definition": "Árboles que pierden sus hojas en cierta época del año.",
+      "emoji": "🍂"
+    },
+    "clima": {
+      "variations": ["climas"],
+      "definition": "Condiciones habituales del tiempo en un lugar durante un periodo largo.",
+      "emoji": "🌤️⛈️❄️"
+    },
+    "contaminación": {
+      "variations": [],
+      "definition": "Presencia de sustancias dañinas en aire, agua o suelo, que afectan a los seres vivos.",
+      "emoji": "🏭💨🛢️"
+    },
+    "cría": {
+      "variations": ["crías"],
+      "definition": "Animal pequeño recién nacido o muy joven.",
+      "emoji": "🐣🦊"
+    },
+    "crustáceo": {
+      "variations": ["crustáceos"],
+      "definition": "Animal con caparazón duro que vive en agua, como el cangrejo o camarón.",
+      "emoji": "🦀🦐"
+    },
+    "cuenca": {
+      "variations": ["cuencas"],
+      "definition": "Zona geográfica donde el agua de los ríos fluye hacia un mismo lugar.",
+      "emoji": "🌊🏞️"
+    },
+    "deforestación": {
+      "variations": [],
+      "definition": "Acción humana que destruye la superficie forestal para destinar el suelo a una nueva actividad.",
+      "emoji": "🌳🪓🚫"
+    },
+    "depredadores": {
+      "variations": ["depredador", "depredadora", "depredadoras", "predador", "predadora", "predadores", "predadoras"],
+      "definition": "Animales que cazan a otros para alimentarse.",
+      "emoji": "🐺🐯"
+    },
+    "desarrollo sostenible": {
+      "variations": [],
+      "definition": "Uso de recursos naturales que cubre necesidades actuales sin comprometer las de generaciones futuras.",
+      "emoji": "♻️🌱"
+    },
+    "desierto": {
+      "variations": ["desiertos"],
+      "definition": "Bioma muy seco y árido donde casi no llueve y hay poca vegetación.",
+      "emoji": "🏜️"
+    },
+    "desmonte": {
+      "variations": ["desmontes"],
+      "definition": "Acción de quitar árboles y plantas para usar la tierra en agricultura u otras actividades.",
+      "emoji": "🌳🚜"
+    },
+    "ecosistema": {
+      "variations": ["ecosistemas"],
+      "definition": "Lugar donde los seres vivos se relacionan entre sí y con su ambiente. Incluye plantas, animales, suelo, agua y clima.",
+      "emoji": "🌳🦊"
+    },
+    "erosión": {
+      "variations": [],
+      "definition": "Desgaste del suelo causado por viento y lluvia. Puede hacer que la tierra fértil se pierda.",
+      "emoji": "🌊🏔️"
+    },
+    "estepa": {
+      "variations": ["estepas"],
+      "definition": "Bioma muy seco con poca vegetación, que se encuentra entre un desierto y una pradera.",
+      "emoji": "🌵🌾"
+    },
+    "fauna": {
+      "variations": [],
+      "definition": "Conjunto de animales que viven en un lugar determinado.",
+      "emoji": "🦌🐒🐆"
+    },
+    "follaje": {
+      "variations": [],
+      "definition": "Conjunto de hojas de árboles y plantas.",
+      "emoji": "🌿"
+    },
+    "forma de relieve": {
+      "variations": ["formas de relieve"],
+      "definition": "Diferentes tipos de terreno como montañas, valles, colinas o llanuras.",
+      "emoji": "⛰️🏞️🏖️"
+    },
+    "fotosíntesis": {
+      "variations": [],
+      "definition": "Proceso por el cual las plantas usan luz solar para producir alimento y liberar oxígeno.",
+      "emoji": "🌱☀️"
+    },
+    "gramínea": {
+      "variations": ["gramíneas"],
+      "definition": "Tipo de planta con hojas delgadas, generalmente pastos o cereales como trigo o maíz.",
+      "emoji": "🌾🌿"
+    },
+    "guaraníes": {
+      "variations": ["guaraní"],
+      "definition": "Pueblo originario que habita en partes de Argentina, Paraguay y Brasil.",
+      "emoji": "🧑🏽‍🌾🏞️"
+    },
+    "hábitat": {
+      "variations": ["hábitats"],
+      "definition": "Lugar natural donde vive un animal o planta y encuentra todo lo necesario para sobrevivir.",
+      "emoji": "🏡🦁"
+    },
+    "hembra": {
+      "variations": ["hembras"],
+      "definition": "Animal del sexo femenino que puede tener crías.",
+      "emoji": "♀️🐮"
+    },
+    "hibernan": {
+      "variations": ["hiberna"],
+      "definition": "Acción de ciertos animales de dormir profundamente durante el invierno para ahorrar energía.",
+      "emoji": "🐻😴"
+    },
+    "jabirú": {
+      "variations": ["jabirús"],
+      "definition": "Ave grande con pico largo que vive cerca de ríos en América del Sur.",
+      "emoji": "🐦💦"
+    },
+    "lacustre": {
+      "variations": [],
+      "definition": "Relativo a lagos y sus alrededores.",
+      "emoji": "🌅🚣‍♂️"
+    },
+    "ladera": {
+      "variations": ["laderas"],
+      "definition": "Lado inclinado de una montaña o colina.",
+      "emoji": "🌄🛤️"
+    },
+    "leguminosa": {
+      "variations": ["leguminosas"],
+      "definition": "Planta que produce semillas dentro de vainas, como frijoles o lentejas.",
+      "emoji": "🌱🌿"
+    },
+    "llanura": {
+      "variations": ["llanuras"],
+      "definition": "Zona plana con pastos, pocos árboles y buena para agricultura o ganadería.",
+      "emoji": "🌾🐄"
+    },
+    "microclima": {
+      "variations": ["microclimas"],
+      "definition": "Condiciones climáticas especiales en un área pequeña, como dentro de una ciudad.",
+      "emoji": "🏙️🌡️"
+    },
+    "mimetizarse": {
+      "variations": ["mimetizo", "mimetizas", "mimetizar"],
+      "definition": "Capacidad de algunos animales para confundirse con su entorno y protegerse.",
+      "emoji": "🦎🍃"
+    },
+    "oleaginosa": {
+      "variations": ["oleaginosas"],
+      "definition": "Planta que produce semillas usadas para obtener aceite, como girasol o soja.",
+      "emoji": "🌻🌰"
+    },
+    "perenne": {
+      "variations": ["perennes"],
+      "definition": "Plantas que mantienen sus hojas todo el año.",
+      "emoji": "🌲"
+    },
+    "pradera": {
+      "variations": ["praderas"],
+      "definition": "Zona con pastos y hierbas, pocos árboles, ideal para agricultura y ganadería.",
+      "emoji": "🌾🐄"
+    },
+    "precipitación": {
+      "variations": ["precipitaciones"],
+      "definition": "Agua que cae de las nubes como lluvia, nieve o granizo.",
+      "emoji": "🌧️"
+    },
+    "pueblos originarios de América": {
+      "variations": [],
+      "definition": "Pueblos que habitan América desde antes de la llegada de europeos.",
+      "emoji": "🧑🏽‍🤝‍🧑🏽🌎"
+    },
+    "reposo": {
+      "variations": ["reposos"],
+      "definition": "Período de descanso o inactividad en animales o plantas.",
+      "emoji": "😴🌿"
+    },
+    "resisten": {
+      "variations": ["resiste"],
+      "definition": "Soportan o sobreviven condiciones difíciles del ambiente.",
+      "emoji": "🌵☀️❄️"
+    },
+    "sabana": {
+      "variations": ["sabanas"],
+      "definition": "Zona con clima cálido, pastos altos y pocos árboles, típica de África o América del Sur.",
+      "emoji": "🌾🦒"
+    },
+    "sangrías": {
+      "variations": ["sangría"],
+      "definition": "Método antiguo para sacar sangre y tratar enfermedades.",
+      "emoji": "🩸⚕️"
+    },
+    "se desarrollan": {
+      "variations": ["se desarrolla"],
+      "definition": "Existen y crecen en un lugar.",
+      "emoji": "🌱📈"
+    },
+    "selva": {
+      "variations": ["selvas"],
+      "definition": "Bioma con muchos árboles, plantas y animales que se encuentra en zonas calientes y lluviosas.",
+      "emoji": "🌴🦜"
+    },
+    "smog": {
+      "variations": [],
+      "definition": "Mezcla de humo y niebla que contamina el aire en ciudades, causada principalmente por automóviles y fábricas.",
+      "emoji": "🏭💨"
+    },
+    "taiga": {
+      "variations": ["taigas", "bosque boreal", "bosques boreales"],
+      "definition": "Bioma de bosque de coníferas que se encuentra en zonas muy frías del norte de Europa, Asia y América del Norte.",
+      "emoji": "🌲🦌🗻"
+    },
+    "tipo de suelo": {
+      "variations": ["tipos de suelo"],
+      "definition": "Diferentes clases de tierra según sus características, como arcillosa, arenosa o rocosa.",
+      "emoji": "🌱🏜️🏔️"
+    },
+    "tundra": {
+      "variations": ["tundras"],
+      "definition": "Bioma frío y seco con suelo congelado y plantas bajas como líquenes y musgos.",
+      "emoji": "❄️🌿"
+    },
+    "variación térmica": {
+      "variations": ["variaciones térmicas"],
+      "definition": "Cambios en la temperatura entre el día y la noche o entre diferentes estaciones del año.",
+      "emoji": "🌡️❄️☀️"
+    },
+    "vértebras": {
+      "variations": ["vértebra"],
+      "definition": "Huesos que forman la columna vertebral de muchos animales.",
+      "emoji": "🦴"
+    },
+    "xerófila": {
+      "variations": ["xerófilas"],
+      "definition": "Planta adaptada a lugares con poca agua, como los cactus del desierto.",
+      "emoji": "🌵"
+    },
+    "yacaré overo": {
+      "variations": ["yacaré", "yacarés"],
+      "definition": "Reptil de la familia de los aligátores que vive en ríos y lagunas de América del Sur.",
+      "emoji": "🐊"
+    }
+  }
