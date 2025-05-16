@@ -11,7 +11,7 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body class="bg-teal-500 font-sans"><div id="interface-container"></div><div id="nav-container"></div>
+<body class="bg-teal-500 font-sans">
 <main class="flex flex-col items-center justify-center min-h-screen p-6">
 <section class="text-center text-white" data-id="sectioneli5-58-0" data-section-type="front_cover">
 <h1 aria-label="Título: Manual de Autocuidado" class="text-4xl font-bold mb-4" data-aria-id="aria-58-0-0" data-id="text-58-0">Manual de Autocuidado</h1>
@@ -27,7 +27,9 @@
 </div>
 </main>
 
-<script type="module" src="./assets/modules/state.js"></script>
+<div id="interface-container" class="relative z-50"></div>
+    <div id="nav-container" class="relative z-50"></div>
+    <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
 </html>

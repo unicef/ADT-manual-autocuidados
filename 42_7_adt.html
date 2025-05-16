@@ -10,7 +10,7 @@
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <meta content="42_7" name="page-section-id"/>
 </head>
-<body class="bg-pink-800 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg"><div id="interface-container"></div><div id="nav-container"></div>
+<body class="bg-pink-800 lg:p-5 md:p-5 sm:p-0 mb-12 font-sans text-lg">
 <!-- The main content container -->
 <main class="container mx-auto bg-pink-700 text-white max-w-5xl p-8 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
 <!-- Title -->
@@ -31,7 +31,9 @@
 </section>
 </main>
 
-<script type="module" src="./assets/modules/state.js"></script>
+<div id="interface-container" class="relative z-50"></div>
+    <div id="nav-container" class="relative z-50"></div>
+    <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 font-sans text-lg"><div id="interface-container"></div><div id="nav-container"></div>
+<body class="bg-gray-100 lg:p-5 md:p-5 sm:p-0 font-sans text-lg">
 <!-- Main Interface -->
 <main class="container mx-auto bg-white max-w-4xl p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6" id="content">
 <section aria-labelledby="main-heading" class="mb-8" data-id="sectioneli5-17-4" data-section-type="text_only" role="article" tabindex="0">
@@ -20,7 +20,9 @@
 </section>
 </main>
 
-<script type="module" src="./assets/modules/state.js"></script>
+<div id="interface-container" class="relative z-50"></div>
+    <div id="nav-container" class="relative z-50"></div>
+    <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
 </html>

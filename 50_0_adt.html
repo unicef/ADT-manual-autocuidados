@@ -10,7 +10,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body class="bg-gray-100 font-sans"><div id="interface-container"></div><div id="nav-container"></div>
+<body class="bg-gray-100 font-sans">
 <div class="container mx-auto my-8 p-6 bg-white shadow-md rounded-lg">
 <header class="mb-6">
 <h1 class="text-3xl font-bold text-pink-700 mb-4" data-id="text-50-0">Manual de autocuido</h1>
@@ -30,7 +30,9 @@
 </section>
 </div>
 
-<script type="module" src="./assets/modules/state.js"></script>
+<div id="interface-container" class="relative z-50"></div>
+    <div id="nav-container" class="relative z-50"></div>
+    <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
 </html>

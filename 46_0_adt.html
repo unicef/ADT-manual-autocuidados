@@ -13,7 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <meta content="46_0" name="page-section-id"/>
 </head>
-<body class="bg-gray-50 p-4 font-sans"><div id="interface-container"></div><div id="nav-container"></div>
+<body class="bg-gray-50 p-4 font-sans">
 <!-- The main content container -->
 <main class="container content bg-white mx-auto mt-autol p-5 rounded-lg shadow-lg lg:px-24 md:px-12 sm:px-6 max-w-4xl" id="content">
 <!-- There MUST be a SECTION TAG-->
@@ -46,7 +46,9 @@
 </section>
 </main>
 
-<script type="module" src="./assets/modules/state.js"></script>
+<div id="interface-container" class="relative z-50"></div>
+    <div id="nav-container" class="relative z-50"></div>
+    <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
 </html>

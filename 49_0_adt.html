@@ -11,7 +11,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
-<body class="bg-gray-200 font-sans"><div id="interface-container"></div><div id="nav-container"></div>
+<body class="bg-gray-200 font-sans">
 <!-- Main content container -->
 <main class="container mx-auto p-6 bg-white max-w-4xl mt-10 rounded-lg shadow-md" id="content">
 <!-- Book title -->
@@ -33,7 +33,9 @@
 </section>
 </main>
 
-<script type="module" src="./assets/modules/state.js"></script>
+<div id="interface-container" class="relative z-50"></div>
+    <div id="nav-container" class="relative z-50"></div>
+    <script type="module" src="./assets/modules/state.js"></script>
     <script type="module" src="./assets/base.js"></script>
 </body>
 </html>
