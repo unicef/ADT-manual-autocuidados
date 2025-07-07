@@ -1,0 +1,29 @@
+{
+  "title": "Manual de Autocuidado",
+  "languages": {
+    "available": [
+      "es",
+      "en"
+    ],
+    "default": "es"
+  },
+  "features": {
+    "signLanguage": false,
+    "easyRead": true,
+    "glossary": false,
+    "eli5": true,
+    "readAloud": true,
+    "autoplay": true,
+    "describeImages": true,
+    "notepad": true,
+    "state": true,
+    "characterDisplay": true,
+    "highlight": false
+  },
+  "analytics": {
+    "enabled": false,
+    "siteId": 0,
+    "trackerUrl": "https://unisitetracker.unicef.io/matomo.php",
+    "srcUrl": "https://unisitetracker.unicef.io/matomo.js"
+  }
+}
