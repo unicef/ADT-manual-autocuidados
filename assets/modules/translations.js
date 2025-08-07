@@ -169,6 +169,15 @@ export const applyTranslations = async () => {
             highlightGlossaryTerms();
         }
     }
+
+    // Change the title of the page
+    const titleMeta = document.querySelector('meta[name="title-id"]');
+    if (titleMeta) {
+        const titleId = titleMeta.getAttribute('content');
+        if (titleId && state.translations[titleId]) {
+            document.title = state.translations[titleId];
+        }
+    }
 };
 
 /**
