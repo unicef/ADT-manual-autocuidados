@@ -10,6 +10,7 @@ import { showErrorToast } from './error_utils.js';
 import { highlightGlossaryTerms, removeGlossaryHighlights, loadGlossaryTerms } from './interface.js';
 import { loadCurrentSLVideo } from './video.js';
 import { announceToScreenReader } from './ui_utils.js';
+import { isFeatureEnabled } from '../base.js';
 
 /**
  * Set up translations and audio files for the application.
@@ -153,7 +154,7 @@ export const applyTranslations = async () => {
     
     // Re-apply glossary highlighting if it's active
     // This ensures highlights are maintained when easy-read mode changes
-    if (state.glossaryMode && typeof highlightGlossaryTerms === 'function') {
+    if (isFeatureEnabled('glossary') && state.glossaryMode && typeof highlightGlossaryTerms === 'function') {
         // First remove existing highlights
         if (typeof removeGlossaryHighlights === 'function') {
             removeGlossaryHighlights();

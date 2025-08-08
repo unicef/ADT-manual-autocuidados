@@ -23,6 +23,7 @@ import {
 } from './browser_zoom_controller.js';
 import { trackToggleEvent } from './analytics.js';
 import { toggleNav } from './navigation.js';
+import { isFeatureEnabled } from '../base.js';
 
 
 let glossaryTerms = {};
@@ -436,7 +437,9 @@ export const switchLanguage = async () => {
     // Fetch and apply new translations
     await fetchTranslations();
 
-    populateGlossaryTerms();
+    if (isFeatureEnabled('glossary')) {
+      populateGlossaryTerms();
+    }
 
     // If glossary mode is on, update the highlights
     if (state.glossaryMode) {
