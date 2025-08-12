@@ -17,13 +17,17 @@ setup-chat-editor:
 	@echo "If you don't have it, leave it blank and it will be cloned automatically."
 	@bash -c 'read -p "Chat editor path (or press Enter to clone): " chat_editor_path; \
 	if [ -z "$$chat_editor_path" ]; then \
-		echo "No path provided. Cloning chat editor repository..."; \
+		echo "No path provided. Checking for existing chat editor repository..."; \
 		cd .. && \
 		if [ ! -d "adt-chat-editor" ]; then \
+			echo "Chat editor repository not found. Cloning..."; \
 			git clone git@github.com:unicef/adt-chat-editor.git; \
 			echo "Chat editor repository cloned successfully."; \
 		else \
-			echo "Chat editor repository already exists."; \
+			echo "Chat editor repository already exists. Updating..."; \
+			cd adt-chat-editor && \
+			git pull && \
+			cd ..; \
 		fi; \
 		cd adt-chat-editor && \
 		echo "Chat editor repository is ready at: $$(pwd)"; \
@@ -44,13 +48,17 @@ run-creator:
 	@echo "If you don't have it, leave it blank and it will be cloned automatically."
 	@bash -c 'read -p "Chat editor path (or press Enter to clone): " chat_editor_path; \
 	if [ -z "$$chat_editor_path" ]; then \
-		echo "No path provided. Cloning chat editor repository..."; \
+		echo "No path provided. Checking for existing chat editor repository..."; \
 		cd .. && \
 		if [ ! -d "adt-chat-editor" ]; then \
+			echo "Chat editor repository not found. Cloning..."; \
 			git clone git@github.com:unicef/adt-chat-editor.git; \
 			echo "Chat editor repository cloned successfully."; \
 		else \
-			echo "Chat editor repository already exists."; \
+			echo "Chat editor repository already exists. Updating..."; \
+			cd adt-chat-editor && \
+			git pull && \
+			cd ..; \
 		fi; \
 		cd adt-chat-editor && \
 		echo "Chat editor repository is ready at: $$(pwd)"; \
