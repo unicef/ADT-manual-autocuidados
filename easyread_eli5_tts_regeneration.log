@@ -1,0 +1,1542 @@
+2025-08-11 22:40:30,059 - INFO - Starting TTS regeneration for pages 0-10, languages: ['en', 'es'], types: ['easyread', 'eli5']
+2025-08-11 22:40:30,059 - INFO - Starting TTS regeneration for en, pages 0-10, type: easyread
+2025-08-11 22:40:30,060 - INFO - Loaded 1548 texts for language: en
+2025-08-11 22:40:30,061 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 22:40:30,061 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 22:40:30,061 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 22:40:30,061 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 22:40:30,061 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 22:40:30,061 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 22:40:31,450 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:31,683 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:31,723 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:32,166 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:32,217 - INFO - Successfully generated TTS: easyread-text-10-2_en.mp3
+2025-08-11 22:40:32,217 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 22:40:32,516 - INFO - Successfully generated TTS: easyread-text-10-3_en.mp3
+2025-08-11 22:40:32,516 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 22:40:32,756 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:33,022 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:33,301 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:33,888 - INFO - Successfully generated TTS: easyread-text-10-4_en.mp3
+2025-08-11 22:40:33,888 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 22:40:34,107 - INFO - Successfully generated TTS: easyread-text-10-5_en.mp3
+2025-08-11 22:40:34,107 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 22:40:35,215 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:35,285 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:36,611 - INFO - Successfully generated TTS: easyread-text-10-6_en.mp3
+2025-08-11 22:40:36,611 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 22:40:37,539 - INFO - Successfully generated TTS: easyread-text-10-1_en.mp3
+2025-08-11 22:40:37,539 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 22:40:37,657 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:38,277 - INFO - Successfully generated TTS: easyread-text-0-0_en.mp3
+2025-08-11 22:40:38,278 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 22:40:38,630 - INFO - Successfully generated TTS: easyread-text-10-0_en.mp3
+2025-08-11 22:40:38,631 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 22:40:38,795 - INFO - Successfully generated TTS: easyread-text-6-0_en.mp3
+2025-08-11 22:40:38,795 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 22:40:39,024 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:39,398 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:39,489 - INFO - Successfully generated TTS: easyread-text-6-1_en.mp3
+2025-08-11 22:40:39,490 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 22:40:39,894 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:40,032 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:40,273 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:40,508 - INFO - Successfully generated TTS: easyread-text-6-11_en.mp3
+2025-08-11 22:40:40,508 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 22:40:41,694 - INFO - Successfully generated TTS: easyread-text-6-13_en.mp3
+2025-08-11 22:40:41,695 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 22:40:41,841 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:42,666 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:44,026 - INFO - Successfully generated TTS: easyread-text-6-15_en.mp3
+2025-08-11 22:40:44,026 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 22:40:44,049 - INFO - Successfully generated TTS: easyread-text-6-12_en.mp3
+2025-08-11 22:40:44,049 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 22:40:44,662 - INFO - Successfully generated TTS: easyread-text-6-10_en.mp3
+2025-08-11 22:40:44,662 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 22:40:44,745 - INFO - Successfully generated TTS: easyread-text-2-0_en.mp3
+2025-08-11 22:40:44,745 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 22:40:44,784 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:45,021 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:45,528 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:45,997 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:46,149 - INFO - Successfully generated TTS: easyread-text-6-2_en.mp3
+2025-08-11 22:40:46,149 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 22:40:46,288 - INFO - Successfully generated TTS: easyread-text-6-17_en.mp3
+2025-08-11 22:40:46,288 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 22:40:46,300 - INFO - Successfully generated TTS: easyread-text-6-16_en.mp3
+2025-08-11 22:40:46,300 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 22:40:46,972 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:46,980 - INFO - Successfully generated TTS: easyread-text-6-18_en.mp3
+2025-08-11 22:40:46,980 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 22:40:47,409 - INFO - Successfully generated TTS: easyread-text-6-3_en.mp3
+2025-08-11 22:40:47,410 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 22:40:47,756 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:48,169 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:48,461 - INFO - Successfully generated TTS: easyread-text-6-14_en.mp3
+2025-08-11 22:40:48,461 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 22:40:48,464 - INFO - Successfully generated TTS: easyread-text-6-5_en.mp3
+2025-08-11 22:40:48,464 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 22:40:48,716 - INFO - Successfully generated TTS: easyread-text-6-7_en.mp3
+2025-08-11 22:40:48,717 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 22:40:48,795 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:48,836 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:49,636 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:50,126 - INFO - Successfully generated TTS: easyread-text-6-4_en.mp3
+2025-08-11 22:40:50,127 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 22:40:50,234 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:50,806 - INFO - Successfully generated TTS: easyread-text-6-9_en.mp3
+2025-08-11 22:40:50,806 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 22:40:50,836 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:51,262 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:51,400 - INFO - Successfully generated TTS: easyread-text-8-1_en.mp3
+2025-08-11 22:40:51,401 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 22:40:52,001 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:52,076 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:52,195 - INFO - Successfully generated TTS: easyread-text-8-10_en.mp3
+2025-08-11 22:40:52,195 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 22:40:52,244 - INFO - Successfully generated TTS: easyread-text-8-11_en.mp3
+2025-08-11 22:40:52,245 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 22:40:52,523 - INFO - Successfully generated TTS: easyread-text-6-6_en.mp3
+2025-08-11 22:40:52,524 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 22:40:53,341 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:53,576 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:53,712 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:54,281 - INFO - Successfully generated TTS: easyread-text-8-12_en.mp3
+2025-08-11 22:40:54,281 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 22:40:54,443 - INFO - Successfully generated TTS: easyread-text-6-8_en.mp3
+2025-08-11 22:40:54,444 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 22:40:54,655 - INFO - Successfully generated TTS: easyread-text-8-2_en.mp3
+2025-08-11 22:40:54,655 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 22:40:55,355 - INFO - Successfully generated TTS: easyread-text-8-13_en.mp3
+2025-08-11 22:40:55,355 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 22:40:55,827 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:56,253 - INFO - Successfully generated TTS: easyread-text-8-5_en.mp3
+2025-08-11 22:40:56,253 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 22:40:56,679 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:56,688 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:57,096 - INFO - Successfully generated TTS: easyread-text-8-3_en.mp3
+2025-08-11 22:40:57,096 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 22:40:57,365 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:57,368 - INFO - Successfully generated TTS: easyread-text-8-0_en.mp3
+2025-08-11 22:40:57,369 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 22:40:57,370 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:57,585 - INFO - Successfully generated TTS: easyread-text-8-6_en.mp3
+2025-08-11 22:40:57,585 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 22:40:58,020 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:58,168 - INFO - Successfully generated TTS: easyread-text-8-9_en.mp3
+2025-08-11 22:40:58,169 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 22:40:58,172 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:58,931 - INFO - Successfully generated TTS: easyread-text-8-7_en.mp3
+2025-08-11 22:40:58,931 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 22:40:59,084 - INFO - Successfully generated TTS: easyread-text-8-4_en.mp3
+2025-08-11 22:40:59,085 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 22:40:59,634 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:40:59,705 - INFO - Successfully generated TTS: easyread-text-8-8_en.mp3
+2025-08-11 22:40:59,705 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 22:41:00,194 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:00,219 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:00,666 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:01,334 - INFO - Successfully generated TTS: easyread-text-9-1_en.mp3
+2025-08-11 22:41:01,335 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 22:41:01,348 - INFO - Successfully generated TTS: easyread-text-9-2_en.mp3
+2025-08-11 22:41:01,348 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 22:41:01,582 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:02,345 - INFO - Successfully generated TTS: easyread-text-9-4_en.mp3
+2025-08-11 22:41:02,568 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:02,706 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:02,823 - INFO - Successfully generated TTS: easyread-text-0-1_en.mp3
+2025-08-11 22:41:03,895 - INFO - Successfully generated TTS: easyread-text-9-5_en.mp3
+2025-08-11 22:41:03,990 - INFO - Successfully generated TTS: easyread-text-9-3_en.mp3
+2025-08-11 22:41:06,597 - INFO - Successfully generated TTS: easyread-text-9-0_en.mp3
+2025-08-11 22:41:06,597 - INFO - Completed en easyread TTS: 49 successful, 0 failed
+2025-08-11 22:41:06,597 - INFO - Starting TTS regeneration for en, pages 0-10, type: eli5
+2025-08-11 22:41:06,600 - INFO - Loaded 1548 texts for language: en
+2025-08-11 22:41:06,601 - INFO - Filtered to 49 eli5 texts for pages 0-10 in language
+2025-08-11 22:41:06,601 - INFO - Generating TTS for: sectioneli5-0-0
+2025-08-11 22:41:06,601 - INFO - Generating TTS for: sectioneli5-10-0
+2025-08-11 22:41:06,601 - INFO - Generating TTS for: sectioneli5-2-0
+2025-08-11 22:41:06,601 - INFO - Generating TTS for: sectioneli5-6-0
+2025-08-11 22:41:06,602 - INFO - Generating TTS for: sectioneli5-8-0
+2025-08-11 22:41:07,733 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:07,791 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:07,852 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:08,316 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:08,788 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:10,988 - INFO - Successfully generated TTS: sectioneli5-6-0_en.mp3
+2025-08-11 22:41:10,988 - INFO - Generating TTS for: sectioneli5-8-1
+2025-08-11 22:41:12,145 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:16,259 - INFO - Successfully generated TTS: sectioneli5-8-0_en.mp3
+2025-08-11 22:41:16,259 - INFO - Generating TTS for: sectioneli5-9-0
+2025-08-11 22:41:16,593 - INFO - Successfully generated TTS: sectioneli5-0-0_en.mp3
+2025-08-11 22:41:16,594 - INFO - Generating TTS for: sectioneli5-9-1
+2025-08-11 22:41:17,217 - INFO - Successfully generated TTS: sectioneli5-10-0_en.mp3
+2025-08-11 22:41:17,217 - INFO - Generating TTS for: sectioneli5-9-2
+2025-08-11 22:41:17,576 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:17,858 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:18,596 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:18,657 - INFO - Successfully generated TTS: sectioneli5-2-0_en.mp3
+2025-08-11 22:41:18,657 - INFO - Generating TTS for: sectioneli5-0-1
+2025-08-11 22:41:18,752 - INFO - Successfully generated TTS: sectioneli5-8-1_en.mp3
+2025-08-11 22:41:18,753 - INFO - Generating TTS for: sectioneli5-10-1
+2025-08-11 22:41:19,884 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:19,901 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:24,923 - INFO - Successfully generated TTS: sectioneli5-0-1_en.mp3
+2025-08-11 22:41:24,924 - INFO - Generating TTS for: sectioneli5-10-2
+2025-08-11 22:41:26,243 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:26,513 - INFO - Successfully generated TTS: sectioneli5-9-0_en.mp3
+2025-08-11 22:41:26,513 - INFO - Generating TTS for: sectioneli5-10-3
+2025-08-11 22:41:26,867 - INFO - Successfully generated TTS: sectioneli5-9-2_en.mp3
+2025-08-11 22:41:26,867 - INFO - Generating TTS for: sectioneli5-10-4
+2025-08-11 22:41:27,828 - INFO - Successfully generated TTS: sectioneli5-9-1_en.mp3
+2025-08-11 22:41:27,828 - INFO - Generating TTS for: sectioneli5-10-5
+2025-08-11 22:41:28,178 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:28,604 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:28,861 - INFO - Successfully generated TTS: sectioneli5-10-1_en.mp3
+2025-08-11 22:41:28,861 - INFO - Generating TTS for: sectioneli5-10-6
+2025-08-11 22:41:29,426 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:30,436 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:33,727 - INFO - Successfully generated TTS: sectioneli5-10-3_en.mp3
+2025-08-11 22:41:33,728 - INFO - Generating TTS for: sectioneli5-6-1
+2025-08-11 22:41:34,722 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:35,195 - INFO - Successfully generated TTS: sectioneli5-10-5_en.mp3
+2025-08-11 22:41:35,195 - INFO - Generating TTS for: sectioneli5-6-10
+2025-08-11 22:41:36,241 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:36,286 - INFO - Successfully generated TTS: sectioneli5-10-4_en.mp3
+2025-08-11 22:41:36,287 - INFO - Generating TTS for: sectioneli5-6-11
+2025-08-11 22:41:36,583 - INFO - Successfully generated TTS: sectioneli5-10-2_en.mp3
+2025-08-11 22:41:36,583 - INFO - Generating TTS for: sectioneli5-6-12
+2025-08-11 22:41:37,907 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:38,827 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:40,918 - INFO - Successfully generated TTS: sectioneli5-6-1_en.mp3
+2025-08-11 22:41:40,918 - INFO - Generating TTS for: sectioneli5-6-13
+2025-08-11 22:41:41,283 - INFO - Successfully generated TTS: sectioneli5-6-11_en.mp3
+2025-08-11 22:41:41,283 - INFO - Generating TTS for: sectioneli5-6-14
+2025-08-11 22:41:41,518 - INFO - Successfully generated TTS: sectioneli5-10-6_en.mp3
+2025-08-11 22:41:41,518 - INFO - Generating TTS for: sectioneli5-6-15
+2025-08-11 22:41:41,998 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:42,610 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:42,615 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:43,946 - INFO - Successfully generated TTS: sectioneli5-6-10_en.mp3
+2025-08-11 22:41:43,947 - INFO - Generating TTS for: sectioneli5-6-16
+2025-08-11 22:41:44,734 - INFO - Successfully generated TTS: sectioneli5-6-12_en.mp3
+2025-08-11 22:41:44,734 - INFO - Generating TTS for: sectioneli5-6-17
+2025-08-11 22:41:45,499 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:45,995 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:46,011 - INFO - Successfully generated TTS: sectioneli5-6-13_en.mp3
+2025-08-11 22:41:46,011 - INFO - Generating TTS for: sectioneli5-6-18
+2025-08-11 22:41:47,611 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:48,073 - INFO - Successfully generated TTS: sectioneli5-6-15_en.mp3
+2025-08-11 22:41:48,073 - INFO - Generating TTS for: sectioneli5-6-2
+2025-08-11 22:41:49,534 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:50,452 - INFO - Successfully generated TTS: sectioneli5-6-16_en.mp3
+2025-08-11 22:41:50,453 - INFO - Generating TTS for: sectioneli5-6-3
+2025-08-11 22:41:50,948 - INFO - Successfully generated TTS: sectioneli5-6-17_en.mp3
+2025-08-11 22:41:50,948 - INFO - Generating TTS for: sectioneli5-6-4
+2025-08-11 22:41:51,498 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:51,988 - INFO - Successfully generated TTS: sectioneli5-6-14_en.mp3
+2025-08-11 22:41:51,988 - INFO - Generating TTS for: sectioneli5-6-5
+2025-08-11 22:41:52,106 - INFO - Successfully generated TTS: sectioneli5-6-18_en.mp3
+2025-08-11 22:41:52,106 - INFO - Generating TTS for: sectioneli5-6-6
+2025-08-11 22:41:52,828 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:53,115 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:53,304 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:53,606 - INFO - Successfully generated TTS: sectioneli5-6-2_en.mp3
+2025-08-11 22:41:53,606 - INFO - Generating TTS for: sectioneli5-6-7
+2025-08-11 22:41:54,743 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:54,991 - INFO - Successfully generated TTS: sectioneli5-6-3_en.mp3
+2025-08-11 22:41:54,991 - INFO - Generating TTS for: sectioneli5-6-8
+2025-08-11 22:41:56,337 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:56,911 - INFO - Successfully generated TTS: sectioneli5-6-5_en.mp3
+2025-08-11 22:41:56,911 - INFO - Generating TTS for: sectioneli5-6-9
+2025-08-11 22:41:57,817 - INFO - Successfully generated TTS: sectioneli5-6-4_en.mp3
+2025-08-11 22:41:57,817 - INFO - Generating TTS for: sectioneli5-8-10
+2025-08-11 22:41:57,869 - INFO - Successfully generated TTS: sectioneli5-6-7_en.mp3
+2025-08-11 22:41:57,869 - INFO - Generating TTS for: sectioneli5-8-11
+2025-08-11 22:41:58,039 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:41:58,961 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:00,149 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:01,833 - INFO - Successfully generated TTS: sectioneli5-6-9_en.mp3
+2025-08-11 22:42:01,834 - INFO - Generating TTS for: sectioneli5-8-12
+2025-08-11 22:42:03,042 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:03,091 - INFO - Successfully generated TTS: sectioneli5-6-6_en.mp3
+2025-08-11 22:42:03,091 - INFO - Generating TTS for: sectioneli5-8-13
+2025-08-11 22:42:04,168 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:05,573 - INFO - Successfully generated TTS: sectioneli5-6-8_en.mp3
+2025-08-11 22:42:05,574 - INFO - Generating TTS for: sectioneli5-8-2
+2025-08-11 22:42:06,024 - INFO - Successfully generated TTS: sectioneli5-8-11_en.mp3
+2025-08-11 22:42:06,024 - INFO - Generating TTS for: sectioneli5-8-3
+2025-08-11 22:42:07,094 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:07,160 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:08,276 - INFO - Successfully generated TTS: sectioneli5-8-12_en.mp3
+2025-08-11 22:42:08,276 - INFO - Generating TTS for: sectioneli5-8-4
+2025-08-11 22:42:09,295 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:11,312 - INFO - Successfully generated TTS: sectioneli5-8-10_en.mp3
+2025-08-11 22:42:11,312 - INFO - Generating TTS for: sectioneli5-8-5
+2025-08-11 22:42:12,813 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:13,902 - INFO - Successfully generated TTS: sectioneli5-8-3_en.mp3
+2025-08-11 22:42:13,902 - INFO - Generating TTS for: sectioneli5-8-6
+2025-08-11 22:42:15,456 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:16,188 - INFO - Successfully generated TTS: sectioneli5-8-2_en.mp3
+2025-08-11 22:42:16,189 - INFO - Generating TTS for: sectioneli5-8-7
+2025-08-11 22:42:16,216 - INFO - Successfully generated TTS: sectioneli5-8-13_en.mp3
+2025-08-11 22:42:16,217 - INFO - Generating TTS for: sectioneli5-8-8
+2025-08-11 22:42:17,151 - INFO - Successfully generated TTS: sectioneli5-8-4_en.mp3
+2025-08-11 22:42:17,152 - INFO - Generating TTS for: sectioneli5-8-9
+2025-08-11 22:42:17,259 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:17,298 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:18,274 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:18,549 - INFO - Successfully generated TTS: sectioneli5-8-5_en.mp3
+2025-08-11 22:42:18,549 - INFO - Generating TTS for: sectioneli5-9-3
+2025-08-11 22:42:20,203 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:21,083 - INFO - Successfully generated TTS: sectioneli5-8-6_en.mp3
+2025-08-11 22:42:21,083 - INFO - Generating TTS for: sectioneli5-9-4
+2025-08-11 22:42:22,185 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:24,766 - INFO - Successfully generated TTS: sectioneli5-8-8_en.mp3
+2025-08-11 22:42:24,766 - INFO - Generating TTS for: sectioneli5-9-5
+2025-08-11 22:42:25,810 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:26,680 - INFO - Successfully generated TTS: sectioneli5-8-7_en.mp3
+2025-08-11 22:42:26,823 - INFO - Successfully generated TTS: sectioneli5-8-9_en.mp3
+2025-08-11 22:42:27,970 - INFO - Successfully generated TTS: sectioneli5-9-3_en.mp3
+2025-08-11 22:42:37,823 - INFO - Successfully generated TTS: sectioneli5-9-5_en.mp3
+2025-08-11 22:42:43,639 - INFO - Successfully generated TTS: sectioneli5-9-4_en.mp3
+2025-08-11 22:42:43,639 - INFO - Completed en eli5 TTS: 49 successful, 0 failed
+2025-08-11 22:42:43,640 - INFO - Starting TTS regeneration for es, pages 0-10, type: easyread
+2025-08-11 22:42:43,643 - INFO - Loaded 1294 texts for language: es
+2025-08-11 22:42:43,643 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 22:42:43,644 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 22:42:43,644 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 22:42:43,644 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 22:42:43,644 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 22:42:43,647 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 22:42:44,731 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:45,450 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:45,480 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:45,705 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:45,748 - INFO - Successfully generated TTS: easyread-text-10-3_es.mp3
+2025-08-11 22:42:45,748 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 22:42:46,407 - INFO - Successfully generated TTS: easyread-text-10-2_es.mp3
+2025-08-11 22:42:46,407 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 22:42:46,545 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:47,388 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:48,259 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:48,278 - INFO - Successfully generated TTS: easyread-text-10-5_es.mp3
+2025-08-11 22:42:48,278 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 22:42:49,132 - INFO - Successfully generated TTS: easyread-text-10-4_es.mp3
+2025-08-11 22:42:49,132 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 22:42:50,013 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:50,983 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:51,265 - INFO - Successfully generated TTS: easyread-text-10-6_es.mp3
+2025-08-11 22:42:51,265 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 22:42:52,051 - INFO - Successfully generated TTS: easyread-text-10-0_es.mp3
+2025-08-11 22:42:52,051 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 22:42:52,832 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:53,047 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:53,079 - INFO - Successfully generated TTS: easyread-text-10-1_es.mp3
+2025-08-11 22:42:53,079 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 22:42:53,515 - INFO - Successfully generated TTS: easyread-text-6-0_es.mp3
+2025-08-11 22:42:53,516 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 22:42:54,771 - INFO - Successfully generated TTS: easyread-text-6-1_es.mp3
+2025-08-11 22:42:54,771 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 22:42:55,269 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:55,447 - INFO - Successfully generated TTS: easyread-text-0-0_es.mp3
+2025-08-11 22:42:55,447 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 22:42:55,900 - INFO - Successfully generated TTS: easyread-text-6-11_es.mp3
+2025-08-11 22:42:55,900 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 22:42:56,036 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:56,983 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:57,490 - INFO - Successfully generated TTS: easyread-text-6-13_es.mp3
+2025-08-11 22:42:57,490 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 22:42:57,626 - INFO - Successfully generated TTS: easyread-text-2-0_es.mp3
+2025-08-11 22:42:57,627 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 22:42:58,112 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:58,250 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:58,471 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 503 Service Unavailable"
+2025-08-11 22:42:58,474 - INFO - Retrying request to /audio/speech in 0.460436 seconds
+2025-08-11 22:42:58,872 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:42:59,494 - INFO - Successfully generated TTS: easyread-text-6-15_es.mp3
+2025-08-11 22:42:59,495 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 22:43:00,430 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:00,651 - INFO - Successfully generated TTS: easyread-text-6-10_es.mp3
+2025-08-11 22:43:00,651 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 22:43:01,119 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:02,148 - INFO - Successfully generated TTS: easyread-text-6-17_es.mp3
+2025-08-11 22:43:02,149 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 22:43:02,942 - INFO - Successfully generated TTS: easyread-text-6-16_es.mp3
+2025-08-11 22:43:02,942 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 22:43:03,251 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:04,479 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:04,521 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:05,250 - INFO - Successfully generated TTS: easyread-text-6-3_es.mp3
+2025-08-11 22:43:05,251 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 22:43:05,777 - INFO - Successfully generated TTS: easyread-text-6-2_es.mp3
+2025-08-11 22:43:05,777 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 22:43:06,387 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:07,415 - INFO - Successfully generated TTS: easyread-text-6-14_es.mp3
+2025-08-11 22:43:07,415 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 22:43:07,537 - INFO - Successfully generated TTS: easyread-text-6-18_es.mp3
+2025-08-11 22:43:07,537 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 22:43:08,000 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:08,805 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:09,002 - INFO - Successfully generated TTS: easyread-text-6-5_es.mp3
+2025-08-11 22:43:09,002 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 22:43:09,279 - INFO - Successfully generated TTS: easyread-text-6-7_es.mp3
+2025-08-11 22:43:09,280 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 22:43:09,447 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:10,611 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:10,989 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:11,354 - INFO - Successfully generated TTS: easyread-text-6-12_es.mp3
+2025-08-11 22:43:11,354 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 22:43:11,667 - INFO - Successfully generated TTS: easyread-text-6-9_es.mp3
+2025-08-11 22:43:11,668 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 22:43:12,018 - INFO - Successfully generated TTS: easyread-text-6-4_es.mp3
+2025-08-11 22:43:12,018 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 22:43:12,646 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:13,279 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:13,918 - INFO - Successfully generated TTS: easyread-text-8-1_es.mp3
+2025-08-11 22:43:13,918 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 22:43:13,982 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:15,047 - INFO - Successfully generated TTS: easyread-text-6-6_es.mp3
+2025-08-11 22:43:15,047 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 22:43:15,588 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:15,879 - INFO - Successfully generated TTS: easyread-text-8-11_es.mp3
+2025-08-11 22:43:15,879 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 22:43:15,985 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:16,892 - INFO - Successfully generated TTS: easyread-text-8-12_es.mp3
+2025-08-11 22:43:16,892 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 22:43:16,940 - INFO - Successfully generated TTS: easyread-text-6-8_es.mp3
+2025-08-11 22:43:16,940 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 22:43:16,950 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:18,198 - INFO - Successfully generated TTS: easyread-text-8-13_es.mp3
+2025-08-11 22:43:18,198 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 22:43:18,664 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:19,175 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:19,226 - INFO - Successfully generated TTS: easyread-text-8-10_es.mp3
+2025-08-11 22:43:19,226 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 22:43:19,417 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:19,422 - INFO - Successfully generated TTS: easyread-text-8-2_es.mp3
+2025-08-11 22:43:19,422 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 22:43:19,937 - INFO - Successfully generated TTS: easyread-text-8-3_es.mp3
+2025-08-11 22:43:19,937 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 22:43:20,334 - INFO - Successfully generated TTS: easyread-text-8-4_es.mp3
+2025-08-11 22:43:20,335 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 22:43:20,356 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:20,658 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:20,700 - INFO - Successfully generated TTS: easyread-text-8-0_es.mp3
+2025-08-11 22:43:20,700 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 22:43:21,433 - INFO - Successfully generated TTS: easyread-text-8-5_es.mp3
+2025-08-11 22:43:21,433 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 22:43:21,581 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:21,720 - INFO - Successfully generated TTS: easyread-text-8-9_es.mp3
+2025-08-11 22:43:21,721 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 22:43:21,848 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:22,425 - INFO - Successfully generated TTS: easyread-text-8-6_es.mp3
+2025-08-11 22:43:22,426 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 22:43:22,550 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:22,735 - INFO - Successfully generated TTS: easyread-text-8-7_es.mp3
+2025-08-11 22:43:22,735 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 22:43:22,834 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:23,442 - INFO - Successfully generated TTS: easyread-text-8-8_es.mp3
+2025-08-11 22:43:23,442 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 22:43:24,026 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:24,147 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:24,416 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:24,881 - INFO - Successfully generated TTS: easyread-text-9-2_es.mp3
+2025-08-11 22:43:24,881 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 22:43:25,277 - INFO - Successfully generated TTS: easyread-text-9-4_es.mp3
+2025-08-11 22:43:25,277 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 22:43:25,286 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:26,023 - INFO - Successfully generated TTS: easyread-text-9-3_es.mp3
+2025-08-11 22:43:26,821 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:27,075 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:28,725 - INFO - Successfully generated TTS: easyread-text-9-5_es.mp3
+2025-08-11 22:43:29,155 - INFO - Successfully generated TTS: easyread-text-9-1_es.mp3
+2025-08-11 22:43:30,323 - INFO - Successfully generated TTS: easyread-text-0-1_es.mp3
+2025-08-11 22:43:30,927 - INFO - Successfully generated TTS: easyread-text-9-0_es.mp3
+2025-08-11 22:43:30,927 - INFO - Completed es easyread TTS: 49 successful, 0 failed
+2025-08-11 22:43:30,927 - INFO - Starting TTS regeneration for es, pages 0-10, type: eli5
+2025-08-11 22:43:30,929 - INFO - Loaded 1294 texts for language: es
+2025-08-11 22:43:30,930 - INFO - Filtered to 49 eli5 texts for pages 0-10 in language
+2025-08-11 22:43:30,930 - INFO - Generating TTS for: sectioneli5-0-0
+2025-08-11 22:43:30,930 - INFO - Generating TTS for: sectioneli5-10-0
+2025-08-11 22:43:30,930 - INFO - Generating TTS for: sectioneli5-2-0
+2025-08-11 22:43:30,930 - INFO - Generating TTS for: sectioneli5-6-0
+2025-08-11 22:43:30,930 - INFO - Generating TTS for: sectioneli5-8-0
+2025-08-11 22:43:32,288 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:32,539 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:32,570 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:32,902 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:33,713 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:37,892 - INFO - Successfully generated TTS: sectioneli5-6-0_es.mp3
+2025-08-11 22:43:37,893 - INFO - Generating TTS for: sectioneli5-8-1
+2025-08-11 22:43:39,790 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:42,266 - INFO - Successfully generated TTS: sectioneli5-2-0_es.mp3
+2025-08-11 22:43:42,267 - INFO - Generating TTS for: sectioneli5-9-0
+2025-08-11 22:43:42,710 - INFO - Successfully generated TTS: sectioneli5-8-0_es.mp3
+2025-08-11 22:43:42,710 - INFO - Generating TTS for: sectioneli5-9-1
+2025-08-11 22:43:43,498 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:44,149 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:44,855 - INFO - Successfully generated TTS: sectioneli5-0-0_es.mp3
+2025-08-11 22:43:44,855 - INFO - Generating TTS for: sectioneli5-9-2
+2025-08-11 22:43:46,117 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:46,349 - INFO - Successfully generated TTS: sectioneli5-8-1_es.mp3
+2025-08-11 22:43:46,349 - INFO - Generating TTS for: sectioneli5-0-1
+2025-08-11 22:43:46,365 - INFO - Successfully generated TTS: sectioneli5-10-0_es.mp3
+2025-08-11 22:43:46,365 - INFO - Generating TTS for: sectioneli5-10-1
+2025-08-11 22:43:47,955 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:48,429 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:54,005 - INFO - Successfully generated TTS: sectioneli5-9-0_es.mp3
+2025-08-11 22:43:54,006 - INFO - Generating TTS for: sectioneli5-10-2
+2025-08-11 22:43:54,611 - INFO - Successfully generated TTS: sectioneli5-9-2_es.mp3
+2025-08-11 22:43:54,612 - INFO - Generating TTS for: sectioneli5-10-3
+2025-08-11 22:43:55,288 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:56,849 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:56,887 - INFO - Successfully generated TTS: sectioneli5-0-1_es.mp3
+2025-08-11 22:43:56,888 - INFO - Generating TTS for: sectioneli5-10-4
+2025-08-11 22:43:58,120 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:43:58,216 - INFO - Successfully generated TTS: sectioneli5-10-1_es.mp3
+2025-08-11 22:43:58,216 - INFO - Generating TTS for: sectioneli5-10-5
+2025-08-11 22:43:59,106 - INFO - Successfully generated TTS: sectioneli5-9-1_es.mp3
+2025-08-11 22:43:59,106 - INFO - Generating TTS for: sectioneli5-10-6
+2025-08-11 22:43:59,869 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:04,069 - INFO - Successfully generated TTS: sectioneli5-10-3_es.mp3
+2025-08-11 22:44:04,069 - INFO - Generating TTS for: sectioneli5-6-1
+2025-08-11 22:44:05,302 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:07,351 - INFO - Successfully generated TTS: sectioneli5-10-4_es.mp3
+2025-08-11 22:44:07,351 - INFO - Generating TTS for: sectioneli5-6-10
+2025-08-11 22:44:07,713 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:08,639 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:11,648 - INFO - Successfully generated TTS: sectioneli5-10-5_es.mp3
+2025-08-11 22:44:11,648 - INFO - Generating TTS for: sectioneli5-6-11
+2025-08-11 22:44:11,719 - INFO - Successfully generated TTS: sectioneli5-6-1_es.mp3
+2025-08-11 22:44:11,719 - INFO - Generating TTS for: sectioneli5-6-12
+2025-08-11 22:44:13,072 - INFO - Successfully generated TTS: sectioneli5-10-2_es.mp3
+2025-08-11 22:44:13,072 - INFO - Generating TTS for: sectioneli5-6-13
+2025-08-11 22:44:13,545 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:13,811 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:15,211 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:17,667 - INFO - Successfully generated TTS: sectioneli5-6-11_es.mp3
+2025-08-11 22:44:17,667 - INFO - Generating TTS for: sectioneli5-6-14
+2025-08-11 22:44:19,272 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:19,320 - INFO - Successfully generated TTS: sectioneli5-6-13_es.mp3
+2025-08-11 22:44:19,320 - INFO - Generating TTS for: sectioneli5-6-15
+2025-08-11 22:44:21,959 - INFO - Successfully generated TTS: sectioneli5-6-10_es.mp3
+2025-08-11 22:44:21,959 - INFO - Generating TTS for: sectioneli5-6-16
+2025-08-11 22:44:22,307 - INFO - Successfully generated TTS: sectioneli5-6-12_es.mp3
+2025-08-11 22:44:22,307 - INFO - Generating TTS for: sectioneli5-6-17
+2025-08-11 22:44:22,517 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:23,534 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:23,781 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:27,470 - INFO - Successfully generated TTS: sectioneli5-6-15_es.mp3
+2025-08-11 22:44:27,471 - INFO - Generating TTS for: sectioneli5-6-18
+2025-08-11 22:44:27,515 - INFO - Successfully generated TTS: sectioneli5-6-17_es.mp3
+2025-08-11 22:44:27,516 - INFO - Generating TTS for: sectioneli5-6-2
+2025-08-11 22:44:28,619 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:28,840 - INFO - Successfully generated TTS: sectioneli5-6-16_es.mp3
+2025-08-11 22:44:28,840 - INFO - Generating TTS for: sectioneli5-6-3
+2025-08-11 22:44:29,089 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:30,506 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:36,421 - INFO - Successfully generated TTS: sectioneli5-6-2_es.mp3
+2025-08-11 22:44:36,422 - INFO - Generating TTS for: sectioneli5-6-4
+2025-08-11 22:44:36,657 - INFO - Successfully generated TTS: sectioneli5-6-14_es.mp3
+2025-08-11 22:44:36,657 - INFO - Generating TTS for: sectioneli5-6-5
+2025-08-11 22:44:37,708 - INFO - Successfully generated TTS: sectioneli5-6-3_es.mp3
+2025-08-11 22:44:37,708 - INFO - Generating TTS for: sectioneli5-6-6
+2025-08-11 22:44:37,794 - INFO - Successfully generated TTS: sectioneli5-6-18_es.mp3
+2025-08-11 22:44:37,795 - INFO - Generating TTS for: sectioneli5-6-7
+2025-08-11 22:44:37,835 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:37,919 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:39,079 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:39,290 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:43,376 - INFO - Successfully generated TTS: sectioneli5-6-5_es.mp3
+2025-08-11 22:44:43,376 - INFO - Generating TTS for: sectioneli5-6-8
+2025-08-11 22:44:45,192 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:45,875 - INFO - Successfully generated TTS: sectioneli5-10-6_es.mp3
+2025-08-11 22:44:45,875 - INFO - Generating TTS for: sectioneli5-6-9
+2025-08-11 22:44:47,064 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:48,820 - INFO - Successfully generated TTS: sectioneli5-6-7_es.mp3
+2025-08-11 22:44:48,821 - INFO - Generating TTS for: sectioneli5-8-10
+2025-08-11 22:44:49,539 - INFO - Successfully generated TTS: sectioneli5-6-4_es.mp3
+2025-08-11 22:44:49,540 - INFO - Generating TTS for: sectioneli5-8-11
+2025-08-11 22:44:50,252 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:50,865 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:54,120 - INFO - Successfully generated TTS: sectioneli5-6-9_es.mp3
+2025-08-11 22:44:54,120 - INFO - Generating TTS for: sectioneli5-8-12
+2025-08-11 22:44:54,481 - INFO - Successfully generated TTS: sectioneli5-6-6_es.mp3
+2025-08-11 22:44:54,481 - INFO - Generating TTS for: sectioneli5-8-13
+2025-08-11 22:44:55,457 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:55,723 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:44:56,587 - INFO - Successfully generated TTS: sectioneli5-6-8_es.mp3
+2025-08-11 22:44:56,587 - INFO - Generating TTS for: sectioneli5-8-2
+2025-08-11 22:44:57,795 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:00,792 - INFO - Successfully generated TTS: sectioneli5-8-11_es.mp3
+2025-08-11 22:45:00,792 - INFO - Generating TTS for: sectioneli5-8-3
+2025-08-11 22:45:02,034 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:04,410 - INFO - Successfully generated TTS: sectioneli5-8-10_es.mp3
+2025-08-11 22:45:04,411 - INFO - Generating TTS for: sectioneli5-8-4
+2025-08-11 22:45:05,737 - INFO - Successfully generated TTS: sectioneli5-8-13_es.mp3
+2025-08-11 22:45:05,737 - INFO - Generating TTS for: sectioneli5-8-5
+2025-08-11 22:45:06,356 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:07,788 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:09,271 - INFO - Successfully generated TTS: sectioneli5-8-3_es.mp3
+2025-08-11 22:45:09,271 - INFO - Generating TTS for: sectioneli5-8-6
+2025-08-11 22:45:09,939 - INFO - Successfully generated TTS: sectioneli5-8-2_es.mp3
+2025-08-11 22:45:09,939 - INFO - Generating TTS for: sectioneli5-8-7
+2025-08-11 22:45:10,287 - INFO - Successfully generated TTS: sectioneli5-8-12_es.mp3
+2025-08-11 22:45:10,287 - INFO - Generating TTS for: sectioneli5-8-8
+2025-08-11 22:45:11,169 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:11,364 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:11,595 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:13,915 - INFO - Successfully generated TTS: sectioneli5-8-4_es.mp3
+2025-08-11 22:45:13,916 - INFO - Generating TTS for: sectioneli5-8-9
+2025-08-11 22:45:15,341 - INFO - Successfully generated TTS: sectioneli5-8-5_es.mp3
+2025-08-11 22:45:15,341 - INFO - Generating TTS for: sectioneli5-9-3
+2025-08-11 22:45:15,855 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:16,505 - INFO - Successfully generated TTS: sectioneli5-8-6_es.mp3
+2025-08-11 22:45:16,505 - INFO - Generating TTS for: sectioneli5-9-4
+2025-08-11 22:45:18,522 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:18,910 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:19,365 - INFO - Successfully generated TTS: sectioneli5-8-8_es.mp3
+2025-08-11 22:45:19,365 - INFO - Generating TTS for: sectioneli5-9-5
+2025-08-11 22:45:20,707 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:45:20,777 - INFO - Successfully generated TTS: sectioneli5-8-9_es.mp3
+2025-08-11 22:45:20,917 - INFO - Successfully generated TTS: sectioneli5-8-7_es.mp3
+2025-08-11 22:45:27,592 - INFO - Successfully generated TTS: sectioneli5-9-3_es.mp3
+2025-08-11 22:45:29,160 - INFO - Successfully generated TTS: sectioneli5-9-4_es.mp3
+2025-08-11 22:45:34,704 - INFO - Successfully generated TTS: sectioneli5-9-5_es.mp3
+2025-08-11 22:45:34,705 - INFO - Completed es eli5 TTS: 49 successful, 0 failed
+2025-08-11 22:45:34,705 - INFO - TTS regeneration completed in 0:05:04.645833
+2025-08-11 22:59:43,323 - INFO - Starting TTS regeneration for pages 0-10, languages: ['en', 'es'], types: ['easyread']
+2025-08-11 22:59:43,324 - INFO - Starting TTS regeneration for en, pages 0-10, type: easyread
+2025-08-11 22:59:43,325 - INFO - Loaded 1548 texts for language: en
+2025-08-11 22:59:43,325 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 22:59:43,325 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 22:59:43,325 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 22:59:43,326 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 22:59:43,326 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 22:59:43,326 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 22:59:44,785 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:44,934 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:45,024 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:45,156 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:45,483 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:46,243 - INFO - Successfully generated TTS: easyread-text-10-3_en.mp3
+2025-08-11 22:59:46,243 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 22:59:46,375 - INFO - Successfully generated TTS: easyread-text-10-2_en.mp3
+2025-08-11 22:59:46,375 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 22:59:47,101 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:47,468 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:48,374 - INFO - Successfully generated TTS: easyread-text-10-5_en.mp3
+2025-08-11 22:59:48,374 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 22:59:48,740 - INFO - Successfully generated TTS: easyread-text-10-4_en.mp3
+2025-08-11 22:59:48,741 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 22:59:49,301 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:49,749 - INFO - Successfully generated TTS: easyread-text-0-0_en.mp3
+2025-08-11 22:59:49,749 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 22:59:50,039 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:50,387 - INFO - Successfully generated TTS: easyread-text-10-6_en.mp3
+2025-08-11 22:59:50,387 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 22:59:50,512 - INFO - Successfully generated TTS: easyread-text-10-0_en.mp3
+2025-08-11 22:59:50,512 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 22:59:51,142 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:51,314 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:51,662 - INFO - Successfully generated TTS: easyread-text-6-0_en.mp3
+2025-08-11 22:59:51,662 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 22:59:51,742 - INFO - Successfully generated TTS: easyread-text-6-1_en.mp3
+2025-08-11 22:59:51,742 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 22:59:51,745 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:52,196 - INFO - Successfully generated TTS: easyread-text-10-1_en.mp3
+2025-08-11 22:59:52,197 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 22:59:52,396 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:52,877 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:52,968 - INFO - Successfully generated TTS: easyread-text-6-11_en.mp3
+2025-08-11 22:59:52,969 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 22:59:53,722 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:54,131 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:54,503 - INFO - Successfully generated TTS: easyread-text-6-13_en.mp3
+2025-08-11 22:59:54,503 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 22:59:55,240 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:55,865 - INFO - Successfully generated TTS: easyread-text-6-15_en.mp3
+2025-08-11 22:59:55,865 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 22:59:55,897 - INFO - Successfully generated TTS: easyread-text-2-0_en.mp3
+2025-08-11 22:59:55,898 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 22:59:56,686 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:57,010 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:57,632 - INFO - Successfully generated TTS: easyread-text-6-16_en.mp3
+2025-08-11 22:59:57,633 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 22:59:58,174 - INFO - Successfully generated TTS: easyread-text-6-17_en.mp3
+2025-08-11 22:59:58,175 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 22:59:58,867 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:59,203 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:59,206 - INFO - Successfully generated TTS: easyread-text-6-10_en.mp3
+2025-08-11 22:59:59,206 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 22:59:59,344 - INFO - Successfully generated TTS: easyread-text-6-12_en.mp3
+2025-08-11 22:59:59,344 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 22:59:59,953 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 22:59:59,953 - INFO - Successfully generated TTS: easyread-text-6-18_en.mp3
+2025-08-11 22:59:59,954 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 22:59:59,964 - INFO - Successfully generated TTS: easyread-text-6-2_en.mp3
+2025-08-11 22:59:59,964 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 23:00:00,304 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:00,335 - INFO - Successfully generated TTS: easyread-text-6-3_en.mp3
+2025-08-11 23:00:00,335 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 23:00:01,302 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:01,393 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:01,612 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:01,769 - INFO - Successfully generated TTS: easyread-text-6-7_en.mp3
+2025-08-11 23:00:01,769 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 23:00:01,777 - INFO - Successfully generated TTS: easyread-text-6-5_en.mp3
+2025-08-11 23:00:01,777 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 23:00:02,505 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:02,530 - INFO - Successfully generated TTS: easyread-text-6-4_en.mp3
+2025-08-11 23:00:02,530 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 23:00:03,121 - INFO - Successfully generated TTS: easyread-text-6-9_en.mp3
+2025-08-11 23:00:03,121 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 23:00:03,347 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:03,551 - INFO - Successfully generated TTS: easyread-text-6-14_en.mp3
+2025-08-11 23:00:03,552 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 23:00:04,071 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:04,470 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:04,719 - INFO - Successfully generated TTS: easyread-text-8-10_en.mp3
+2025-08-11 23:00:04,720 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 23:00:04,867 - INFO - Successfully generated TTS: easyread-text-6-6_en.mp3
+2025-08-11 23:00:04,868 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 23:00:04,915 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:05,649 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:05,772 - INFO - Successfully generated TTS: easyread-text-8-1_en.mp3
+2025-08-11 23:00:05,772 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 23:00:05,908 - INFO - Successfully generated TTS: easyread-text-8-11_en.mp3
+2025-08-11 23:00:05,909 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 23:00:06,107 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:06,877 - INFO - Successfully generated TTS: easyread-text-8-12_en.mp3
+2025-08-11 23:00:06,877 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 23:00:07,194 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:07,231 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:07,233 - INFO - Successfully generated TTS: easyread-text-6-8_en.mp3
+2025-08-11 23:00:07,233 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 23:00:07,664 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:07,737 - INFO - Successfully generated TTS: easyread-text-8-2_en.mp3
+2025-08-11 23:00:07,737 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 23:00:08,381 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:08,497 - INFO - Successfully generated TTS: easyread-text-8-3_en.mp3
+2025-08-11 23:00:08,497 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 23:00:08,508 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:09,280 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:09,360 - INFO - Successfully generated TTS: easyread-text-8-5_en.mp3
+2025-08-11 23:00:09,360 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 23:00:09,477 - INFO - Successfully generated TTS: easyread-text-8-4_en.mp3
+2025-08-11 23:00:09,477 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 23:00:09,583 - INFO - Successfully generated TTS: easyread-text-8-13_en.mp3
+2025-08-11 23:00:09,583 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 23:00:09,880 - INFO - Successfully generated TTS: easyread-text-8-0_en.mp3
+2025-08-11 23:00:09,880 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 23:00:10,149 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:10,240 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:10,254 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:10,402 - INFO - Successfully generated TTS: easyread-text-8-9_en.mp3
+2025-08-11 23:00:10,402 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 23:00:11,056 - INFO - Successfully generated TTS: easyread-text-8-6_en.mp3
+2025-08-11 23:00:11,056 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 23:00:11,084 - INFO - Successfully generated TTS: easyread-text-8-8_en.mp3
+2025-08-11 23:00:11,084 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 23:00:11,244 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:11,394 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:11,685 - INFO - Successfully generated TTS: easyread-text-8-7_en.mp3
+2025-08-11 23:00:11,685 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 23:00:12,126 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:12,340 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:12,455 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:12,851 - INFO - Successfully generated TTS: easyread-text-9-4_en.mp3
+2025-08-11 23:00:12,851 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 23:00:13,498 - INFO - Successfully generated TTS: easyread-text-9-2_en.mp3
+2025-08-11 23:00:13,498 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:00:13,706 - INFO - Successfully generated TTS: easyread-text-9-3_en.mp3
+2025-08-11 23:00:13,706 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:14,243 - INFO - Successfully generated TTS: easyread-text-9-1_en.mp3
+2025-08-11 23:00:15,322 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:15,765 - INFO - Successfully generated TTS: easyread-text-0-1_en.mp3
+2025-08-11 23:00:16,743 - INFO - Successfully generated TTS: easyread-text-9-5_en.mp3
+2025-08-11 23:00:17,459 - INFO - Successfully generated TTS: easyread-text-9-0_en.mp3
+2025-08-11 23:00:17,460 - INFO - Completed en easyread TTS: 49 successful, 0 failed
+2025-08-11 23:00:17,460 - INFO - Starting TTS regeneration for es, pages 0-10, type: easyread
+2025-08-11 23:00:17,464 - INFO - Loaded 1294 texts for language: es
+2025-08-11 23:00:17,465 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 23:00:17,465 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:00:17,465 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 23:00:17,467 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 23:00:17,467 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 23:00:17,469 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 23:00:18,756 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:18,948 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:19,208 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:20,050 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:20,170 - INFO - Successfully generated TTS: easyread-text-10-2_es.mp3
+2025-08-11 23:00:20,170 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 23:00:21,024 - INFO - Successfully generated TTS: easyread-text-10-3_es.mp3
+2025-08-11 23:00:21,024 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 23:00:21,147 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:21,842 - INFO - Successfully generated TTS: easyread-text-10-4_es.mp3
+2025-08-11 23:00:21,844 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 23:00:23,110 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:23,231 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:23,237 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:24,225 - INFO - Successfully generated TTS: easyread-text-10-5_es.mp3
+2025-08-11 23:00:24,225 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 23:00:25,007 - INFO - Successfully generated TTS: easyread-text-10-1_es.mp3
+2025-08-11 23:00:25,007 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 23:00:25,852 - INFO - Successfully generated TTS: easyread-text-10-6_es.mp3
+2025-08-11 23:00:25,853 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 23:00:26,350 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:26,605 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:26,696 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:27,355 - INFO - Successfully generated TTS: easyread-text-10-0_es.mp3
+2025-08-11 23:00:27,355 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 23:00:28,120 - INFO - Successfully generated TTS: easyread-text-0-0_es.mp3
+2025-08-11 23:00:28,120 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 23:00:28,540 - INFO - Successfully generated TTS: easyread-text-6-1_es.mp3
+2025-08-11 23:00:28,540 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 23:00:29,181 - INFO - Successfully generated TTS: easyread-text-6-0_es.mp3
+2025-08-11 23:00:29,181 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 23:00:29,825 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:29,934 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:30,195 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:30,946 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:31,640 - INFO - Successfully generated TTS: easyread-text-6-13_es.mp3
+2025-08-11 23:00:31,640 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 23:00:31,870 - INFO - Successfully generated TTS: easyread-text-6-11_es.mp3
+2025-08-11 23:00:31,871 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 23:00:33,059 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:33,081 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:34,170 - INFO - Successfully generated TTS: easyread-text-6-15_es.mp3
+2025-08-11 23:00:34,170 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 23:00:35,075 - INFO - Successfully generated TTS: easyread-text-2-0_es.mp3
+2025-08-11 23:00:35,075 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 23:00:35,242 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:36,023 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:36,254 - INFO - Successfully generated TTS: easyread-text-6-12_es.mp3
+2025-08-11 23:00:36,255 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 23:00:37,246 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:37,418 - INFO - Successfully generated TTS: easyread-text-6-17_es.mp3
+2025-08-11 23:00:37,419 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 23:00:37,625 - INFO - Successfully generated TTS: easyread-text-6-10_es.mp3
+2025-08-11 23:00:37,625 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 23:00:37,673 - INFO - Successfully generated TTS: easyread-text-6-16_es.mp3
+2025-08-11 23:00:37,673 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 23:00:39,208 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:39,427 - INFO - Successfully generated TTS: easyread-text-6-18_es.mp3
+2025-08-11 23:00:39,427 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 23:00:39,541 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:39,717 - INFO - Successfully generated TTS: easyread-text-6-3_es.mp3
+2025-08-11 23:00:39,717 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 23:00:39,841 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:40,810 - INFO - Successfully generated TTS: easyread-text-6-2_es.mp3
+2025-08-11 23:00:40,810 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 23:00:41,010 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:41,646 - INFO - Successfully generated TTS: easyread-text-6-5_es.mp3
+2025-08-11 23:00:41,647 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 23:00:42,273 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:42,654 - INFO - Successfully generated TTS: easyread-text-6-14_es.mp3
+2025-08-11 23:00:42,654 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 23:00:42,745 - INFO - Successfully generated TTS: easyread-text-6-7_es.mp3
+2025-08-11 23:00:42,745 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 23:00:43,047 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:43,165 - INFO - Successfully generated TTS: easyread-text-6-4_es.mp3
+2025-08-11 23:00:43,165 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 23:00:43,328 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:44,384 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:44,792 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:45,006 - INFO - Successfully generated TTS: easyread-text-6-9_es.mp3
+2025-08-11 23:00:45,006 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 23:00:46,533 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:49,939 - INFO - Successfully generated TTS: easyread-text-6-8_es.mp3
+2025-08-11 23:00:49,939 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 23:00:50,104 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:50,762 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:51,043 - INFO - Successfully generated TTS: easyread-text-8-11_es.mp3
+2025-08-11 23:00:51,044 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 23:00:51,751 - INFO - Successfully generated TTS: easyread-text-8-0_es.mp3
+2025-08-11 23:00:51,751 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 23:00:52,034 - INFO - Successfully generated TTS: easyread-text-8-1_es.mp3
+2025-08-11 23:00:52,034 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 23:00:52,408 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:52,794 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:52,978 - INFO - Successfully generated TTS: easyread-text-8-10_es.mp3
+2025-08-11 23:00:52,979 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 23:00:53,002 - INFO - Successfully generated TTS: easyread-text-8-12_es.mp3
+2025-08-11 23:00:53,002 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 23:00:53,375 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:54,366 - INFO - Successfully generated TTS: easyread-text-8-2_es.mp3
+2025-08-11 23:00:54,366 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 23:00:54,571 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:54,819 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:55,083 - INFO - Successfully generated TTS: easyread-text-8-3_es.mp3
+2025-08-11 23:00:55,083 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 23:00:55,103 - INFO - Successfully generated TTS: easyread-text-8-13_es.mp3
+2025-08-11 23:00:55,103 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 23:00:55,459 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:56,159 - INFO - Successfully generated TTS: easyread-text-8-4_es.mp3
+2025-08-11 23:00:56,161 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 23:00:56,201 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:56,666 - INFO - Successfully generated TTS: easyread-text-8-5_es.mp3
+2025-08-11 23:00:56,666 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 23:00:56,723 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:56,916 - INFO - Successfully generated TTS: easyread-text-6-6_es.mp3
+2025-08-11 23:00:56,916 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 23:00:57,491 - INFO - Successfully generated TTS: easyread-text-8-7_es.mp3
+2025-08-11 23:00:57,491 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 23:00:57,494 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:57,533 - INFO - Successfully generated TTS: easyread-text-8-6_es.mp3
+2025-08-11 23:00:57,533 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 23:00:58,350 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:58,406 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:58,502 - INFO - Successfully generated TTS: easyread-text-8-9_es.mp3
+2025-08-11 23:00:58,502 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 23:00:58,708 - INFO - Successfully generated TTS: easyread-text-8-8_es.mp3
+2025-08-11 23:00:58,708 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 23:00:59,103 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:59,135 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:00:59,964 - INFO - Successfully generated TTS: easyread-text-9-2_es.mp3
+2025-08-11 23:00:59,965 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 23:01:00,272 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:01:00,401 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:01:01,034 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:01:01,345 - INFO - Successfully generated TTS: easyread-text-9-4_es.mp3
+2025-08-11 23:01:01,345 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:01:01,803 - INFO - Successfully generated TTS: easyread-text-9-3_es.mp3
+2025-08-11 23:01:02,390 - INFO - Successfully generated TTS: easyread-text-9-1_es.mp3
+2025-08-11 23:01:03,097 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:01:03,662 - INFO - Successfully generated TTS: easyread-text-9-0_es.mp3
+2025-08-11 23:01:03,895 - INFO - Successfully generated TTS: easyread-text-9-5_es.mp3
+2025-08-11 23:01:07,046 - INFO - Successfully generated TTS: easyread-text-0-1_es.mp3
+2025-08-11 23:01:07,046 - INFO - Completed es easyread TTS: 49 successful, 0 failed
+2025-08-11 23:01:07,046 - INFO - TTS regeneration completed in 0:01:23.722814
+2025-08-11 23:15:29,836 - INFO - Starting TTS regeneration for pages 0-0, languages: ['en', 'es'], types: ['easyread']
+2025-08-11 23:15:29,836 - INFO - Starting TTS regeneration for en, pages 0-0, type: easyread
+2025-08-11 23:15:29,837 - INFO - Loaded 1548 texts for language: en
+2025-08-11 23:15:29,838 - INFO - Filtered to 2 easyread texts for pages 0-0 in language
+2025-08-11 23:15:29,838 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:15:29,838 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:15:31,001 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:15:31,293 - INFO - Successfully generated TTS: easyread-text-0-1_en.mp3
+2025-08-11 23:15:31,912 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:15:36,656 - INFO - Successfully generated TTS: easyread-text-0-0_en.mp3
+2025-08-11 23:15:36,656 - INFO - Completed en easyread TTS: 2 successful, 0 failed
+2025-08-11 23:15:36,656 - INFO - Starting TTS regeneration for es, pages 0-0, type: easyread
+2025-08-11 23:15:36,659 - INFO - Loaded 1294 texts for language: es
+2025-08-11 23:15:36,659 - INFO - Filtered to 2 easyread texts for pages 0-0 in language
+2025-08-11 23:15:36,659 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:15:36,659 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:15:38,101 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:15:39,480 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:15:43,748 - INFO - Successfully generated TTS: easyread-text-0-1_es.mp3
+2025-08-11 23:15:46,117 - INFO - Successfully generated TTS: easyread-text-0-0_es.mp3
+2025-08-11 23:15:46,117 - INFO - Completed es easyread TTS: 2 successful, 0 failed
+2025-08-11 23:15:46,118 - INFO - TTS regeneration completed in 0:00:16.281277
+2025-08-11 23:16:34,619 - INFO - Starting TTS regeneration for pages 0-10, languages: ['en', 'es'], types: ['easyread']
+2025-08-11 23:16:34,620 - INFO - Starting TTS regeneration for en, pages 0-10, type: easyread
+2025-08-11 23:16:34,621 - INFO - Loaded 1548 texts for language: en
+2025-08-11 23:16:34,621 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 23:16:34,621 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:16:34,621 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 23:16:34,622 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 23:16:34,622 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 23:16:34,622 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 23:16:35,575 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:35,968 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:35,991 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:36,019 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:36,231 - INFO - Successfully generated TTS: easyread-text-10-2_en.mp3
+2025-08-11 23:16:36,231 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 23:16:36,405 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:36,999 - INFO - Successfully generated TTS: easyread-text-10-3_en.mp3
+2025-08-11 23:16:36,999 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 23:16:37,195 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:37,857 - INFO - Successfully generated TTS: easyread-text-10-4_en.mp3
+2025-08-11 23:16:37,857 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 23:16:38,249 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:38,635 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:38,909 - INFO - Successfully generated TTS: easyread-text-10-5_en.mp3
+2025-08-11 23:16:38,909 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 23:16:40,479 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:41,210 - INFO - Successfully generated TTS: easyread-text-10-6_en.mp3
+2025-08-11 23:16:41,210 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 23:16:42,561 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:43,064 - INFO - Successfully generated TTS: easyread-text-6-0_en.mp3
+2025-08-11 23:16:43,064 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 23:16:43,080 - INFO - Successfully generated TTS: easyread-text-0-0_en.mp3
+2025-08-11 23:16:43,080 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 23:16:43,269 - INFO - Successfully generated TTS: easyread-text-10-1_en.mp3
+2025-08-11 23:16:43,269 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 23:16:43,429 - INFO - Successfully generated TTS: easyread-text-10-0_en.mp3
+2025-08-11 23:16:43,429 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 23:16:43,774 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:44,169 - INFO - Successfully generated TTS: easyread-text-6-1_en.mp3
+2025-08-11 23:16:44,170 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 23:16:44,493 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:44,886 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:45,209 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:45,556 - INFO - Successfully generated TTS: easyread-text-2-0_en.mp3
+2025-08-11 23:16:45,557 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 23:16:45,916 - INFO - Successfully generated TTS: easyread-text-6-13_en.mp3
+2025-08-11 23:16:45,916 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 23:16:46,371 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:46,688 - INFO - Successfully generated TTS: easyread-text-6-11_en.mp3
+2025-08-11 23:16:46,689 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 23:16:46,735 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:46,843 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:47,224 - INFO - Successfully generated TTS: easyread-text-6-15_en.mp3
+2025-08-11 23:16:47,224 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 23:16:47,463 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:47,833 - INFO - Successfully generated TTS: easyread-text-6-12_en.mp3
+2025-08-11 23:16:47,833 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 23:16:48,556 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:48,629 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:48,830 - INFO - Successfully generated TTS: easyread-text-6-16_en.mp3
+2025-08-11 23:16:48,830 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 23:16:49,229 - INFO - Successfully generated TTS: easyread-text-6-17_en.mp3
+2025-08-11 23:16:49,230 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 23:16:49,600 - INFO - Successfully generated TTS: easyread-text-6-18_en.mp3
+2025-08-11 23:16:49,601 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 23:16:49,834 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:50,193 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:50,475 - INFO - Successfully generated TTS: easyread-text-6-2_en.mp3
+2025-08-11 23:16:50,476 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 23:16:50,556 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:50,759 - INFO - Successfully generated TTS: easyread-text-6-3_en.mp3
+2025-08-11 23:16:50,759 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 23:16:51,171 - INFO - Successfully generated TTS: easyread-text-6-10_en.mp3
+2025-08-11 23:16:51,171 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 23:16:51,326 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:51,792 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:51,896 - INFO - Successfully generated TTS: easyread-text-6-5_en.mp3
+2025-08-11 23:16:51,896 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 23:16:52,826 - INFO - Successfully generated TTS: easyread-text-6-14_en.mp3
+2025-08-11 23:16:52,827 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 23:16:52,928 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:53,105 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:53,290 - INFO - Successfully generated TTS: easyread-text-6-4_en.mp3
+2025-08-11 23:16:53,290 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 23:16:53,576 - INFO - Successfully generated TTS: easyread-text-6-7_en.mp3
+2025-08-11 23:16:53,576 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 23:16:54,374 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:54,571 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:54,743 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:55,106 - INFO - Successfully generated TTS: easyread-text-8-1_en.mp3
+2025-08-11 23:16:55,106 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 23:16:55,272 - INFO - Successfully generated TTS: easyread-text-6-9_en.mp3
+2025-08-11 23:16:55,272 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 23:16:55,506 - INFO - Successfully generated TTS: easyread-text-6-6_en.mp3
+2025-08-11 23:16:55,506 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 23:16:55,789 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:56,050 - INFO - Successfully generated TTS: easyread-text-8-10_en.mp3
+2025-08-11 23:16:56,051 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 23:16:56,146 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:56,477 - INFO - Successfully generated TTS: easyread-text-8-11_en.mp3
+2025-08-11 23:16:56,477 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 23:16:56,586 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:56,612 - INFO - Successfully generated TTS: easyread-text-6-8_en.mp3
+2025-08-11 23:16:56,612 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 23:16:56,871 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:57,554 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:57,752 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:57,802 - INFO - Successfully generated TTS: easyread-text-8-12_en.mp3
+2025-08-11 23:16:57,803 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 23:16:57,998 - INFO - Successfully generated TTS: easyread-text-8-3_en.mp3
+2025-08-11 23:16:57,998 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 23:16:58,456 - INFO - Successfully generated TTS: easyread-text-8-2_en.mp3
+2025-08-11 23:16:58,456 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 23:16:58,736 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:58,879 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:59,241 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:16:59,647 - INFO - Successfully generated TTS: easyread-text-8-5_en.mp3
+2025-08-11 23:16:59,648 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 23:16:59,650 - INFO - Successfully generated TTS: easyread-text-8-4_en.mp3
+2025-08-11 23:16:59,650 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 23:16:59,946 - INFO - Successfully generated TTS: easyread-text-8-13_en.mp3
+2025-08-11 23:16:59,946 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 23:17:00,251 - INFO - Successfully generated TTS: easyread-text-8-6_en.mp3
+2025-08-11 23:17:00,252 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 23:17:00,355 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:00,659 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:00,775 - INFO - Successfully generated TTS: easyread-text-8-0_en.mp3
+2025-08-11 23:17:00,776 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 23:17:00,885 - INFO - Successfully generated TTS: easyread-text-8-9_en.mp3
+2025-08-11 23:17:00,885 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 23:17:00,982 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:01,830 - INFO - Successfully generated TTS: easyread-text-8-8_en.mp3
+2025-08-11 23:17:01,831 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 23:17:01,926 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:02,019 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:02,213 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:02,240 - INFO - Successfully generated TTS: easyread-text-8-7_en.mp3
+2025-08-11 23:17:02,240 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 23:17:02,988 - INFO - Successfully generated TTS: easyread-text-9-2_en.mp3
+2025-08-11 23:17:02,988 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 23:17:02,995 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:03,235 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:03,866 - INFO - Successfully generated TTS: easyread-text-9-4_en.mp3
+2025-08-11 23:17:03,866 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:17:04,030 - INFO - Successfully generated TTS: easyread-text-9-1_en.mp3
+2025-08-11 23:17:04,279 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:04,791 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:04,921 - INFO - Successfully generated TTS: easyread-text-9-3_en.mp3
+2025-08-11 23:17:05,045 - INFO - Successfully generated TTS: easyread-text-0-1_en.mp3
+2025-08-11 23:17:06,140 - INFO - Successfully generated TTS: easyread-text-9-5_en.mp3
+2025-08-11 23:17:09,846 - INFO - Successfully generated TTS: easyread-text-9-0_en.mp3
+2025-08-11 23:17:09,846 - INFO - Completed en easyread TTS: 49 successful, 0 failed
+2025-08-11 23:17:09,847 - INFO - Starting TTS regeneration for es, pages 0-10, type: easyread
+2025-08-11 23:17:09,851 - INFO - Loaded 1294 texts for language: es
+2025-08-11 23:17:09,851 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 23:17:09,851 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:17:09,852 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 23:17:09,853 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 23:17:09,854 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 23:17:09,854 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 23:17:11,310 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:11,508 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:11,546 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:11,949 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:12,271 - INFO - Successfully generated TTS: easyread-text-10-3_es.mp3
+2025-08-11 23:17:12,272 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 23:17:12,723 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:13,612 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:14,224 - INFO - Successfully generated TTS: easyread-text-10-2_es.mp3
+2025-08-11 23:17:14,224 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 23:17:14,947 - INFO - Successfully generated TTS: easyread-text-10-4_es.mp3
+2025-08-11 23:17:14,947 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 23:17:15,173 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:16,069 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:16,155 - INFO - Successfully generated TTS: easyread-text-10-5_es.mp3
+2025-08-11 23:17:16,156 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 23:17:16,231 - INFO - Successfully generated TTS: easyread-text-0-0_es.mp3
+2025-08-11 23:17:16,232 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 23:17:17,178 - INFO - Successfully generated TTS: easyread-text-10-6_es.mp3
+2025-08-11 23:17:17,180 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 23:17:17,283 - INFO - Successfully generated TTS: easyread-text-10-1_es.mp3
+2025-08-11 23:17:17,283 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 23:17:17,949 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:18,001 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:18,643 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:18,791 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:19,217 - INFO - Successfully generated TTS: easyread-text-6-0_es.mp3
+2025-08-11 23:17:19,217 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 23:17:19,502 - INFO - Successfully generated TTS: easyread-text-6-1_es.mp3
+2025-08-11 23:17:19,502 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 23:17:19,961 - INFO - Successfully generated TTS: easyread-text-10-0_es.mp3
+2025-08-11 23:17:19,961 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 23:17:20,825 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:21,028 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:21,134 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:21,354 - INFO - Successfully generated TTS: easyread-text-6-11_es.mp3
+2025-08-11 23:17:21,354 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 23:17:22,024 - INFO - Successfully generated TTS: easyread-text-6-13_es.mp3
+2025-08-11 23:17:22,024 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 23:17:22,968 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:23,107 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:23,483 - INFO - Successfully generated TTS: easyread-text-6-15_es.mp3
+2025-08-11 23:17:23,483 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 23:17:25,232 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:25,332 - INFO - Successfully generated TTS: easyread-text-6-12_es.mp3
+2025-08-11 23:17:25,332 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 23:17:25,629 - INFO - Successfully generated TTS: easyread-text-2-0_es.mp3
+2025-08-11 23:17:25,629 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 23:17:26,681 - INFO - Successfully generated TTS: easyread-text-6-16_es.mp3
+2025-08-11 23:17:26,681 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 23:17:26,853 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:27,161 - INFO - Successfully generated TTS: easyread-text-6-10_es.mp3
+2025-08-11 23:17:27,161 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 23:17:27,568 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:27,805 - INFO - Successfully generated TTS: easyread-text-6-17_es.mp3
+2025-08-11 23:17:27,805 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 23:17:28,254 - INFO - Successfully generated TTS: easyread-text-6-14_es.mp3
+2025-08-11 23:17:28,254 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 23:17:28,272 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:28,590 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:29,469 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:30,046 - INFO - Successfully generated TTS: easyread-text-6-2_es.mp3
+2025-08-11 23:17:30,046 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 23:17:30,164 - INFO - Successfully generated TTS: easyread-text-6-18_es.mp3
+2025-08-11 23:17:30,164 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 23:17:30,170 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:30,571 - INFO - Successfully generated TTS: easyread-text-6-3_es.mp3
+2025-08-11 23:17:30,571 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 23:17:30,876 - INFO - Successfully generated TTS: easyread-text-6-5_es.mp3
+2025-08-11 23:17:30,876 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 23:17:31,081 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:31,504 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:31,587 - INFO - Successfully generated TTS: easyread-text-6-7_es.mp3
+2025-08-11 23:17:31,588 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 23:17:31,708 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:32,225 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:32,443 - INFO - Successfully generated TTS: easyread-text-6-4_es.mp3
+2025-08-11 23:17:32,443 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 23:17:32,861 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:33,276 - INFO - Successfully generated TTS: easyread-text-6-9_es.mp3
+2025-08-11 23:17:33,276 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 23:17:33,998 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:35,064 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:35,460 - INFO - Successfully generated TTS: easyread-text-8-1_es.mp3
+2025-08-11 23:17:35,460 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 23:17:36,536 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:36,979 - INFO - Successfully generated TTS: easyread-text-8-11_es.mp3
+2025-08-11 23:17:36,980 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 23:17:38,830 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:39,094 - INFO - Successfully generated TTS: easyread-text-6-6_es.mp3
+2025-08-11 23:17:39,094 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 23:17:39,314 - INFO - Successfully generated TTS: easyread-text-8-10_es.mp3
+2025-08-11 23:17:39,314 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 23:17:39,490 - INFO - Successfully generated TTS: easyread-text-6-8_es.mp3
+2025-08-11 23:17:39,490 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 23:17:39,520 - INFO - Successfully generated TTS: easyread-text-8-0_es.mp3
+2025-08-11 23:17:39,520 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 23:17:39,718 - INFO - Successfully generated TTS: easyread-text-8-12_es.mp3
+2025-08-11 23:17:39,719 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 23:17:40,630 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:40,910 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:40,970 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:41,435 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:41,645 - INFO - Successfully generated TTS: easyread-text-8-3_es.mp3
+2025-08-11 23:17:41,645 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 23:17:41,653 - INFO - Successfully generated TTS: easyread-text-8-2_es.mp3
+2025-08-11 23:17:41,653 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 23:17:41,716 - INFO - Successfully generated TTS: easyread-text-8-4_es.mp3
+2025-08-11 23:17:41,717 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 23:17:41,883 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:42,113 - INFO - Successfully generated TTS: easyread-text-8-5_es.mp3
+2025-08-11 23:17:42,114 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 23:17:42,655 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:42,766 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:43,165 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:43,269 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:43,709 - INFO - Successfully generated TTS: easyread-text-8-8_es.mp3
+2025-08-11 23:17:43,709 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 23:17:43,870 - INFO - Successfully generated TTS: easyread-text-8-9_es.mp3
+2025-08-11 23:17:43,870 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 23:17:43,962 - INFO - Successfully generated TTS: easyread-text-8-13_es.mp3
+2025-08-11 23:17:43,962 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 23:17:43,997 - INFO - Successfully generated TTS: easyread-text-8-6_es.mp3
+2025-08-11 23:17:43,997 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 23:17:44,944 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:45,503 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:45,529 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:45,809 - INFO - Successfully generated TTS: easyread-text-9-2_es.mp3
+2025-08-11 23:17:45,809 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 23:17:46,014 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:47,188 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:48,214 - INFO - Successfully generated TTS: easyread-text-9-4_es.mp3
+2025-08-11 23:17:48,214 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 23:17:48,918 - INFO - Successfully generated TTS: easyread-text-9-3_es.mp3
+2025-08-11 23:17:48,918 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:17:49,045 - INFO - Successfully generated TTS: easyread-text-9-1_es.mp3
+2025-08-11 23:17:49,884 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:50,803 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:17:50,996 - INFO - Successfully generated TTS: easyread-text-9-0_es.mp3
+2025-08-11 23:17:51,440 - INFO - Successfully generated TTS: easyread-text-9-5_es.mp3
+2025-08-11 23:17:53,756 - INFO - Successfully generated TTS: easyread-text-0-1_es.mp3
+2025-08-11 23:17:54,735 - INFO - Successfully generated TTS: easyread-text-8-7_es.mp3
+2025-08-11 23:17:54,735 - INFO - Completed es easyread TTS: 49 successful, 0 failed
+2025-08-11 23:17:54,735 - INFO - TTS regeneration completed in 0:01:20.115818
+2025-08-11 23:54:10,705 - INFO - Starting TTS regeneration for pages 0-10, languages: ['en', 'es'], types: ['easyread']
+2025-08-11 23:54:10,706 - INFO - Starting TTS regeneration for en, pages 0-10, type: easyread
+2025-08-11 23:54:10,710 - INFO - Loaded 1776 texts for language: en
+2025-08-11 23:54:10,710 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 23:54:10,710 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:54:10,710 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 23:54:10,711 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 23:54:10,711 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 23:54:10,711 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 23:54:12,190 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:12,271 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:12,698 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:12,737 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:12,910 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:13,518 - INFO - Successfully generated TTS: easyread-text-10-3_en.mp3
+2025-08-11 23:54:13,518 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 23:54:13,738 - INFO - Successfully generated TTS: easyread-text-10-2_en.mp3
+2025-08-11 23:54:13,739 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 23:54:14,347 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:15,023 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:15,354 - INFO - Successfully generated TTS: easyread-text-10-4_en.mp3
+2025-08-11 23:54:15,354 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 23:54:15,711 - INFO - Successfully generated TTS: easyread-text-10-5_en.mp3
+2025-08-11 23:54:15,711 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 23:54:17,185 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:17,513 - INFO - Successfully generated TTS: easyread-text-0-0_en.mp3
+2025-08-11 23:54:17,513 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 23:54:17,539 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:18,671 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:18,752 - INFO - Successfully generated TTS: easyread-text-10-0_en.mp3
+2025-08-11 23:54:18,753 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 23:54:19,193 - INFO - Successfully generated TTS: easyread-text-6-0_en.mp3
+2025-08-11 23:54:19,194 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 23:54:19,228 - INFO - Successfully generated TTS: easyread-text-10-6_en.mp3
+2025-08-11 23:54:19,229 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 23:54:20,185 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:20,444 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:20,541 - INFO - Successfully generated TTS: easyread-text-6-1_en.mp3
+2025-08-11 23:54:20,542 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 23:54:21,169 - INFO - Successfully generated TTS: easyread-text-6-11_en.mp3
+2025-08-11 23:54:21,170 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 23:54:21,209 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:22,014 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:22,552 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:22,626 - INFO - Successfully generated TTS: easyread-text-2-0_en.mp3
+2025-08-11 23:54:22,626 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 23:54:23,252 - INFO - Successfully generated TTS: easyread-text-6-13_en.mp3
+2025-08-11 23:54:23,252 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 23:54:23,616 - INFO - Successfully generated TTS: easyread-text-10-1_en.mp3
+2025-08-11 23:54:23,616 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 23:54:24,232 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:24,852 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:25,278 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:25,768 - INFO - Successfully generated TTS: easyread-text-6-16_en.mp3
+2025-08-11 23:54:25,769 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 23:54:25,772 - INFO - Successfully generated TTS: easyread-text-6-15_en.mp3
+2025-08-11 23:54:25,772 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 23:54:26,356 - INFO - Successfully generated TTS: easyread-text-6-12_en.mp3
+2025-08-11 23:54:26,356 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 23:54:26,521 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:26,934 - INFO - Successfully generated TTS: easyread-text-6-10_en.mp3
+2025-08-11 23:54:26,934 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 23:54:27,105 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:27,129 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:28,064 - INFO - Successfully generated TTS: easyread-text-6-18_en.mp3
+2025-08-11 23:54:28,064 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 23:54:28,195 - INFO - Successfully generated TTS: easyread-text-6-2_en.mp3
+2025-08-11 23:54:28,195 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 23:54:28,427 - INFO - Successfully generated TTS: easyread-text-6-17_en.mp3
+2025-08-11 23:54:28,427 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 23:54:28,898 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:29,084 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:29,383 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:29,428 - INFO - Successfully generated TTS: easyread-text-6-3_en.mp3
+2025-08-11 23:54:29,428 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 23:54:29,483 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:29,895 - INFO - Successfully generated TTS: easyread-text-6-5_en.mp3
+2025-08-11 23:54:29,895 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 23:54:30,396 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:30,553 - INFO - Successfully generated TTS: easyread-text-6-14_en.mp3
+2025-08-11 23:54:30,553 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 23:54:30,649 - INFO - Successfully generated TTS: easyread-text-6-4_en.mp3
+2025-08-11 23:54:30,649 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 23:54:30,964 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:31,162 - INFO - Successfully generated TTS: easyread-text-6-7_en.mp3
+2025-08-11 23:54:31,162 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 23:54:31,883 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:32,270 - INFO - Successfully generated TTS: easyread-text-8-1_en.mp3
+2025-08-11 23:54:32,271 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 23:54:32,441 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:32,807 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:32,980 - INFO - Successfully generated TTS: easyread-text-6-9_en.mp3
+2025-08-11 23:54:32,980 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 23:54:33,180 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:33,488 - INFO - Successfully generated TTS: easyread-text-8-10_en.mp3
+2025-08-11 23:54:33,488 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 23:54:34,016 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:34,148 - INFO - Successfully generated TTS: easyread-text-8-11_en.mp3
+2025-08-11 23:54:34,148 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 23:54:34,265 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:34,450 - INFO - Successfully generated TTS: easyread-text-6-6_en.mp3
+2025-08-11 23:54:34,450 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 23:54:35,324 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:35,718 - INFO - Successfully generated TTS: easyread-text-8-12_en.mp3
+2025-08-11 23:54:35,718 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 23:54:35,798 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:36,417 - INFO - Successfully generated TTS: easyread-text-8-2_en.mp3
+2025-08-11 23:54:36,418 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 23:54:36,485 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:36,608 - INFO - Successfully generated TTS: easyread-text-8-13_en.mp3
+2025-08-11 23:54:36,608 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 23:54:37,423 - INFO - Successfully generated TTS: easyread-text-8-3_en.mp3
+2025-08-11 23:54:37,424 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 23:54:37,425 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:37,613 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:38,103 - INFO - Successfully generated TTS: easyread-text-8-5_en.mp3
+2025-08-11 23:54:38,103 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 23:54:38,252 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:38,906 - INFO - Successfully generated TTS: easyread-text-6-8_en.mp3
+2025-08-11 23:54:38,906 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 23:54:39,091 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:39,358 - INFO - Successfully generated TTS: easyread-text-8-4_en.mp3
+2025-08-11 23:54:39,358 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 23:54:39,671 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:40,082 - INFO - Successfully generated TTS: easyread-text-8-6_en.mp3
+2025-08-11 23:54:40,082 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 23:54:40,311 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:40,602 - INFO - Successfully generated TTS: easyread-text-8-9_en.mp3
+2025-08-11 23:54:40,602 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 23:54:40,670 - INFO - Successfully generated TTS: easyread-text-8-8_en.mp3
+2025-08-11 23:54:40,671 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 23:54:40,980 - INFO - Successfully generated TTS: easyread-text-8-7_en.mp3
+2025-08-11 23:54:40,980 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 23:54:41,203 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:41,293 - INFO - Successfully generated TTS: easyread-text-8-0_en.mp3
+2025-08-11 23:54:41,293 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 23:54:41,962 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:42,656 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:42,778 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:43,017 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:43,172 - INFO - Successfully generated TTS: easyread-text-9-2_en.mp3
+2025-08-11 23:54:43,172 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 23:54:43,315 - INFO - Successfully generated TTS: easyread-text-9-4_en.mp3
+2025-08-11 23:54:43,316 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:54:44,028 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:44,336 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:44,419 - INFO - Successfully generated TTS: easyread-text-0-1_en.mp3
+2025-08-11 23:54:45,611 - INFO - Successfully generated TTS: easyread-text-9-3_en.mp3
+2025-08-11 23:54:45,734 - INFO - Successfully generated TTS: easyread-text-9-1_en.mp3
+2025-08-11 23:54:46,881 - INFO - Successfully generated TTS: easyread-text-9-0_en.mp3
+2025-08-11 23:54:47,483 - INFO - Successfully generated TTS: easyread-text-9-5_en.mp3
+2025-08-11 23:54:47,484 - INFO - Completed en easyread TTS: 49 successful, 0 failed
+2025-08-11 23:54:47,484 - INFO - Starting TTS regeneration for es, pages 0-10, type: easyread
+2025-08-11 23:54:47,490 - INFO - Loaded 1529 texts for language: es
+2025-08-11 23:54:47,491 - INFO - Filtered to 49 easyread texts for pages 0-10 in language
+2025-08-11 23:54:47,492 - INFO - Generating TTS for: easyread-text-0-0
+2025-08-11 23:54:47,492 - INFO - Generating TTS for: easyread-text-10-0
+2025-08-11 23:54:47,493 - INFO - Generating TTS for: easyread-text-10-1
+2025-08-11 23:54:47,495 - INFO - Generating TTS for: easyread-text-10-2
+2025-08-11 23:54:47,497 - INFO - Generating TTS for: easyread-text-10-3
+2025-08-11 23:54:48,474 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:48,856 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:49,074 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:49,087 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:49,228 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:49,400 - INFO - Successfully generated TTS: easyread-text-10-2_es.mp3
+2025-08-11 23:54:49,401 - INFO - Generating TTS for: easyread-text-10-4
+2025-08-11 23:54:49,903 - INFO - Successfully generated TTS: easyread-text-10-3_es.mp3
+2025-08-11 23:54:49,903 - INFO - Generating TTS for: easyread-text-10-5
+2025-08-11 23:54:50,456 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:50,830 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:51,331 - INFO - Successfully generated TTS: easyread-text-10-4_es.mp3
+2025-08-11 23:54:51,332 - INFO - Generating TTS for: easyread-text-10-6
+2025-08-11 23:54:51,913 - INFO - Successfully generated TTS: easyread-text-10-5_es.mp3
+2025-08-11 23:54:51,913 - INFO - Generating TTS for: easyread-text-2-0
+2025-08-11 23:54:53,183 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:53,219 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:54,483 - INFO - Successfully generated TTS: easyread-text-10-6_es.mp3
+2025-08-11 23:54:54,483 - INFO - Generating TTS for: easyread-text-6-0
+2025-08-11 23:54:55,407 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:55,584 - INFO - Successfully generated TTS: easyread-text-0-0_es.mp3
+2025-08-11 23:54:55,584 - INFO - Generating TTS for: easyread-text-6-1
+2025-08-11 23:54:56,039 - INFO - Successfully generated TTS: easyread-text-6-0_es.mp3
+2025-08-11 23:54:56,039 - INFO - Generating TTS for: easyread-text-6-10
+2025-08-11 23:54:56,308 - INFO - Successfully generated TTS: easyread-text-10-1_es.mp3
+2025-08-11 23:54:56,308 - INFO - Generating TTS for: easyread-text-6-11
+2025-08-11 23:54:56,520 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:57,446 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:57,785 - INFO - Successfully generated TTS: easyread-text-6-1_es.mp3
+2025-08-11 23:54:57,785 - INFO - Generating TTS for: easyread-text-6-12
+2025-08-11 23:54:57,858 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:58,416 - INFO - Successfully generated TTS: easyread-text-10-0_es.mp3
+2025-08-11 23:54:58,416 - INFO - Generating TTS for: easyread-text-6-13
+2025-08-11 23:54:58,520 - INFO - Successfully generated TTS: easyread-text-6-11_es.mp3
+2025-08-11 23:54:58,520 - INFO - Generating TTS for: easyread-text-6-14
+2025-08-11 23:54:59,202 - INFO - Successfully generated TTS: easyread-text-2-0_es.mp3
+2025-08-11 23:54:59,202 - INFO - Generating TTS for: easyread-text-6-15
+2025-08-11 23:54:59,784 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:54:59,916 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:00,357 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:00,986 - INFO - Successfully generated TTS: easyread-text-6-15_es.mp3
+2025-08-11 23:55:00,986 - INFO - Generating TTS for: easyread-text-6-16
+2025-08-11 23:55:01,148 - INFO - Successfully generated TTS: easyread-text-6-13_es.mp3
+2025-08-11 23:55:01,148 - INFO - Generating TTS for: easyread-text-6-17
+2025-08-11 23:55:01,211 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:02,044 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:02,121 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:03,022 - INFO - Successfully generated TTS: easyread-text-6-17_es.mp3
+2025-08-11 23:55:03,023 - INFO - Generating TTS for: easyread-text-6-18
+2025-08-11 23:55:03,957 - INFO - Successfully generated TTS: easyread-text-6-10_es.mp3
+2025-08-11 23:55:03,957 - INFO - Generating TTS for: easyread-text-6-2
+2025-08-11 23:55:03,973 - INFO - Successfully generated TTS: easyread-text-6-16_es.mp3
+2025-08-11 23:55:03,973 - INFO - Generating TTS for: easyread-text-6-3
+2025-08-11 23:55:04,392 - INFO - Successfully generated TTS: easyread-text-6-12_es.mp3
+2025-08-11 23:55:04,392 - INFO - Generating TTS for: easyread-text-6-4
+2025-08-11 23:55:04,965 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:05,584 - INFO - Successfully generated TTS: easyread-text-6-3_es.mp3
+2025-08-11 23:55:05,584 - INFO - Generating TTS for: easyread-text-6-5
+2025-08-11 23:55:05,587 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:05,624 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:05,723 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:07,134 - INFO - Successfully generated TTS: easyread-text-6-18_es.mp3
+2025-08-11 23:55:07,134 - INFO - Generating TTS for: easyread-text-6-6
+2025-08-11 23:55:07,366 - INFO - Successfully generated TTS: easyread-text-6-2_es.mp3
+2025-08-11 23:55:07,366 - INFO - Generating TTS for: easyread-text-6-7
+2025-08-11 23:55:07,667 - INFO - Successfully generated TTS: easyread-text-6-14_es.mp3
+2025-08-11 23:55:07,667 - INFO - Generating TTS for: easyread-text-6-8
+2025-08-11 23:55:08,023 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:08,489 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:08,667 - INFO - Successfully generated TTS: easyread-text-6-4_es.mp3
+2025-08-11 23:55:08,667 - INFO - Generating TTS for: easyread-text-6-9
+2025-08-11 23:55:08,682 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:08,751 - INFO - Successfully generated TTS: easyread-text-6-5_es.mp3
+2025-08-11 23:55:08,752 - INFO - Generating TTS for: easyread-text-8-0
+2025-08-11 23:55:09,205 - INFO - Successfully generated TTS: easyread-text-6-7_es.mp3
+2025-08-11 23:55:09,206 - INFO - Generating TTS for: easyread-text-8-1
+2025-08-11 23:55:09,313 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:10,049 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:10,968 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:10,986 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:12,158 - INFO - Successfully generated TTS: easyread-text-8-1_es.mp3
+2025-08-11 23:55:12,158 - INFO - Generating TTS for: easyread-text-8-10
+2025-08-11 23:55:12,333 - INFO - Successfully generated TTS: easyread-text-6-9_es.mp3
+2025-08-11 23:55:12,334 - INFO - Generating TTS for: easyread-text-8-11
+2025-08-11 23:55:13,380 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:14,569 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:15,026 - INFO - Successfully generated TTS: easyread-text-8-11_es.mp3
+2025-08-11 23:55:15,026 - INFO - Generating TTS for: easyread-text-8-12
+2025-08-11 23:55:15,526 - INFO - Successfully generated TTS: easyread-text-6-8_es.mp3
+2025-08-11 23:55:15,526 - INFO - Generating TTS for: easyread-text-8-13
+2025-08-11 23:55:15,912 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:16,335 - INFO - Successfully generated TTS: easyread-text-8-12_es.mp3
+2025-08-11 23:55:16,335 - INFO - Generating TTS for: easyread-text-8-2
+2025-08-11 23:55:17,259 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:17,348 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:18,125 - INFO - Successfully generated TTS: easyread-text-8-10_es.mp3
+2025-08-11 23:55:18,126 - INFO - Generating TTS for: easyread-text-8-3
+2025-08-11 23:55:18,542 - INFO - Successfully generated TTS: easyread-text-6-6_es.mp3
+2025-08-11 23:55:18,542 - INFO - Generating TTS for: easyread-text-8-4
+2025-08-11 23:55:18,684 - INFO - Successfully generated TTS: easyread-text-8-2_es.mp3
+2025-08-11 23:55:18,684 - INFO - Generating TTS for: easyread-text-8-5
+2025-08-11 23:55:19,509 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:19,617 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:19,647 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:20,102 - INFO - Successfully generated TTS: easyread-text-8-3_es.mp3
+2025-08-11 23:55:20,102 - INFO - Generating TTS for: easyread-text-8-6
+2025-08-11 23:55:20,397 - INFO - Successfully generated TTS: easyread-text-8-13_es.mp3
+2025-08-11 23:55:20,397 - INFO - Generating TTS for: easyread-text-8-7
+2025-08-11 23:55:20,706 - INFO - Successfully generated TTS: easyread-text-8-5_es.mp3
+2025-08-11 23:55:20,706 - INFO - Generating TTS for: easyread-text-8-8
+2025-08-11 23:55:20,737 - INFO - Successfully generated TTS: easyread-text-8-4_es.mp3
+2025-08-11 23:55:20,737 - INFO - Generating TTS for: easyread-text-8-9
+2025-08-11 23:55:21,163 - INFO - Successfully generated TTS: easyread-text-8-0_es.mp3
+2025-08-11 23:55:21,163 - INFO - Generating TTS for: easyread-text-9-0
+2025-08-11 23:55:21,569 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:21,615 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:21,718 - INFO - Successfully generated TTS: easyread-text-8-9_es.mp3
+2025-08-11 23:55:21,719 - INFO - Generating TTS for: easyread-text-9-1
+2025-08-11 23:55:21,875 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:21,989 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:22,431 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:22,967 - INFO - Successfully generated TTS: easyread-text-8-7_es.mp3
+2025-08-11 23:55:22,967 - INFO - Generating TTS for: easyread-text-9-2
+2025-08-11 23:55:23,158 - INFO - Successfully generated TTS: easyread-text-8-6_es.mp3
+2025-08-11 23:55:23,158 - INFO - Generating TTS for: easyread-text-9-3
+2025-08-11 23:55:23,235 - INFO - Successfully generated TTS: easyread-text-8-8_es.mp3
+2025-08-11 23:55:23,235 - INFO - Generating TTS for: easyread-text-9-4
+2025-08-11 23:55:23,499 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:23,946 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:24,440 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:24,907 - INFO - Successfully generated TTS: easyread-text-9-2_es.mp3
+2025-08-11 23:55:24,907 - INFO - Generating TTS for: easyread-text-9-5
+2025-08-11 23:55:24,966 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:25,821 - INFO - Successfully generated TTS: easyread-text-9-4_es.mp3
+2025-08-11 23:55:25,821 - INFO - Generating TTS for: easyread-text-0-1
+2025-08-11 23:55:26,584 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:27,139 - INFO - HTTP Request: POST https://api.openai.com/v1/audio/speech "HTTP/1.1 200 OK"
+2025-08-11 23:55:27,669 - INFO - Successfully generated TTS: easyread-text-9-1_es.mp3
+2025-08-11 23:55:27,959 - INFO - Successfully generated TTS: easyread-text-9-0_es.mp3
+2025-08-11 23:55:28,722 - INFO - Successfully generated TTS: easyread-text-9-5_es.mp3
+2025-08-11 23:55:29,029 - INFO - Successfully generated TTS: easyread-text-9-3_es.mp3
+2025-08-11 23:55:30,368 - INFO - Successfully generated TTS: easyread-text-0-1_es.mp3
+2025-08-11 23:55:30,368 - INFO - Completed es easyread TTS: 49 successful, 0 failed
+2025-08-11 23:55:30,368 - INFO - TTS regeneration completed in 0:01:19.662474

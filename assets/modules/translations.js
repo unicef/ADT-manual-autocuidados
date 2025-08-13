@@ -109,6 +109,7 @@ export const fetchTranslations = async () => {
  * @returns {Promise<void>}
  */
 export const applyTranslations = async () => {
+    console.log(`=== APPLY TRANSLATIONS START - easyReadMode: ${state.easyReadMode} ===`);
     unhighlightAllElements();
 
     const translations = state.translations;
@@ -120,25 +121,63 @@ export const applyTranslations = async () => {
         let translationKey = key;
 
         if (state.easyReadMode) {
+            // Only debug problematic TOC items that aren't getting easy-read translations
+            const problemKeys = ['text-6-0', 'text-6-2', 'text-6-6', 'text-6-8'];
+            
             const elements = document.querySelectorAll(`[data-id="${key}"]`);
             const isHeader = Array.from(elements).some(element => 
-                element.tagName.toLowerCase().match(/^h[1-6]$/)
+                element.tagName.toLowerCase().match(/^h[1-6]$/) ||
+                element.closest('h1, h2, h3, h4, h5, h6') !== null
             );
             
             // Check if element is inside a word card, data-activity-item, nav list, or activity-text
+            // But make exceptions for table of contents sections
             const isExcluded = Array.from(elements).some(element => {
+                // Check if we're in a table of contents section
+                const isInTableOfContents = element.closest('[data-section-type="table_of_contents"]');
+                
+                if (problemKeys.includes(key)) {
+                    console.log(`🔍 DEBUGGING ${key}: isInTableOfContents=${!!isInTableOfContents}`);
+                }
+                
+                // If we're in a table of contents, don't exclude any elements
+                if (isInTableOfContents) {
+                    return false;
+                }
+                
                 const wordCard = element.closest('.word-card');
                 const activityItem = element.closest('[data-activity-item]');
-                const navList = element.closest('.nav__list');
+                // Only exclude if it's specifically a navigation menu, not a general list
+                const navList = element.closest('.nav__list, nav ul, .navigation');
                 const activityText = element.closest('.activity-text');
+                
+                if (problemKeys.includes(key)) {
+                    console.log(`🔍 DEBUGGING ${key}: wordCard=${!!wordCard}, activityItem=${!!activityItem}, navList=${!!navList}, activityText=${!!activityText}`);
+                }
+                
                 return wordCard !== null || activityItem !== null || navList !== null || activityText !== null;
             });
+            
+            if (problemKeys.includes(key)) {
+                console.log(`🔍 DEBUGGING ${key}: isHeader=${isHeader}, isExcluded=${isExcluded}`);
+            }
             
             // Skip applying easy-read translation if it's a header or inside excluded areas
             if (!isHeader && !isExcluded) {
                 const easyReadKey = `easyread-${key}`;
                 if (translations.hasOwnProperty(easyReadKey)) {
-                translationKey = easyReadKey;
+                    if (problemKeys.includes(key)) {
+                        console.log(`✅ ${key}: Using easy-read translation: ${easyReadKey}`);
+                    }
+                    translationKey = easyReadKey;
+                } else {
+                    if (problemKeys.includes(key)) {
+                        console.log(`❌ ${key}: No easy-read translation found for: ${easyReadKey}`);
+                    }
+                }
+            } else {
+                if (problemKeys.includes(key)) {
+                    console.log(`❌ ${key}: Skipped easy-read - isHeader=${isHeader}, isExcluded=${isExcluded}`);
                 }
             }
         }
@@ -201,17 +240,48 @@ const applyTranslationToElements = (key, translationKey) => {
                 // Check if this is easy-read content
                 const isEasyRead = translationKey.startsWith('easyread-');
                 
-                // Check if the element is a header
-                const isHeader = element.tagName.toLowerCase().match(/^h[1-6]$/);
+                // Check if the element is a header or inside a header
+                const isHeader = element.tagName.toLowerCase().match(/^h[1-6]$/) ||
+                                element.closest('h1, h2, h3, h4, h5, h6') !== null;
                 
                 // Only modify text size classes for non-header elements
                 if (!isHeader) {
-                    // Remove text size class only for non-headers
-                    element.classList.remove('text-2xl');
+                    // Only debug the problematic TOC items
+                    const problemKeys = ['text-6-0', 'text-6-2', 'text-6-6', 'text-6-8'];
                     
-                    // Add text-2xl class for non-header elements in easy-read mode
+                    if (problemKeys.includes(key)) {
+                        console.log(`🎯 CSS Processing ${key}: isEasyRead=${isEasyRead}, element:`, element);
+                        console.log(`🎯 Before - Element classes: ${element.className}`);
+                        console.log(`🎯 Before - Parent classes: ${element.parentElement?.className}`);
+                    }
+                    
+                    // Simple approach: always remove and re-add text size classes
+                    element.classList.remove('text-xs', 'text-sm', 'text-base', 'text-lg', 'text-xl', 'text-2xl', 'text-3xl', 'text-4xl', 'text-5xl');
+                    
+                    // Handle parent elements that might have text size classes
+                    const parent = element.parentElement;
+                    if (parent) {
+                        // Remove all possible text size classes from parent
+                        parent.classList.remove('text-xs', 'text-sm', 'text-base', 'text-lg', 'text-xl', 'text-2xl', 'text-3xl', 'text-4xl', 'text-5xl');
+                        
+                        // Add appropriate size to parent
+                        if (isEasyRead) {
+                            parent.classList.add('text-2xl');
+                        } else {
+                            parent.classList.add('text-xl'); // Default parent size for table of contents
+                        }
+                    }
+                    
+                    // Add appropriate text size class to the element itself
                     if (isEasyRead) {
                         element.classList.add('text-2xl');
+                    } else {
+                        element.classList.add('text-lg'); // Default element size
+                    }
+                    
+                    if (problemKeys.includes(key)) {
+                        console.log(`🎯 After - Element classes: ${element.className}`);
+                        console.log(`🎯 After - Parent classes: ${element.parentElement?.className}`);
                     }
                 }
                 

@@ -462,7 +462,9 @@ export const switchLanguage = async () => {
  * @async
  */
 export const toggleEasyReadMode = async ({ stopCalls = false } = {}) => {
+  console.log(`=== TOGGLE EASY READ MODE START - Current state: ${state.easyReadMode} ===`);
   setState("easyReadMode", !state.easyReadMode);
+  console.log(`=== TOGGLE EASY READ MODE - New state: ${state.easyReadMode} ===`);
   setCookie("easyReadMode", state.easyReadMode, 7);
   toggleButtonState("toggle-easy-read", state.easyReadMode);
 
@@ -481,7 +483,9 @@ export const toggleEasyReadMode = async ({ stopCalls = false } = {}) => {
     "currentLanguage",
     document.getElementById("language-dropdown").value
   );*/
+  console.log(`=== ABOUT TO CALL fetchTranslations - easyReadMode: ${state.easyReadMode} ===`);
   await fetchTranslations();
+  console.log(`=== TOGGLE EASY READ MODE COMPLETE - Final state: ${state.easyReadMode} ===`);
 };
 
 /**
@@ -1095,6 +1099,17 @@ export const loadEasyReadMode = async () => {
     toggleButtonState("toggle-easy-read", state.easyReadMode);
 
     stopAudio();
+    
+    // Apply easy-read translations if the mode is enabled
+    if (state.easyReadMode) {
+      console.log("Easy-read mode is enabled, fetching translations...");
+      try {
+        await fetchTranslations();
+        console.log("Easy-read translations applied successfully");
+      } catch (error) {
+        console.error("Failed to fetch easy-read translations:", error);
+      }
+    }
     /*setState(
       "currentLanguage",
       document.getElementById("language-dropdown").value

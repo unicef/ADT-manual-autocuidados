@@ -1,0 +1,51 @@
+2025-08-12 15:56:15,182 - WARNING - Glossary file not found at content/i18n/en/glossary.json
+2025-08-12 15:56:15,182 - INFO - Using fallback glossary terms
+2025-08-12 15:56:15,182 - INFO - Starting Easy-Read generation process for language: en
+2025-08-12 15:56:15,182 - INFO - Source file: content/i18n/en/texts.json
+2025-08-12 15:56:15,182 - INFO - Target file: content/i18n/en/texts.json
+2025-08-12 15:56:15,185 - INFO - Loaded source translations from content/i18n/en/texts.json
+2025-08-12 15:56:15,188 - INFO - Loaded existing target translations from content/i18n/en/texts.json
+2025-08-12 15:56:15,189 - INFO - Processing range: text-10-4 to text-10-6
+2025-08-12 15:56:15,189 - INFO - Processing text-10-4 (regenerating if exists)
+2025-08-12 15:56:15,189 - INFO - Strategy for text-10-4: transform - Complex text
+2025-08-12 15:56:15,212 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:56:16,733 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:56:17,085 - INFO - Original text: It is an individual responsibility and a daily commitment grounded in both a formal and informal health system with social support.
+2025-08-12 15:56:17,085 - INFO - Simplified text: - You are responsible for your health every day 🌱
+- Use both formal and informal health systems 🏥
+- Get support from friends and family ❤️
+2025-08-12 15:56:17,086 - INFO - Original readability: Grade 15.1, Ease 24.4
+2025-08-12 15:56:17,086 - INFO - Simplified readability: Grade 11.1, Ease 52.6
+2025-08-12 15:56:17,086 - INFO - Readability improvement: 3.9 grade levels
+2025-08-12 15:56:17,086 - INFO - Successfully processed text-10-4 with transform strategy
+2025-08-12 15:56:17,086 - INFO - Processing text-10-5 (regenerating if exists)
+2025-08-12 15:56:17,086 - INFO - Strategy for text-10-5: transform - Complex text
+2025-08-12 15:56:17,096 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:56:18,864 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:56:18,865 - INFO - Original text: When engaging in self-care practices, whether for protective or preventive purposes, individuals undertake them with the certainty that they will enhance their level of health.
+2025-08-12 15:56:18,866 - INFO - Simplified text: "💪 Self-care helps you stay healthy:
+- Do it to protect yourself 🛡️
+- Do it to prevent problems 🌱
+- Feel better and stronger ❤️"
+2025-08-12 15:56:18,866 - INFO - Original readability: Grade 16.3, Ease 22.4
+2025-08-12 15:56:18,866 - INFO - Simplified readability: Grade 8.6, Ease 67.3
+2025-08-12 15:56:18,866 - INFO - Readability improvement: 7.8 grade levels
+2025-08-12 15:56:18,866 - INFO - Successfully processed text-10-5 with transform strategy
+2025-08-12 15:56:18,866 - INFO - Processing text-10-6 (regenerating if exists)
+2025-08-12 15:56:18,866 - INFO - Strategy for text-10-6: transform - Complex text
+2025-08-12 15:56:18,892 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:56:20,528 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:56:20,538 - INFO - Original text: For self-care to occur, a certain degree of personal development is required, which is mediated by the continuous strengthening of self-concept, self-control, self-esteem, self-acceptance, and resilience.
+2025-08-12 15:56:20,539 - INFO - Simplified text: "💪 Self-care needs personal growth 🌱:
+- Build a strong self-image 🧠
+- Control your actions 💪
+- Love and accept yourself ❤️
+- Be strong and bounce back 🛡️"
+2025-08-12 15:56:20,539 - INFO - Original readability: Grade 20.4, Ease -5.0
+2025-08-12 15:56:20,539 - INFO - Simplified readability: Grade 9.3, Ease 63.9
+2025-08-12 15:56:20,539 - INFO - Readability improvement: 11.1 grade levels
+2025-08-12 15:56:20,539 - INFO - Successfully processed text-10-6 with transform strategy
+2025-08-12 15:56:20,550 - INFO - Processed 3 entries. Success: 3, Issues: 0, Skipped: 550
+2025-08-12 15:56:20,551 - INFO - Results saved to content/i18n/en/texts.json
+2025-08-12 15:56:20,551 - INFO - Log file saved to easy_read_log_en_20250812_155615.log
+2025-08-12 15:56:20,551 - INFO - Easy-Read generation process complete

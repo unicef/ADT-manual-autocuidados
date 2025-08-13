@@ -1,0 +1,133 @@
+2025-08-12 15:27:46,035 - WARNING - Glossary file not found at content/i18n/en/glossary.json
+2025-08-12 15:27:46,036 - INFO - Using fallback glossary terms
+2025-08-12 15:27:46,036 - INFO - Starting Easy-Read generation process for language: en
+2025-08-12 15:27:46,036 - INFO - Source file: content/i18n/en/texts.json
+2025-08-12 15:27:46,036 - INFO - Target file: content/i18n/en/texts.json
+2025-08-12 15:27:46,039 - INFO - Loaded source translations from content/i18n/en/texts.json
+2025-08-12 15:27:46,043 - INFO - Loaded existing target translations from content/i18n/en/texts.json
+2025-08-12 15:27:46,043 - INFO - Processing range: text-0-0 to text-10-0
+2025-08-12 15:27:46,043 - INFO - Skipping text-0-0: Short title/heading - 'Self-Care Manual'
+2025-08-12 15:27:46,043 - INFO - Skipping text-0-1: Too short to simplify - 'Fundasil in support of the Spotlight Initiative'
+2025-08-12 15:27:46,043 - INFO - Skipping text-10-0: Short title/heading - 'Self-Care Manual'
+2025-08-12 15:27:46,043 - INFO - Easy-read version already exists for text-2-0, skipping
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-0: Single word - 'Contents'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-1: Too short - '9'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-10: Short title/heading - 'Cognitive self-care'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-11: Too short - '39'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-12: Short title/heading - 'Social self-care'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-13: Too short - '46'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-14: Short title/heading - 'Spiritual self-care'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-15: Too short - '48'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-16: Short title/heading - 'Practical exercises'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-17: Too short - '55'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-18: Single word - 'Bibliography'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-2: Single word - 'Introduction'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-3: Too short - '10'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-4: Too short to simplify - 'What is self-care?'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-5: Too short - '19'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-6: Short title/heading - 'Physical self-care'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-7: Too short - '26'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-8: Short title/heading - 'Emotional self-care'
+2025-08-12 15:27:46,044 - INFO - Skipping text-6-9: Too short - '32'
+2025-08-12 15:27:46,044 - INFO - Skipping text-8-0: Short title/heading - 'Self-care manual'
+2025-08-12 15:27:46,044 - INFO - Skipping text-8-1: Single word - 'INTRODUCTION'
+2025-08-12 15:27:46,044 - INFO - Skipping text-8-10: Too short to simplify - 'improving mental health'
+2025-08-12 15:27:46,044 - INFO - Skipping text-8-11: Too short to simplify - 'managing emotions better,'
+2025-08-12 15:27:46,044 - INFO - Skipping text-8-12: Already simple - 'avoiding burnout syndrome (synonymous with profess...'
+2025-08-12 15:27:46,044 - INFO - Processing text-8-13
+2025-08-12 15:27:46,074 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:47,675 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:48,057 - INFO - Original text: This manual will address the different types of self-care and how they can be practiced comprehensively to ensure the physical and mental health of individuals working directly with populations affected by gender-based violence and/or experiencing vulnerability.
+2025-08-12 15:27:48,057 - INFO - Simplified text: "💪 This guide covers self-care types for better health:  
+• Learn ways to practice self-care  
+• Stay healthy in body and mind  
+• Help those facing gender violence or vulnerability"
+2025-08-12 15:27:48,057 - INFO - Original readability: Grade 23.7, Ease -10.7
+2025-08-12 15:27:48,057 - INFO - Simplified readability: Grade 13.6, Ease 43.8
+2025-08-12 15:27:48,057 - INFO - Readability improvement: 10.1 grade levels
+2025-08-12 15:27:48,057 - INFO - Successfully processed text-8-13 - All glossary terms preserved
+2025-08-12 15:27:48,057 - INFO - Easy-read version already exists for text-8-2, skipping
+2025-08-12 15:27:48,057 - INFO - Easy-read version already exists for text-8-3, skipping
+2025-08-12 15:27:48,057 - INFO - Easy-read version already exists for text-8-4, skipping
+2025-08-12 15:27:48,057 - INFO - Easy-read version already exists for text-8-5, skipping
+2025-08-12 15:27:48,057 - INFO - Processing text-8-6
+2025-08-12 15:27:48,067 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:50,029 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:50,037 - INFO - Original text: From this more complete and comprehensive perspective, a challenge arises: understanding that the various areas of health care are not confined to a specific institution, group, or individual. Integral health requires a shared responsibility among all parties.
+2025-08-12 15:27:50,037 - INFO - Simplified text: 🌱 Health care is for everyone:  
+• It is not just for one place or person  
+• Everyone must work together  
+• We all share responsibility ❤️
+2025-08-12 15:27:50,037 - INFO - Original readability: Grade 15.2, Ease 18.9
+2025-08-12 15:27:50,037 - INFO - Simplified readability: Grade 11.2, Ease 53.8
+2025-08-12 15:27:50,037 - INFO - Readability improvement: 4.0 grade levels
+2025-08-12 15:27:50,037 - WARNING - Missing glossary terms in simplified text: specific
+2025-08-12 15:27:50,038 - WARNING - Issue with text-8-6 - Missing terms: specific
+2025-08-12 15:27:50,038 - INFO - Processing text-8-7
+2025-08-12 15:27:50,053 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:51,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:51,867 - INFO - Original text: The concept of self-care encompasses all those daily practices and decisions undertaken by an individual, group, or family to maintain their health and achieve a better quality of life (Correa, 2016).
+2025-08-12 15:27:51,867 - INFO - Simplified text: "💪 Self-care means taking care of yourself every day:  
+• Do things to stay healthy  
+• Aim for a better life"
+2025-08-12 15:27:51,867 - INFO - Original readability: Grade 18.2, Ease 19.8
+2025-08-12 15:27:51,867 - INFO - Simplified readability: Grade 7.8, Ease 71.1
+2025-08-12 15:27:51,867 - INFO - Readability improvement: 10.4 grade levels
+2025-08-12 15:27:51,867 - INFO - Successfully processed text-8-7 - All glossary terms preserved
+2025-08-12 15:27:51,867 - INFO - Processing text-8-8
+2025-08-12 15:27:51,882 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:53,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:53,509 - INFO - Original text: To do this, create a mound with materials found on site. Therefore, establishing moments of self-care is essential, as it influences overall health and provides multiple benefits such as:
+2025-08-12 15:27:53,509 - INFO - Simplified text: 🏠 Build a mound with things you find nearby.
+
+😊 Self-care is very important. It helps you feel better and stay healthy.
+2025-08-12 15:27:53,510 - INFO - Original readability: Grade 10.8, Ease 43.3
+2025-08-12 15:27:53,510 - INFO - Simplified readability: Grade 2.9, Ease 85.9
+2025-08-12 15:27:53,510 - INFO - Readability improvement: 7.9 grade levels
+2025-08-12 15:27:53,510 - INFO - Successfully processed text-8-8 - All glossary terms preserved
+2025-08-12 15:27:53,510 - INFO - Skipping text-8-9: Too short to simplify - 'reducing stress,'
+2025-08-12 15:27:53,510 - INFO - Skipping text-9-0: Short title/heading - 'Self-Care Manual'
+2025-08-12 15:27:53,510 - INFO - Skipping text-9-1: Too short to simplify - 'What is Self-Care?'
+2025-08-12 15:27:53,510 - INFO - Processing text-9-2
+2025-08-12 15:27:53,532 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:54,647 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:54,652 - INFO - Original text: It is an approach to health in which the individual is responsible for undertaking individual and/or collective actions that can strengthen or restore overall well-being, as well as prevent illnesses.
+2025-08-12 15:27:54,653 - INFO - Simplified text: 🌱 Take charge of your health:  
+• Do things alone or with others  
+• Stay healthy and strong  
+• Prevent getting sick 🛡️
+2025-08-12 15:27:54,653 - INFO - Original readability: Grade 18.9, Ease 12.8
+2025-08-12 15:27:54,653 - INFO - Simplified readability: Grade 6.5, Ease 80.5
+2025-08-12 15:27:54,653 - INFO - Readability improvement: 12.4 grade levels
+2025-08-12 15:27:54,653 - INFO - Successfully processed text-9-2 - All glossary terms preserved
+2025-08-12 15:27:54,653 - INFO - Processing text-9-3
+2025-08-12 15:27:54,665 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:56,371 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:56,372 - INFO - Original text: In this regard, self-care requires the development of practices that, according to learned interests and skills, as well as the customary habits of the culture, promote survival and encourage taking responsibility for addressing what affects one's health.
+2025-08-12 15:27:56,372 - INFO - Simplified text: 🌱 Self-care means doing things to stay healthy:  
+• Use your skills and interests  
+• Follow helpful habits  
+• Take charge of your health 🧠
+2025-08-12 15:27:56,372 - INFO - Original readability: Grade 20.5, Ease 13.8
+2025-08-12 15:27:56,372 - INFO - Simplified readability: Grade 8.1, Ease 72.3
+2025-08-12 15:27:56,372 - INFO - Readability improvement: 12.4 grade levels
+2025-08-12 15:27:56,372 - INFO - Successfully processed text-9-3 - All glossary terms preserved
+2025-08-12 15:27:56,372 - INFO - Skipping text-9-4: Already simple - 'The personal practices involved in self-care, alth...'
+2025-08-12 15:27:56,372 - INFO - Processing text-9-5
+2025-08-12 15:27:56,385 - INFO - Transforming text using OpenAI API...
+2025-08-12 15:27:58,216 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 15:27:58,221 - INFO - Original text: Therefore, indeed, maintaining a proper diet and engaging in healthy physical activities are part of the possible self-care practices, but it is also important to have good social relationships, learn to recognize and value one's own emotions, rest when necessary, among other personal care activities.
+2025-08-12 15:27:58,222 - INFO - Simplified text: "💪 Stay healthy with self-care:  
+• Eat well and exercise  
+• ❤️ Build good friendships  
+• 🧠 Understand your feelings  
+• Rest when you need it"
+2025-08-12 15:27:58,222 - INFO - Original readability: Grade 24.5, Ease -0.5
+2025-08-12 15:27:58,222 - INFO - Simplified readability: Grade 8.6, Ease 67.3
+2025-08-12 15:27:58,222 - INFO - Readability improvement: 15.9 grade levels
+2025-08-12 15:27:58,222 - WARNING - Missing glossary terms in simplified text: emotions
+2025-08-12 15:27:58,222 - WARNING - Issue with text-9-5 - Missing terms: emotions
+2025-08-12 15:27:58,231 - INFO - Processed 7 entries. Success: 5, Issues: 2, Skipped: 546
+2025-08-12 15:27:58,231 - INFO - Results saved to content/i18n/en/texts.json
+2025-08-12 15:27:58,231 - INFO - Log file saved to easy_read_log_en_20250812_152746.log
+2025-08-12 15:27:58,231 - INFO - Easy-Read generation process complete
