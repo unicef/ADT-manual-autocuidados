@@ -246,15 +246,7 @@ const applyTranslationToElements = (key, translationKey) => {
                 
                 // Only modify text size classes for non-header elements
                 if (!isHeader) {
-                    // Only debug the problematic TOC items
-                    const problemKeys = ['text-6-0', 'text-6-2', 'text-6-6', 'text-6-8'];
-                    
-                    if (problemKeys.includes(key)) {
-                        console.log(`🎯 CSS Processing ${key}: isEasyRead=${isEasyRead}, element:`, element);
-                        console.log(`🎯 Before - Element classes: ${element.className}`);
-                        console.log(`🎯 Before - Parent classes: ${element.parentElement?.className}`);
-                    }
-                    
+                   
                     // Simple approach: always remove and re-add text size classes
                     element.classList.remove('text-xs', 'text-sm', 'text-base', 'text-lg', 'text-xl', 'text-2xl', 'text-3xl', 'text-4xl', 'text-5xl');
                     
@@ -277,11 +269,6 @@ const applyTranslationToElements = (key, translationKey) => {
                         element.classList.add('text-2xl');
                     } else {
                         element.classList.add('text-lg'); // Default element size
-                    }
-                    
-                    if (problemKeys.includes(key)) {
-                        console.log(`🎯 After - Element classes: ${element.className}`);
-                        console.log(`🎯 After - Parent classes: ${element.parentElement?.className}`);
                     }
                 }
                 

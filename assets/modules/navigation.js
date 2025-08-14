@@ -148,10 +148,13 @@ export const toggleNav = (newState = null) => {
     return;
   }
 
+  // Filter out non-boolean values (like PointerEvent objects)
+  const validState = typeof newState === 'boolean' ? newState : null;
+
   // Determine current state
   let isNavOpen;
-  if (newState !== null) {
-    isNavOpen = !newState;
+  if (validState !== null) {
+    isNavOpen = !validState;
   } else {
     isNavOpen = getCookie("navState") === "open";
   }
