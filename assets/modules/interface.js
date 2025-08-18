@@ -272,7 +272,7 @@ export const toggleSidebar = () => {
 export const adjustLayout = () => {
   const submitButtonContainer = document.querySelector(".fixed.bottom-0 .container .absolute");
   const navButtons = document.getElementById("back-forward-buttons");
-  const mainContent = document.querySelector("body > .container");
+  const mainContent = document.querySelector("body > .flex");
   const submitButton = document.getElementById("submit-button");
 
   // Determine if any panel is active (sidebar or sign language)
@@ -284,11 +284,19 @@ export const adjustLayout = () => {
   // Set classes directly based on current state rather than toggling
   if (mainContent) {
     // Remove all relevant classes first
-    mainContent.classList.remove("lg:ml-0", "lg:w-[calc(100vw-450px)]", "mx-auto");
+    mainContent.classList.remove(
+      "lg:ml-[0px]",
+      "lg:mr-[0px]",
+      "lg:ml-[320px]",
+      "lg:mr-[425px]",
+      "lg:w-[calc(100vw-425px)]",
+      "lg:w-[calc(100vw-320px)]",
+      "mx-auto"
+    );
 
     // Apply appropriate classes based on current state
     if (isPanelActive) {
-      mainContent.classList.add("lg:ml-0", "lg:w-[calc(100vw-450px)]");
+      mainContent.classList.add("lg:mr-[425px]", "lg:w-[calc(100vw-425px)]");
     } else {
       mainContent.classList.add("mx-auto");
     }

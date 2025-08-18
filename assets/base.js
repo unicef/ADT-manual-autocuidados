@@ -540,7 +540,6 @@ async function initializeUIComponents() {
       .then(module => module.init());
     initializeSidebar();
     initializeTabs();
-    adjustLayout();
     
     // Initialize features based on config
     if (window.appConfig?.features) {
