@@ -272,7 +272,7 @@ export const toggleSidebar = () => {
 export const adjustLayout = () => {
   const submitButtonContainer = document.querySelector(".fixed.bottom-0 .container .absolute");
   const navButtons = document.getElementById("back-forward-buttons");
-  const mainContent = document.querySelector("body > .flex");
+  const mainContent = document.querySelector("body > .flex") || document.querySelector("body > .container");
   const submitButton = document.getElementById("submit-button");
 
   // Determine if any panel is active (sidebar or sign language)
