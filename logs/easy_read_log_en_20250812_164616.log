@@ -1,0 +1,22 @@
+2025-08-12 16:46:16,190 - WARNING - Glossary file not found at content/i18n/en/glossary.json
+2025-08-12 16:46:16,190 - INFO - Using fallback glossary terms
+2025-08-12 16:46:16,190 - INFO - Starting Easy-Read generation process for language: en
+2025-08-12 16:46:16,190 - INFO - Source file: content/i18n/en/texts.json
+2025-08-12 16:46:16,190 - INFO - Target file: content/i18n/en/texts.json
+2025-08-12 16:46:16,193 - INFO - Loaded source translations from content/i18n/en/texts.json
+2025-08-12 16:46:16,197 - INFO - Loaded existing target translations from content/i18n/en/texts.json
+2025-08-12 16:46:16,197 - INFO - Processing range: text-10-5 to text-10-5
+2025-08-12 16:46:16,197 - INFO - Processing text-10-5 (regenerating if exists)
+2025-08-12 16:46:16,197 - INFO - Strategy for text-10-5: transform - Complex text
+2025-08-12 16:46:16,233 - INFO - Transforming text using OpenAI API...
+2025-08-12 16:46:22,004 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 16:46:22,392 - INFO - Original text: When engaging in self-care practices, whether for protective or preventive purposes, individuals undertake them with the certainty that they will enhance their level of health.
+2025-08-12 16:46:22,392 - INFO - Simplified text: People do self-care to stay healthy or prevent problems. They believe it makes them healthier. 💪
+2025-08-12 16:46:22,392 - INFO - Original readability: Grade 16.3, Ease 22.4
+2025-08-12 16:46:22,393 - INFO - Simplified readability: Grade 5.4, Ease 69.5
+2025-08-12 16:46:22,393 - INFO - Readability improvement: 10.9 grade levels
+2025-08-12 16:46:22,393 - INFO - Successfully processed text-10-5 with transform strategy
+2025-08-12 16:46:22,397 - INFO - Processed 1 entries. Success: 1, Issues: 0, Skipped: 552
+2025-08-12 16:46:22,397 - INFO - Results saved to content/i18n/en/texts.json
+2025-08-12 16:46:22,397 - INFO - Log file saved to easy_read_log_en_20250812_164616.log
+2025-08-12 16:46:22,397 - INFO - Easy-Read generation process complete

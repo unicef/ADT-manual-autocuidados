@@ -272,7 +272,7 @@ export const toggleSidebar = () => {
 export const adjustLayout = () => {
   const submitButtonContainer = document.querySelector(".fixed.bottom-0 .container .absolute");
   const navButtons = document.getElementById("back-forward-buttons");
-  const mainContent = document.querySelector("body > .container");
+  const mainContent = document.querySelector("body > .flex") || document.querySelector("body > .container");
   const submitButton = document.getElementById("submit-button");
 
   // Determine if any panel is active (sidebar or sign language)
@@ -284,11 +284,19 @@ export const adjustLayout = () => {
   // Set classes directly based on current state rather than toggling
   if (mainContent) {
     // Remove all relevant classes first
-    mainContent.classList.remove("lg:ml-0", "lg:w-[calc(100vw-450px)]", "mx-auto");
+    mainContent.classList.remove(
+      "lg:ml-[0px]",
+      "lg:mr-[0px]",
+      "lg:ml-[320px]",
+      "lg:mr-[425px]",
+      "lg:w-[calc(100vw-425px)]",
+      "lg:w-[calc(100vw-320px)]",
+      "mx-auto"
+    );
 
     // Apply appropriate classes based on current state
     if (isPanelActive) {
-      mainContent.classList.add("lg:ml-0", "lg:w-[calc(100vw-450px)]");
+      mainContent.classList.add("lg:mr-[425px]", "lg:w-[calc(100vw-425px)]");
     } else {
       mainContent.classList.add("mx-auto");
     }
@@ -462,7 +470,9 @@ export const switchLanguage = async () => {
  * @async
  */
 export const toggleEasyReadMode = async ({ stopCalls = false } = {}) => {
+  console.log(`=== TOGGLE EASY READ MODE START - Current state: ${state.easyReadMode} ===`);
   setState("easyReadMode", !state.easyReadMode);
+  console.log(`=== TOGGLE EASY READ MODE - New state: ${state.easyReadMode} ===`);
   setCookie("easyReadMode", state.easyReadMode, 7);
   toggleButtonState("toggle-easy-read", state.easyReadMode);
 
@@ -481,7 +491,9 @@ export const toggleEasyReadMode = async ({ stopCalls = false } = {}) => {
     "currentLanguage",
     document.getElementById("language-dropdown").value
   );*/
+  console.log(`=== ABOUT TO CALL fetchTranslations - easyReadMode: ${state.easyReadMode} ===`);
   await fetchTranslations();
+  console.log(`=== TOGGLE EASY READ MODE COMPLETE - Final state: ${state.easyReadMode} ===`);
 };
 
 /**
@@ -1095,6 +1107,17 @@ export const loadEasyReadMode = async () => {
     toggleButtonState("toggle-easy-read", state.easyReadMode);
 
     stopAudio();
+    
+    // Apply easy-read translations if the mode is enabled
+    if (state.easyReadMode) {
+      console.log("Easy-read mode is enabled, fetching translations...");
+      try {
+        await fetchTranslations();
+        console.log("Easy-read translations applied successfully");
+      } catch (error) {
+        console.error("Failed to fetch easy-read translations:", error);
+      }
+    }
     /*setState(
       "currentLanguage",
       document.getElementById("language-dropdown").value
@@ -1638,61 +1661,22 @@ export const setSidebarVisibility = (show) => {
   const sidebar = document.getElementById("sidebar");
   if (!sidebar) return;
 
-  // Add these new elements to adjust
-  const submitButtonContainer = document.querySelector(".fixed.bottom-0 .container .absolute");
-  const navButtons = document.getElementById("back-forward-buttons");
-  const mainContent = document.querySelector(".container");
-
   if (show) {
     // Show sidebar
     sidebar.classList.remove("translate-x-full");
     sidebar.setAttribute("aria-expanded", "true");
     sidebar.removeAttribute("inert");
-    document.querySelector("body > .container")?.classList.remove("lg:mx-auto");
-
-    if (mainContent) {
-      mainContent.classList.add("lg:ml-0");
-      mainContent.classList.add("lg:w-[calc(100vw-425px)]");
-    }
-
-    // Adjust the submit button position when sidebar is open
-    if (submitButtonContainer) {
-      submitButtonContainer.classList.remove("lg:right-0");
-      submitButtonContainer.classList.add("lg:right-[calc(425px-1rem)]");
-    }
-
-    // Adjust the navigation buttons position
-    if (navButtons) {
-      navButtons.classList.remove("left-1/2");
-      navButtons.classList.add("lg:left-[calc(50vw-212.5px)]");
-    }
   } else {
     // Hide sidebar
     sidebar.classList.add("translate-x-full");
     sidebar.setAttribute("aria-expanded", "false");
     sidebar.setAttribute("inert", "");
-
-    if (mainContent) {
-      mainContent.classList.remove("lg:ml-0");
-      mainContent.classList.remove("lg:w-[calc(100vw-425px)]");
-    }
-
-    // Reset positions when sidebar is closed
-    if (submitButtonContainer) {
-      submitButtonContainer.classList.add("lg:right-0");
-      submitButtonContainer.classList.remove("lg:right-[calc(425px-1rem)]");
-    }
-
-    if (navButtons) {
-      navButtons.classList.add("left-1/2");
-      navButtons.classList.remove("lg:left-[calc(50vw-212.5px)]");
-    }
   }
-
   // Save current state
   interfaceCache.sidebarState = show;
   setCookie("sidebarState", show ? "open" : "closed", 7);
-
+  setState("sideBarActive", show);
+  adjustLayout();
   // If zoomed, re-apply zoom to keep sidebar properly positioned
   const currentZoom = getCurrentZoom();
   if (currentZoom !== 1) {

@@ -1,0 +1,8 @@
+2025-08-13 16:02:59,869 - WARNING - Glossary file not found at content/i18n/both/glossary.json
+2025-08-13 16:02:59,869 - INFO - Using fallback glossary terms
+2025-08-13 16:02:59,869 - INFO - Starting Easy-Read generation process for language: both
+2025-08-13 16:02:59,869 - INFO - Source file: content/i18n/both/texts.json
+2025-08-13 16:02:59,869 - INFO - Target file: content/i18n/both/texts.json
+2025-08-13 16:02:59,869 - ERROR - Source file not found: content/i18n/both/texts.json
+2025-08-13 16:02:59,869 - INFO - Expected structure: content/i18n/both/texts.json
+2025-08-13 16:02:59,869 - INFO - Easy-Read generation process complete

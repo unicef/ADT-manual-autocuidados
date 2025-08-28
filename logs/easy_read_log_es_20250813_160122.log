@@ -1,0 +1,280 @@
+2025-08-13 16:01:22,636 - WARNING - Glossary file not found at content/i18n/es/glossary.json
+2025-08-13 16:01:22,636 - INFO - Using fallback glossary terms
+2025-08-13 16:01:22,636 - INFO - Starting Easy-Read generation process for language: es
+2025-08-13 16:01:22,636 - INFO - Source file: content/i18n/es/texts.json
+2025-08-13 16:01:22,636 - INFO - Target file: content/i18n/es/texts.json
+2025-08-13 16:01:22,641 - INFO - Loaded source translations from content/i18n/es/texts.json
+2025-08-13 16:01:22,645 - INFO - Loaded existing target translations from content/i18n/es/texts.json
+2025-08-13 16:01:22,645 - INFO - Processing range: text-0-0 to text-10-5
+2025-08-13 16:01:22,645 - INFO - Processing text-0-0 (regenerating if exists)
+2025-08-13 16:01:22,645 - INFO - Strategy for text-0-0: simple - Short title/heading
+2025-08-13 16:01:22,645 - INFO - Successfully processed text-0-0 with simple strategy
+2025-08-13 16:01:22,645 - INFO - Processing text-0-1 (regenerating if exists)
+2025-08-13 16:01:22,645 - INFO - Strategy for text-0-1: simple - Short phrase
+2025-08-13 16:01:22,645 - INFO - Successfully processed text-0-1 with simple strategy
+2025-08-13 16:01:22,645 - INFO - Processing text-10-0 (regenerating if exists)
+2025-08-13 16:01:22,645 - INFO - Strategy for text-10-0: simple - Short title/heading
+2025-08-13 16:01:22,645 - INFO - Successfully processed text-10-0 with simple strategy
+2025-08-13 16:01:22,645 - INFO - Processing text-10-1 (regenerating if exists)
+2025-08-13 16:01:22,645 - INFO - Strategy for text-10-1: simple - Short title/heading
+2025-08-13 16:01:22,645 - INFO - Successfully processed text-10-1 with simple strategy
+2025-08-13 16:01:22,645 - INFO - Processing text-10-2 (regenerating if exists)
+2025-08-13 16:01:22,645 - INFO - Strategy for text-10-2: transform - Complex text
+2025-08-13 16:01:22,683 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:25,352 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:25,749 - INFO - Original text: Entre los principios de autocuido se deben considerar algunos de los siguientes elementos al momento de abordarlo (Uribe,1999; Correa, 2016):
+2025-08-13 16:01:25,749 - INFO - Simplified text: Considera estos puntos para el autocuidado (Uribe, 1999; Correa, 2016):
+2025-08-13 16:01:25,749 - INFO - Original readability: Grade 15.8, Ease 17.3
+2025-08-13 16:01:25,749 - INFO - Simplified readability: Grade 13.1, Ease 19.0
+2025-08-13 16:01:25,749 - INFO - Readability improvement: 2.7 grade levels
+2025-08-13 16:01:25,749 - INFO - Successfully processed text-10-2 with transform strategy
+2025-08-13 16:01:25,749 - INFO - Processing text-10-3 (regenerating if exists)
+2025-08-13 16:01:25,749 - INFO - Strategy for text-10-3: transform - Complex text
+2025-08-13 16:01:25,760 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:27,282 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:27,302 - INFO - Original text: Es un acto de vida que permite a las personas convertirse en sujetos activos del cuido de su salud y es un proceso voluntario de la persona para consigo misma.
+2025-08-13 16:01:27,303 - INFO - Simplified text: 💪 Cuidar tu salud es un acto de vida. Tú decides hacerlo por ti mismo.
+2025-08-13 16:01:27,303 - INFO - Original readability: Grade 15.8, Ease 35.4
+2025-08-13 16:01:27,303 - INFO - Simplified readability: Grade 4.0, Ease 78.9
+2025-08-13 16:01:27,303 - INFO - Readability improvement: 11.8 grade levels
+2025-08-13 16:01:27,303 - INFO - Successfully processed text-10-3 with transform strategy
+2025-08-13 16:01:27,303 - INFO - Processing text-10-4 (regenerating if exists)
+2025-08-13 16:01:27,303 - INFO - Strategy for text-10-4: transform - Complex text
+2025-08-13 16:01:27,316 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:28,591 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:28,594 - INFO - Original text: Es una responsabilidad individual y un compromiso cotidiano que se fundamenta en un sistema formal de salud e informal con el apoyo social.
+2025-08-13 16:01:28,594 - INFO - Simplified text: Cada persona debe cuidar su salud cada día. 🤝 Esto se basa en sistemas de salud y apoyo social.
+2025-08-13 16:01:28,594 - INFO - Original readability: Grade 17.0, Ease 14.3
+2025-08-13 16:01:28,594 - INFO - Simplified readability: Grade 5.0, Ease 75.5
+2025-08-13 16:01:28,594 - INFO - Readability improvement: 12.0 grade levels
+2025-08-13 16:01:28,594 - INFO - Successfully processed text-10-4 with transform strategy
+2025-08-13 16:01:28,594 - INFO - Processing text-10-5 (regenerating if exists)
+2025-08-13 16:01:28,594 - INFO - Strategy for text-10-5: transform - Complex text
+2025-08-13 16:01:28,608 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:29,360 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:29,366 - INFO - Original text: Al realizar las prácticas de autocuidado, ya sea con fines protectores o preventivos, las personas las desarrollan con la certeza que van a mejorar su nivel de salud.
+2025-08-13 16:01:29,366 - INFO - Simplified text: Cuando practicas el autocuidado, mejoras tu salud 😊.
+2025-08-13 16:01:29,367 - INFO - Original readability: Grade 13.5, Ease 48.5
+2025-08-13 16:01:29,367 - INFO - Simplified readability: Grade 9.1, Ease 42.6
+2025-08-13 16:01:29,372 - INFO - Readability improvement: 4.4 grade levels
+2025-08-13 16:01:29,372 - INFO - Successfully processed text-10-5 with transform strategy
+2025-08-13 16:01:29,372 - INFO - Processing text-2-0 (regenerating if exists)
+2025-08-13 16:01:29,373 - INFO - Strategy for text-2-0: simple - Short title/heading
+2025-08-13 16:01:29,373 - INFO - Successfully processed text-2-0 with simple strategy
+2025-08-13 16:01:29,373 - INFO - Processing text-6-0 (regenerating if exists)
+2025-08-13 16:01:29,373 - INFO - Strategy for text-6-0: copy - Single word/very short
+2025-08-13 16:01:29,373 - INFO - Successfully processed text-6-0 with copy strategy
+2025-08-13 16:01:29,373 - INFO - Processing text-6-1 (regenerating if exists)
+2025-08-13 16:01:29,373 - INFO - Strategy for text-6-1: copy - Single word/very short
+2025-08-13 16:01:29,373 - INFO - Successfully processed text-6-1 with copy strategy
+2025-08-13 16:01:29,373 - INFO - Processing text-6-10 (regenerating if exists)
+2025-08-13 16:01:29,373 - INFO - Strategy for text-6-10: simple - Short title/heading
+2025-08-13 16:01:29,373 - INFO - Successfully processed text-6-10 with simple strategy
+2025-08-13 16:01:29,373 - INFO - Processing text-6-11 (regenerating if exists)
+2025-08-13 16:01:29,373 - INFO - Strategy for text-6-11: copy - Single word/very short
+2025-08-13 16:01:29,373 - INFO - Successfully processed text-6-11 with copy strategy
+2025-08-13 16:01:29,373 - INFO - Processing text-6-12 (regenerating if exists)
+2025-08-13 16:01:29,373 - INFO - Strategy for text-6-12: simple - Short title/heading
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-12 with simple strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-13 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-13: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-13 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-14 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-14: simple - Short title/heading
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-14 with simple strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-15 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-15: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-15 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-16 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-16: simple - Short title/heading
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-16 with simple strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-17 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-17: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-17 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-18 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-18: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-18 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-2 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-2: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-2 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-3 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-3: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-3 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-4 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-4: simple - Short phrase
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-4 with simple strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-5 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-5: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-5 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-6 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-6: simple - Short title/heading
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-6 with simple strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-7 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-7: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-7 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-8 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-8: simple - Short title/heading
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-8 with simple strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-6-9 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-6-9: copy - Single word/very short
+2025-08-13 16:01:29,374 - INFO - Successfully processed text-6-9 with copy strategy
+2025-08-13 16:01:29,374 - INFO - Processing text-8-0 (regenerating if exists)
+2025-08-13 16:01:29,374 - INFO - Strategy for text-8-0: simple - Short title/heading
+2025-08-13 16:01:29,375 - INFO - Successfully processed text-8-0 with simple strategy
+2025-08-13 16:01:29,375 - INFO - Processing text-8-1 (regenerating if exists)
+2025-08-13 16:01:29,375 - INFO - Strategy for text-8-1: copy - Single word/very short
+2025-08-13 16:01:29,375 - INFO - Successfully processed text-8-1 with copy strategy
+2025-08-13 16:01:29,375 - INFO - Processing text-8-10 (regenerating if exists)
+2025-08-13 16:01:29,375 - INFO - Strategy for text-8-10: simple - Short phrase
+2025-08-13 16:01:29,375 - INFO - Successfully processed text-8-10 with simple strategy
+2025-08-13 16:01:29,375 - INFO - Processing text-8-11 (regenerating if exists)
+2025-08-13 16:01:29,375 - INFO - Strategy for text-8-11: simple - Short phrase
+2025-08-13 16:01:29,375 - INFO - Successfully processed text-8-11 with simple strategy
+2025-08-13 16:01:29,375 - INFO - Processing text-8-12 (regenerating if exists)
+2025-08-13 16:01:29,375 - INFO - Strategy for text-8-12: transform - Complex text
+2025-08-13 16:01:29,387 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:30,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:30,716 - INFO - Original text: evitar el síndrome del burnout (sinónimo de desgaste profesional, su traducción literal al español es “estar quemado”), etc.
+2025-08-13 16:01:30,716 - INFO - Simplified text: Evita el burnout (estar quemado) en el trabajo. 🧑‍💼🔥
+2025-08-13 16:01:30,718 - INFO - Original readability: Grade 16.3, Ease 10.0
+2025-08-13 16:01:30,718 - INFO - Simplified readability: Grade 11.1, Ease 29.5
+2025-08-13 16:01:30,718 - INFO - Readability improvement: 5.2 grade levels
+2025-08-13 16:01:30,718 - INFO - Successfully processed text-8-12 with transform strategy
+2025-08-13 16:01:30,718 - INFO - Processing text-8-13 (regenerating if exists)
+2025-08-13 16:01:30,718 - INFO - Strategy for text-8-13: transform - Complex text
+2025-08-13 16:01:30,730 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:33,047 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:33,049 - INFO - Original text: En el presente manual se abordarán los diferentes tipos de autocuidados y cómo se pueden poner en práctica de forma integral para garantizar la salud física y mental de las personas que trabajan directamente con población víctima de violencia basada en género y/o atraviesan una situación de vulnerabilidad.
+2025-08-13 16:01:33,049 - INFO - Simplified text: Este manual habla sobre los tipos de autocuidado. 🧘‍♀️ Aprenderás a cuidarte bien para mantener tu salud física y mental. Esto es importante si trabajas con personas que han sufrido violencia de género o están en situaciones difíciles.
+2025-08-13 16:01:33,049 - INFO - Original readability: Grade 24.0, Ease 8.3
+2025-08-13 16:01:33,049 - INFO - Simplified readability: Grade 9.0, Ease 52.6
+2025-08-13 16:01:33,049 - INFO - Readability improvement: 15.0 grade levels
+2025-08-13 16:01:33,049 - INFO - Successfully processed text-8-13 with transform strategy
+2025-08-13 16:01:33,049 - INFO - Processing text-8-2 (regenerating if exists)
+2025-08-13 16:01:33,049 - INFO - Strategy for text-8-2: transform - Complex text
+2025-08-13 16:01:33,060 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:34,423 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:34,425 - INFO - Original text: Por lo general, asociamos hacer ejercicio, comer de forma balanceada y visitar al médico de cabecera, al menos una vez al año, como los principales cuidados de la salud.
+2025-08-13 16:01:34,426 - INFO - Simplified text: 🏃‍♂️ Hacer ejercicio, 🍎 comer bien y 🩺 ir al médico una vez al año son cuidados importantes para la salud.
+2025-08-13 16:01:34,426 - INFO - Original readability: Grade 15.3, Ease 37.4
+2025-08-13 16:01:34,426 - INFO - Simplified readability: Grade 9.8, Ease 57.0
+2025-08-13 16:01:34,426 - INFO - Readability improvement: 5.5 grade levels
+2025-08-13 16:01:34,426 - INFO - Successfully processed text-8-2 with transform strategy
+2025-08-13 16:01:34,426 - INFO - Processing text-8-3 (regenerating if exists)
+2025-08-13 16:01:34,426 - INFO - Strategy for text-8-3: transform - Complex text
+2025-08-13 16:01:34,438 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:35,701 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:35,707 - INFO - Original text: Sin embargo, hay un aspecto vital de nuestro equilibrio al que no otorgamos la importancia que merece y es la salud mental.
+2025-08-13 16:01:35,707 - INFO - Simplified text: 🧠 La salud mental es importante para nuestro equilibrio. No siempre le damos la atención que merece.
+2025-08-13 16:01:35,707 - INFO - Original readability: Grade 11.8, Ease 49.9
+2025-08-13 16:01:35,707 - INFO - Simplified readability: Grade 6.0, Ease 66.5
+2025-08-13 16:01:35,708 - INFO - Readability improvement: 5.8 grade levels
+2025-08-13 16:01:35,708 - INFO - Successfully processed text-8-3 with transform strategy
+2025-08-13 16:01:35,708 - INFO - Processing text-8-4 (regenerating if exists)
+2025-08-13 16:01:35,708 - INFO - Strategy for text-8-4: transform - Complex text
+2025-08-13 16:01:35,720 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:36,875 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:36,885 - INFO - Original text: Según la Organización Mundial de la Salud (OMS) (2004), un estado de completo bienestar físico, mental y social va más allá de la ausencia de afecciones o enfermedades.
+2025-08-13 16:01:36,885 - INFO - Simplified text: 🌍 La OMS dice que estar bien no es solo no tener enfermedades. Es sentirte bien física, mental y socialmente.
+2025-08-13 16:01:36,885 - INFO - Original readability: Grade 15.1, Ease 36.4
+2025-08-13 16:01:36,885 - INFO - Simplified readability: Grade 6.1, Ease 68.1
+2025-08-13 16:01:36,885 - INFO - Readability improvement: 9.0 grade levels
+2025-08-13 16:01:36,885 - INFO - Successfully processed text-8-4 with transform strategy
+2025-08-13 16:01:36,885 - INFO - Processing text-8-5 (regenerating if exists)
+2025-08-13 16:01:36,885 - INFO - Strategy for text-8-5: transform - Complex text
+2025-08-13 16:01:36,896 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:37,802 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:37,806 - INFO - Original text: Por este motivo, el cuidado de la salud no debe reducirse a aspectos físicos, pues involucra una visión más integral de bienestar.
+2025-08-13 16:01:37,807 - INFO - Simplified text: 🩺 La salud no es solo física. Es importante cuidar todo el bienestar 😊.
+2025-08-13 16:01:37,807 - INFO - Original readability: Grade 13.9, Ease 34.5
+2025-08-13 16:01:37,807 - INFO - Simplified readability: Grade 6.4, Ease 59.7
+2025-08-13 16:01:37,807 - INFO - Readability improvement: 7.5 grade levels
+2025-08-13 16:01:37,807 - INFO - Successfully processed text-8-5 with transform strategy
+2025-08-13 16:01:37,807 - INFO - Processing text-8-6 (regenerating if exists)
+2025-08-13 16:01:37,807 - INFO - Strategy for text-8-6: transform - Complex text
+2025-08-13 16:01:37,824 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:39,390 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:39,406 - INFO - Original text: A partir de esta visión más completa e integral se plantea un reto que consiste en tener claro que las diferentes áreas del cuidado de la salud no se limitan a una determinada institución, grupo o individuo, la salud integral requiere de una cuota de responsabilidad para todas las partes.
+2025-08-13 16:01:39,406 - INFO - Simplified text: 🌟 La salud es más que una sola cosa. Todos debemos cuidar la salud integral. 🏥👩‍⚕️👨‍⚕️
+2025-08-13 16:01:39,406 - INFO - Original readability: Grade 24.9, Ease 5.5
+2025-08-13 16:01:39,406 - INFO - Simplified readability: Grade 4.8, Ease 72.8
+2025-08-13 16:01:39,406 - INFO - Readability improvement: 20.1 grade levels
+2025-08-13 16:01:39,406 - INFO - Successfully processed text-8-6 with transform strategy
+2025-08-13 16:01:39,406 - INFO - Processing text-8-7 (regenerating if exists)
+2025-08-13 16:01:39,406 - INFO - Strategy for text-8-7: transform - Complex text
+2025-08-13 16:01:39,424 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:40,279 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:40,286 - INFO - Original text: El concepto de autocuidado son todas aquellas prácticas cotidianas y decisiones que desarrolla una persona, grupo o familia para cuidar su salud y tener una mejor calidad de vida (Correa, 2016).
+2025-08-13 16:01:40,286 - INFO - Simplified text: El autocuidado es lo que haces cada día para cuidar tu salud y vivir mejor 😊.
+2025-08-13 16:01:40,291 - INFO - Original readability: Grade 20.1, Ease 6.2
+2025-08-13 16:01:40,291 - INFO - Simplified readability: Grade 5.2, Ease 84.5
+2025-08-13 16:01:40,292 - INFO - Readability improvement: 14.9 grade levels
+2025-08-13 16:01:40,292 - INFO - Successfully processed text-8-7 with transform strategy
+2025-08-13 16:01:40,292 - INFO - Processing text-8-8 (regenerating if exists)
+2025-08-13 16:01:40,292 - INFO - Strategy for text-8-8: transform - Complex text
+2025-08-13 16:01:40,304 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:41,487 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:41,491 - INFO - Original text: Para ello, forma un montículo con materiales que encuentra en el lugar. Por tanto, establecer momentos de autocuidado es fundamental, pues influye en la salud en general y brinda múltiples beneficios como:
+2025-08-13 16:01:41,491 - INFO - Simplified text: Haz un montículo con lo que encuentres. 🏔️
+
+El autocuidado es clave. Cuida tu salud y obtén muchos beneficios: 🌟
+2025-08-13 16:01:41,491 - INFO - Original readability: Grade 13.1, Ease 29.3
+2025-08-13 16:01:41,491 - INFO - Simplified readability: Grade 5.1, Ease 69.1
+2025-08-13 16:01:41,491 - INFO - Readability improvement: 8.0 grade levels
+2025-08-13 16:01:41,491 - INFO - Successfully processed text-8-8 with transform strategy
+2025-08-13 16:01:41,491 - INFO - Processing text-8-9 (regenerating if exists)
+2025-08-13 16:01:41,492 - INFO - Strategy for text-8-9: simple - Short phrase
+2025-08-13 16:01:41,492 - INFO - Successfully processed text-8-9 with simple strategy
+2025-08-13 16:01:41,492 - INFO - Processing text-9-0 (regenerating if exists)
+2025-08-13 16:01:41,492 - INFO - Strategy for text-9-0: simple - Short title/heading
+2025-08-13 16:01:41,492 - INFO - Successfully processed text-9-0 with simple strategy
+2025-08-13 16:01:41,492 - INFO - Processing text-9-1 (regenerating if exists)
+2025-08-13 16:01:41,492 - INFO - Strategy for text-9-1: simple - Short phrase
+2025-08-13 16:01:41,492 - INFO - Successfully processed text-9-1 with simple strategy
+2025-08-13 16:01:41,492 - INFO - Processing text-9-2 (regenerating if exists)
+2025-08-13 16:01:41,492 - INFO - Strategy for text-9-2: transform - Complex text
+2025-08-13 16:01:41,504 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:42,610 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:42,615 - INFO - Original text: Se trata de una aproximación a la salud, en la cual la persona es responsable de llevar a cabo acciones individuales y/o colectivas que puedan fortalecer o reestablecer el estado de bienestar integral, así como prevenir enfermedades.
+2025-08-13 16:01:42,615 - INFO - Simplified text: Es una forma de cuidar la salud 😊. Tú haces acciones solo o con otros para mejorar tu bienestar y evitar enfermedades. 🏥💪
+2025-08-13 16:01:42,615 - INFO - Original readability: Grade 21.2, Ease 9.2
+2025-08-13 16:01:42,615 - INFO - Simplified readability: Grade 7.0, Ease 63.2
+2025-08-13 16:01:42,616 - INFO - Readability improvement: 14.1 grade levels
+2025-08-13 16:01:42,618 - INFO - Successfully processed text-9-2 with transform strategy
+2025-08-13 16:01:42,618 - INFO - Processing text-9-3 (regenerating if exists)
+2025-08-13 16:01:42,618 - INFO - Strategy for text-9-3: transform - Complex text
+2025-08-13 16:01:42,630 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:44,280 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:44,287 - INFO - Original text: En este sentido, el autocuidado requiere el desarrollo de prácticas que, según los intereses y destrezas aprendidas, así como las costumbres habituales de la cultura, fomentan la supervivencia y favorecen la toma de responsabilidad en la solución de aquello que afecta su salud.
+2025-08-13 16:01:44,287 - INFO - Simplified text: El autocuidado significa hacer cosas que te ayudan a estar sano 😊. Usa lo que sabes y lo que es común en tu cultura. Toma responsabilidad para resolver lo que afecta tu salud. 💪
+2025-08-13 16:01:44,287 - INFO - Original readability: Grade 23.7, Ease 1.9
+2025-08-13 16:01:44,287 - INFO - Simplified readability: Grade 7.7, Ease 58.5
+2025-08-13 16:01:44,287 - INFO - Readability improvement: 15.9 grade levels
+2025-08-13 16:01:44,287 - INFO - Successfully processed text-9-3 with transform strategy
+2025-08-13 16:01:44,287 - INFO - Processing text-9-4 (regenerating if exists)
+2025-08-13 16:01:44,288 - INFO - Strategy for text-9-4: transform - Complex text
+2025-08-13 16:01:44,300 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:45,401 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:45,403 - INFO - Original text: Las prácticas personales que supone el autocuidado, si bien varían entre individuos, en principio pretenden la conservación de la salud.
+2025-08-13 16:01:45,403 - INFO - Simplified text: 🧘‍♀️ Autocuidado es cuidar tu salud. Cada persona lo hace de manera diferente.
+2025-08-13 16:01:45,403 - INFO - Original readability: Grade 13.5, Ease 34.3
+2025-08-13 16:01:45,403 - INFO - Simplified readability: Grade 5.4, Ease 66.8
+2025-08-13 16:01:45,403 - INFO - Readability improvement: 8.0 grade levels
+2025-08-13 16:01:45,403 - INFO - Successfully processed text-9-4 with transform strategy
+2025-08-13 16:01:45,404 - INFO - Processing text-9-5 (regenerating if exists)
+2025-08-13 16:01:45,404 - INFO - Strategy for text-9-5: transform - Complex text
+2025-08-13 16:01:45,415 - INFO - Transforming text using OpenAI API...
+2025-08-13 16:01:47,059 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-13 16:01:47,068 - INFO - Original text: Por ello, en efecto tener una alimentación adecuada y hacer actividades físicas saludables son parte de las posibles prácticas de autocuidado, pero también es importante tener buenas relaciones sociales, aprender a reconocer y valorar las propias emociones, descansar cuando sea necesario, entre otras actividades de cuido personal.
+2025-08-13 16:01:47,068 - INFO - Simplified text: 🍎 Comer bien y hacer ejercicio es autocuidado. También es importante:  
+- Tener buenas relaciones con otros 🤝  
+- Reconocer y valorar tus emociones 😊  
+- Descansar cuando lo necesites 💤
+2025-08-13 16:01:47,068 - INFO - Original readability: Grade 25.1, Ease -1.1
+2025-08-13 16:01:47,068 - INFO - Simplified readability: Grade 10.7, Ease 39.6
+2025-08-13 16:01:47,068 - INFO - Readability improvement: 14.4 grade levels
+2025-08-13 16:01:47,068 - INFO - Successfully processed text-9-5 with transform strategy
+2025-08-13 16:01:47,074 - INFO - Processed 48 entries. Success: 48, Issues: 0, Skipped: 512
+2025-08-13 16:01:47,074 - INFO - Results saved to content/i18n/es/texts.json
+2025-08-13 16:01:47,074 - INFO - Log file saved to easy_read_log_es_20250813_160122.log
+2025-08-13 16:01:47,074 - INFO - Easy-Read generation process complete

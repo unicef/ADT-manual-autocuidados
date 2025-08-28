@@ -1,0 +1,16 @@
+2025-08-12 15:45:28,549 - WARNING - Glossary file not found at content/i18n/en/glossary.json
+2025-08-12 15:45:28,549 - INFO - Using fallback glossary terms
+2025-08-12 15:45:28,549 - INFO - Starting Easy-Read generation process for language: en
+2025-08-12 15:45:28,549 - INFO - Source file: content/i18n/en/texts.json
+2025-08-12 15:45:28,549 - INFO - Target file: content/i18n/en/texts.json
+2025-08-12 15:45:28,552 - INFO - Loaded source translations from content/i18n/en/texts.json
+2025-08-12 15:45:28,555 - INFO - Loaded existing target translations from content/i18n/en/texts.json
+2025-08-12 15:45:28,555 - INFO - Processing range: text-10-2 to text-10-2
+2025-08-12 15:45:28,556 - INFO - Processing text-10-2 (regenerating if exists)
+2025-08-12 15:45:28,556 - INFO - Strategy for text-10-2: transform - Complex text
+2025-08-12 15:45:28,556 - INFO - DRY RUN: Would process text-10-2 with transform
+2025-08-12 15:45:28,556 - INFO - DRY RUN: Processed text-10-2 with transform strategy
+2025-08-12 15:45:28,559 - INFO - Processed 1 entries. Success: 1, Issues: 0, Skipped: 552
+2025-08-12 15:45:28,559 - INFO - Results saved to content/i18n/en/texts.json
+2025-08-12 15:45:28,559 - INFO - Log file saved to easy_read_log_en_20250812_154528.log
+2025-08-12 15:45:28,560 - INFO - Easy-Read generation process complete

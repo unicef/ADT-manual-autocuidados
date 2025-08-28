@@ -1,0 +1,295 @@
+2025-08-12 17:16:10,782 - WARNING - Glossary file not found at content/i18n/en/glossary.json
+2025-08-12 17:16:10,782 - INFO - Using fallback glossary terms
+2025-08-12 17:16:10,782 - INFO - Starting Easy-Read generation process for language: en
+2025-08-12 17:16:10,782 - INFO - Source file: content/i18n/en/texts.json
+2025-08-12 17:16:10,782 - INFO - Target file: content/i18n/en/texts.json
+2025-08-12 17:16:10,786 - INFO - Loaded source translations from content/i18n/en/texts.json
+2025-08-12 17:16:10,789 - INFO - Loaded existing target translations from content/i18n/en/texts.json
+2025-08-12 17:16:10,789 - INFO - Processing range: text-0-0 to text-10-5
+2025-08-12 17:16:10,789 - INFO - Processing text-0-0 (regenerating if exists)
+2025-08-12 17:16:10,789 - INFO - Strategy for text-0-0: simple - Short title/heading
+2025-08-12 17:16:10,789 - INFO - Successfully processed text-0-0 with simple strategy
+2025-08-12 17:16:10,789 - INFO - Processing text-0-1 (regenerating if exists)
+2025-08-12 17:16:10,789 - INFO - Strategy for text-0-1: transform - Complex text
+2025-08-12 17:16:10,820 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:12,021 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:12,376 - INFO - Original text: Fundasil in support of the Spotlight Initiative
+2025-08-12 17:16:12,376 - INFO - Simplified text: 🌟 Fundasil supports the Spotlight Initiative.
+2025-08-12 17:16:12,376 - INFO - Original readability: Grade 9.1, Ease 42.6
+2025-08-12 17:16:12,376 - INFO - Simplified readability: Grade 12.3, Ease 15.6
+2025-08-12 17:16:12,376 - INFO - Readability improvement: -3.3 grade levels
+2025-08-12 17:16:12,376 - INFO - Successfully processed text-0-1 with transform strategy
+2025-08-12 17:16:12,376 - INFO - Processing text-10-0 (regenerating if exists)
+2025-08-12 17:16:12,376 - INFO - Strategy for text-10-0: simple - Short title/heading
+2025-08-12 17:16:12,377 - INFO - Successfully processed text-10-0 with simple strategy
+2025-08-12 17:16:12,377 - INFO - Processing text-10-1 (regenerating if exists)
+2025-08-12 17:16:12,377 - INFO - Strategy for text-10-1: simple - Short title/heading
+2025-08-12 17:16:12,377 - INFO - Successfully processed text-10-1 with simple strategy
+2025-08-12 17:16:12,377 - INFO - Processing text-10-2 (regenerating if exists)
+2025-08-12 17:16:12,377 - INFO - Strategy for text-10-2: transform - Complex text
+2025-08-12 17:16:12,387 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:13,432 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:13,435 - INFO - Original text: Among the principles of self-care, some of the following elements should be considered when addressing it (Uribe, 1999; Correa, 2016):
+2025-08-12 17:16:13,436 - INFO - Simplified text: Think about these important self-care ideas:
+2025-08-12 17:16:13,436 - INFO - Original readability: Grade 13.5, Ease 34.3
+2025-08-12 17:16:13,436 - INFO - Simplified readability: Grade 10.4, Ease 31.5
+2025-08-12 17:16:13,436 - INFO - Readability improvement: 3.1 grade levels
+2025-08-12 17:16:13,436 - INFO - Successfully processed text-10-2 with transform strategy
+2025-08-12 17:16:13,436 - INFO - Processing text-10-3 (regenerating if exists)
+2025-08-12 17:16:13,436 - INFO - Strategy for text-10-3: transform - Complex text
+2025-08-12 17:16:13,449 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:15,199 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:15,200 - INFO - Original text: It is a life act that enables individuals to become active participants in the care of their health and is a voluntary process undertaken by the person for themselves.
+2025-08-12 17:16:15,201 - INFO - Simplified text: Taking care of your health is something you do for yourself. 💪 You choose to be involved.
+2025-08-12 17:16:15,201 - INFO - Original readability: Grade 15.7, Ease 34.5
+2025-08-12 17:16:15,201 - INFO - Simplified readability: Grade 2.3, Ease 93.0
+2025-08-12 17:16:15,201 - INFO - Readability improvement: 13.4 grade levels
+2025-08-12 17:16:15,201 - INFO - Successfully processed text-10-3 with transform strategy
+2025-08-12 17:16:15,201 - INFO - Processing text-10-4 (regenerating if exists)
+2025-08-12 17:16:15,201 - INFO - Strategy for text-10-4: transform - Complex text
+2025-08-12 17:16:15,224 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:16,501 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:16,503 - INFO - Original text: It is an individual responsibility and a daily commitment grounded in both a formal and informal health system with social support.
+2025-08-12 17:16:16,503 - INFO - Simplified text: You must take care of your health every day. 🏥 Friends and family can help you.
+2025-08-12 17:16:16,503 - INFO - Original readability: Grade 15.1, Ease 24.4
+2025-08-12 17:16:16,503 - INFO - Simplified readability: Grade 2.3, Ease 92.1
+2025-08-12 17:16:16,503 - INFO - Readability improvement: 12.8 grade levels
+2025-08-12 17:16:16,503 - INFO - Successfully processed text-10-4 with transform strategy
+2025-08-12 17:16:16,504 - INFO - Processing text-10-5 (regenerating if exists)
+2025-08-12 17:16:16,504 - INFO - Strategy for text-10-5: transform - Complex text
+2025-08-12 17:16:16,525 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:17,834 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:17,841 - INFO - Original text: When engaging in self-care practices, whether for protective or preventive purposes, individuals undertake them with the certainty that they will enhance their level of health.
+2025-08-12 17:16:17,841 - INFO - Simplified text: "🧘‍♀️ When you practice self-care, you know it will make you healthier. 😊"
+2025-08-12 17:16:17,841 - INFO - Original readability: Grade 16.3, Ease 22.4
+2025-08-12 17:16:17,841 - INFO - Simplified readability: Grade 4.8, Ease 80.3
+2025-08-12 17:16:17,841 - INFO - Readability improvement: 11.6 grade levels
+2025-08-12 17:16:17,841 - INFO - Successfully processed text-10-5 with transform strategy
+2025-08-12 17:16:17,841 - INFO - Processing text-2-0 (regenerating if exists)
+2025-08-12 17:16:17,841 - INFO - Strategy for text-2-0: simple - Short title/heading
+2025-08-12 17:16:17,841 - INFO - Successfully processed text-2-0 with simple strategy
+2025-08-12 17:16:17,841 - INFO - Processing text-6-0 (regenerating if exists)
+2025-08-12 17:16:17,841 - INFO - Strategy for text-6-0: copy - Single word/very short
+2025-08-12 17:16:17,841 - INFO - Successfully processed text-6-0 with copy strategy
+2025-08-12 17:16:17,841 - INFO - Processing text-6-1 (regenerating if exists)
+2025-08-12 17:16:17,841 - INFO - Strategy for text-6-1: copy - Single word/very short
+2025-08-12 17:16:17,841 - INFO - Successfully processed text-6-1 with copy strategy
+2025-08-12 17:16:17,841 - INFO - Processing text-6-10 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-10: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-10 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-11 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-11: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-11 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-12 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-12: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-12 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-13 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-13: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-13 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-14 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-14: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-14 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-15 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-15: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-15 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-16 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-16: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-16 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-17 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-17: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-17 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-18 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-18: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-18 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-2 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-2: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-2 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-3 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-3: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-3 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-4 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-4: simple - Short phrase
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-4 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-5 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-5: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-5 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-6 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-6: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-6 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-7 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-7: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-7 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-8 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-8: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-8 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-6-9 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-6-9: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-6-9 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-8-0 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-8-0: simple - Short title/heading
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-8-0 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-8-1 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-8-1: copy - Single word/very short
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-8-1 with copy strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-8-10 (regenerating if exists)
+2025-08-12 17:16:17,842 - INFO - Strategy for text-8-10: simple - Short phrase
+2025-08-12 17:16:17,842 - INFO - Successfully processed text-8-10 with simple strategy
+2025-08-12 17:16:17,842 - INFO - Processing text-8-11 (regenerating if exists)
+2025-08-12 17:16:17,843 - INFO - Strategy for text-8-11: simple - Short phrase
+2025-08-12 17:16:17,843 - INFO - Successfully processed text-8-11 with simple strategy
+2025-08-12 17:16:17,843 - INFO - Processing text-8-12 (regenerating if exists)
+2025-08-12 17:16:17,843 - INFO - Strategy for text-8-12: transform - Complex text
+2025-08-12 17:16:17,854 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:19,060 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:19,087 - INFO - Original text: avoiding burnout syndrome (synonymous with professional exhaustion, its literal translation in Spanish is "being burned out"), etc.
+2025-08-12 17:16:19,088 - INFO - Simplified text: 🔥 Avoid burnout. This means feeling very tired from work.
+2025-08-12 17:16:19,088 - INFO - Original readability: Grade 17.4, Ease 0.5
+2025-08-12 17:16:19,088 - INFO - Simplified readability: Grade 6.3, Ease 66.1
+2025-08-12 17:16:19,088 - INFO - Readability improvement: 11.1 grade levels
+2025-08-12 17:16:19,088 - INFO - Successfully processed text-8-12 with transform strategy
+2025-08-12 17:16:19,088 - INFO - Processing text-8-13 (regenerating if exists)
+2025-08-12 17:16:19,088 - INFO - Strategy for text-8-13: transform - Complex text
+2025-08-12 17:16:19,109 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:20,593 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:20,595 - INFO - Original text: This manual will address the different types of self-care and how they can be practiced comprehensively to ensure the physical and mental health of individuals working directly with populations affected by gender-based violence and/or experiencing vulnerability.
+2025-08-12 17:16:20,595 - INFO - Simplified text: This guide covers types of self-care. 🧘‍♀️ It helps you stay healthy in body and mind. This is important for people working with those facing gender-based violence or in tough situations.
+2025-08-12 17:16:20,595 - INFO - Original readability: Grade 23.7, Ease -10.7
+2025-08-12 17:16:20,595 - INFO - Simplified readability: Grade 6.4, Ease 67.0
+2025-08-12 17:16:20,595 - INFO - Readability improvement: 17.3 grade levels
+2025-08-12 17:16:20,595 - INFO - Successfully processed text-8-13 with transform strategy
+2025-08-12 17:16:20,595 - INFO - Processing text-8-2 (regenerating if exists)
+2025-08-12 17:16:20,595 - INFO - Strategy for text-8-2: transform - Complex text
+2025-08-12 17:16:20,605 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:22,335 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:22,345 - INFO - Original text: Generally, we associate exercising, eating a balanced diet, and visiting the primary care physician at least once a year as the main aspects of health care.
+2025-08-12 17:16:22,345 - INFO - Simplified text: 🏃‍♂️ We often think staying healthy means: - Exercising - Eating well - Seeing the doctor yearly 👩‍⚕️
+2025-08-12 17:16:22,345 - INFO - Original readability: Grade 15.0, Ease 34.0
+2025-08-12 17:16:22,345 - INFO - Simplified readability: Grade 10.4, Ease 44.0
+2025-08-12 17:16:22,346 - INFO - Readability improvement: 4.6 grade levels
+2025-08-12 17:16:22,346 - INFO - Successfully processed text-8-2 with transform strategy
+2025-08-12 17:16:22,346 - INFO - Processing text-8-3 (regenerating if exists)
+2025-08-12 17:16:22,346 - INFO - Strategy for text-8-3: transform - Complex text
+2025-08-12 17:16:22,365 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:23,335 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:23,337 - INFO - Original text: However, there is a vital aspect of our balance that we do not give the importance it deserves, and that is mental health.
+2025-08-12 17:16:23,337 - INFO - Simplified text: 🧠 Mental health is very important, but we often ignore it.
+2025-08-12 17:16:23,337 - INFO - Original readability: Grade 10.3, Ease 62.1
+2025-08-12 17:16:23,337 - INFO - Simplified readability: Grade 7.2, Ease 61.3
+2025-08-12 17:16:23,337 - INFO - Readability improvement: 3.1 grade levels
+2025-08-12 17:16:23,337 - INFO - Successfully processed text-8-3 with transform strategy
+2025-08-12 17:16:23,338 - INFO - Processing text-8-4 (regenerating if exists)
+2025-08-12 17:16:23,338 - INFO - Strategy for text-8-4: transform - Complex text
+2025-08-12 17:16:23,358 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:24,692 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:24,695 - INFO - Original text: According to the World Health Organization (WHO) (2004), a state of complete physical, mental, and social well-being goes beyond the absence of ailments or diseases.
+2025-08-12 17:16:24,695 - INFO - Simplified text: 🌍 The World Health Organization (WHO) says being healthy means more than not being sick. 😊 It includes feeling good physically, mentally, and socially.
+2025-08-12 17:16:24,695 - INFO - Original readability: Grade 14.5, Ease 35.9
+2025-08-12 17:16:24,695 - INFO - Simplified readability: Grade 9.1, Ease 49.5
+2025-08-12 17:16:24,695 - INFO - Readability improvement: 5.4 grade levels
+2025-08-12 17:16:24,695 - INFO - Successfully processed text-8-4 with transform strategy
+2025-08-12 17:16:24,696 - INFO - Processing text-8-5 (regenerating if exists)
+2025-08-12 17:16:24,696 - INFO - Strategy for text-8-5: transform - Complex text
+2025-08-12 17:16:24,718 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:25,816 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:25,817 - INFO - Original text: For this reason, health care should not be limited to physical aspects, as it involves a more comprehensive view of well-being.
+2025-08-12 17:16:25,817 - INFO - Simplified text: "🏥 Health care is not just about the body. It includes overall well-being too."
+2025-08-12 17:16:25,817 - INFO - Original readability: Grade 11.1, Ease 52.6
+2025-08-12 17:16:25,817 - INFO - Simplified readability: Grade 5.1, Ease 70.1
+2025-08-12 17:16:25,817 - INFO - Readability improvement: 6.0 grade levels
+2025-08-12 17:16:25,817 - INFO - Successfully processed text-8-5 with transform strategy
+2025-08-12 17:16:25,817 - INFO - Processing text-8-6 (regenerating if exists)
+2025-08-12 17:16:25,817 - INFO - Strategy for text-8-6: transform - Complex text
+2025-08-12 17:16:25,852 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:27,457 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:27,459 - INFO - Original text: From this more complete and comprehensive perspective, a challenge arises: understanding that the various areas of health care are not confined to a specific institution, group, or individual. Integral health requires a shared responsibility among all parties.
+2025-08-12 17:16:27,460 - INFO - Simplified text: Health care is not just one person's job. 🏥 Everyone must work together for good health. 🤝
+2025-08-12 17:16:27,460 - INFO - Original readability: Grade 15.2, Ease 18.9
+2025-08-12 17:16:27,460 - INFO - Simplified readability: Grade 3.1, Ease 86.4
+2025-08-12 17:16:27,460 - INFO - Readability improvement: 12.2 grade levels
+2025-08-12 17:16:27,460 - INFO - Successfully processed text-8-6 with transform strategy
+2025-08-12 17:16:27,460 - INFO - Processing text-8-7 (regenerating if exists)
+2025-08-12 17:16:27,460 - INFO - Strategy for text-8-7: transform - Complex text
+2025-08-12 17:16:27,483 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:29,270 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:29,281 - INFO - Original text: The concept of self-care encompasses all those daily practices and decisions undertaken by an individual, group, or family to maintain their health and achieve a better quality of life (Correa, 2016).
+2025-08-12 17:16:29,281 - INFO - Simplified text: 🧘‍♀️ Self-care means doing things every day to stay healthy and feel good.
+2025-08-12 17:16:29,281 - INFO - Original readability: Grade 18.2, Ease 19.8
+2025-08-12 17:16:29,281 - INFO - Simplified readability: Grade 5.8, Ease 74.8
+2025-08-12 17:16:29,281 - INFO - Readability improvement: 12.4 grade levels
+2025-08-12 17:16:29,281 - INFO - Successfully processed text-8-7 with transform strategy
+2025-08-12 17:16:29,281 - INFO - Processing text-8-8 (regenerating if exists)
+2025-08-12 17:16:29,281 - INFO - Strategy for text-8-8: transform - Complex text
+2025-08-12 17:16:29,291 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:30,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:30,733 - INFO - Original text: To do this, create a mound with materials found on site. Therefore, establishing moments of self-care is essential, as it influences overall health and provides multiple benefits such as:
+2025-08-12 17:16:30,733 - INFO - Simplified text: Build a mound using materials you find nearby. 🏗️
+
+Taking time for self-care is important. It helps your health and gives many benefits, like:
+2025-08-12 17:16:30,733 - INFO - Original readability: Grade 10.8, Ease 43.3
+2025-08-12 17:16:30,733 - INFO - Simplified readability: Grade 5.4, Ease 70.3
+2025-08-12 17:16:30,733 - INFO - Readability improvement: 5.5 grade levels
+2025-08-12 17:16:30,733 - INFO - Successfully processed text-8-8 with transform strategy
+2025-08-12 17:16:30,733 - INFO - Processing text-8-9 (regenerating if exists)
+2025-08-12 17:16:30,733 - INFO - Strategy for text-8-9: simple - Short phrase
+2025-08-12 17:16:30,733 - INFO - Successfully processed text-8-9 with simple strategy
+2025-08-12 17:16:30,733 - INFO - Processing text-9-0 (regenerating if exists)
+2025-08-12 17:16:30,733 - INFO - Strategy for text-9-0: simple - Short title/heading
+2025-08-12 17:16:30,733 - INFO - Successfully processed text-9-0 with simple strategy
+2025-08-12 17:16:30,733 - INFO - Processing text-9-1 (regenerating if exists)
+2025-08-12 17:16:30,733 - INFO - Strategy for text-9-1: simple - Short phrase
+2025-08-12 17:16:30,733 - INFO - Successfully processed text-9-1 with simple strategy
+2025-08-12 17:16:30,733 - INFO - Processing text-9-2 (regenerating if exists)
+2025-08-12 17:16:30,734 - INFO - Strategy for text-9-2: transform - Complex text
+2025-08-12 17:16:30,751 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:32,378 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:32,381 - INFO - Original text: It is an approach to health in which the individual is responsible for undertaking individual and/or collective actions that can strengthen or restore overall well-being, as well as prevent illnesses.
+2025-08-12 17:16:32,381 - INFO - Simplified text: You take charge of your health. 💪
+
+- Do things alone or with others to feel better.
+- Stay healthy and stop sickness before it starts. 🌟
+2025-08-12 17:16:32,381 - INFO - Original readability: Grade 18.9, Ease 12.8
+2025-08-12 17:16:32,381 - INFO - Simplified readability: Grade 2.3, Ease 92.4
+2025-08-12 17:16:32,381 - INFO - Readability improvement: 16.6 grade levels
+2025-08-12 17:16:32,381 - INFO - Successfully processed text-9-2 with transform strategy
+2025-08-12 17:16:32,382 - INFO - Processing text-9-3 (regenerating if exists)
+2025-08-12 17:16:32,382 - INFO - Strategy for text-9-3: transform - Complex text
+2025-08-12 17:16:32,402 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:33,898 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:33,903 - INFO - Original text: In this regard, self-care requires the development of practices that, according to learned interests and skills, as well as the customary habits of the culture, promote survival and encourage taking responsibility for addressing what affects one's health.
+2025-08-12 17:16:33,903 - INFO - Simplified text: "🛡️ Self-care means doing things that help you stay healthy. Use your skills and habits to take care of your health."
+2025-08-12 17:16:33,903 - INFO - Original readability: Grade 20.5, Ease 13.8
+2025-08-12 17:16:33,903 - INFO - Simplified readability: Grade 2.5, Ease 95.2
+2025-08-12 17:16:33,903 - INFO - Readability improvement: 18.1 grade levels
+2025-08-12 17:16:33,904 - INFO - Successfully processed text-9-3 with transform strategy
+2025-08-12 17:16:33,904 - INFO - Processing text-9-4 (regenerating if exists)
+2025-08-12 17:16:33,904 - INFO - Strategy for text-9-4: transform - Complex text
+2025-08-12 17:16:33,922 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:34,767 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:34,769 - INFO - Original text: The personal practices involved in self-care, although they vary among individuals, primarily aim at preserving health.
+2025-08-12 17:16:34,770 - INFO - Simplified text: "🧑‍⚕️ Self-care helps keep you healthy. Everyone does it differently."
+2025-08-12 17:16:34,770 - INFO - Original readability: Grade 15.7, Ease 10.8
+2025-08-12 17:16:34,770 - INFO - Simplified readability: Grade 5.8, Ease 61.3
+2025-08-12 17:16:34,770 - INFO - Readability improvement: 9.9 grade levels
+2025-08-12 17:16:34,770 - INFO - Successfully processed text-9-4 with transform strategy
+2025-08-12 17:16:34,770 - INFO - Processing text-9-5 (regenerating if exists)
+2025-08-12 17:16:34,770 - INFO - Strategy for text-9-5: transform - Complex text
+2025-08-12 17:16:34,787 - INFO - Transforming text using OpenAI API...
+2025-08-12 17:16:36,068 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 17:16:36,071 - INFO - Original text: Therefore, indeed, maintaining a proper diet and engaging in healthy physical activities are part of the possible self-care practices, but it is also important to have good social relationships, learn to recognize and value one's own emotions, rest when necessary, among other personal care activities.
+2025-08-12 17:16:36,071 - INFO - Simplified text: 🍎 Eat well and stay active. 🏃‍♂️
+
+👫 Have good relationships.
+
+😊 Recognize and value your feelings.
+
+😴 Rest when needed.
+
+These are all important self-care activities.
+2025-08-12 17:16:36,071 - INFO - Original readability: Grade 24.5, Ease -0.5
+2025-08-12 17:16:36,071 - INFO - Simplified readability: Grade 6.0, Ease 60.1
+2025-08-12 17:16:36,071 - INFO - Readability improvement: 18.5 grade levels
+2025-08-12 17:16:36,071 - INFO - Successfully processed text-9-5 with transform strategy
+2025-08-12 17:16:36,081 - INFO - Processed 48 entries. Success: 48, Issues: 0, Skipped: 505
+2025-08-12 17:16:36,082 - INFO - Results saved to content/i18n/en/texts.json
+2025-08-12 17:16:36,082 - INFO - Log file saved to easy_read_log_en_20250812_171610.log
+2025-08-12 17:16:36,082 - INFO - Easy-Read generation process complete

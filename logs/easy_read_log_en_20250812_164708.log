@@ -1,0 +1,22 @@
+2025-08-12 16:47:08,595 - WARNING - Glossary file not found at content/i18n/en/glossary.json
+2025-08-12 16:47:08,595 - INFO - Using fallback glossary terms
+2025-08-12 16:47:08,595 - INFO - Starting Easy-Read generation process for language: en
+2025-08-12 16:47:08,595 - INFO - Source file: content/i18n/en/texts.json
+2025-08-12 16:47:08,595 - INFO - Target file: content/i18n/en/texts.json
+2025-08-12 16:47:08,599 - INFO - Loaded source translations from content/i18n/en/texts.json
+2025-08-12 16:47:08,603 - INFO - Loaded existing target translations from content/i18n/en/texts.json
+2025-08-12 16:47:08,603 - INFO - Processing range: text-10-6 to text-10-6
+2025-08-12 16:47:08,603 - INFO - Processing text-10-6 (regenerating if exists)
+2025-08-12 16:47:08,603 - INFO - Strategy for text-10-6: transform - Complex text
+2025-08-12 16:47:08,635 - INFO - Transforming text using OpenAI API...
+2025-08-12 16:47:10,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-08-12 16:47:10,509 - INFO - Original text: For self-care to occur, a certain degree of personal development is required, which is mediated by the continuous strengthening of self-concept, self-control, self-esteem, self-acceptance, and resilience.
+2025-08-12 16:47:10,509 - INFO - Simplified text: Self-care needs personal growth. You must build self-esteem, self-control, and self-acceptance. 💪
+2025-08-12 16:47:10,509 - INFO - Original readability: Grade 20.4, Ease -5.0
+2025-08-12 16:47:10,509 - INFO - Simplified readability: Grade 9.1, Ease 39.7
+2025-08-12 16:47:10,509 - INFO - Readability improvement: 11.3 grade levels
+2025-08-12 16:47:10,509 - INFO - Successfully processed text-10-6 with transform strategy
+2025-08-12 16:47:10,513 - INFO - Processed 1 entries. Success: 1, Issues: 0, Skipped: 552
+2025-08-12 16:47:10,513 - INFO - Results saved to content/i18n/en/texts.json
+2025-08-12 16:47:10,513 - INFO - Log file saved to easy_read_log_en_20250812_164708.log
+2025-08-12 16:47:10,514 - INFO - Easy-Read generation process complete
