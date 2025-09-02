@@ -2315,6 +2315,11 @@ video {
   line-height: 1.375;
 }
 
+.text-\[\#0055A4\] {
+  --tw-text-opacity: 1;
+  color: rgb(0 85 164 / var(--tw-text-opacity, 1));
+}
+
 .text-amber-500 {
   --tw-text-opacity: 1;
   color: rgb(245 158 11 / var(--tw-text-opacity, 1));
@@ -2998,15 +3003,6 @@ video {
 
   .lg\:right-\[calc\(425px-1rem\)\] {
     right: calc(425px - 1rem);
-  }
-
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .lg\:ml-0 {
-    margin-left: 0px;
   }
 
   .lg\:ml-\[0px\] {
