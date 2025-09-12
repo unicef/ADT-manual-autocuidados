@@ -1,5 +1,9 @@
 # Ignore macOS system files
 **/.DS_Store
+
 # Ignore tailwindcss files
 **/node_modules
 package-lock.json
+
+# Ignore chat editor path
+.chat-editor-path
