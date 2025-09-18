@@ -3000,15 +3000,6 @@ video {
     right: calc(425px - 1rem);
   }
 
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .lg\:ml-0 {
-    margin-left: 0px;
-  }
-
   .lg\:ml-\[0px\] {
     margin-left: 0px;
   }
